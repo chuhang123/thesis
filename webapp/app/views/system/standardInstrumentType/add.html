@@ -1,0 +1,121 @@
+<div class="row">
+    <div class="col-lg-6">
+        <form class="form-horizontal" name="form" ng-submit="saveAndClose()">
+            <div class="form-group">
+                <label class="col-sm-4 control-label">学科类别</label>
+                <div class="col-sm-8">
+                    <yunzhi-discipline ng-model="discipline"></yunzhi-discipline>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-4 control-label">分类一级名称
+                    <button type="button" class="btn btn-xs btn-primary" ng-click="addEntity('instrumentFirstLevelType')">+</button>
+                </label>
+                <div class="col-sm-8">
+                    <yunzhi-instrument-type-first-level data-discipline="discipline" ng-model="data.instrumentFirstLevelType"></yunzhi-instrument-type-first-level>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-4 control-label">分类二级名称</label>
+                <div class="col-sm-8">
+                    <input type="text" required name="name" class="form-control" ng-model="data.name">
+                    <div class="m-t-xs" ng-show="form.name.$invalid && form.name.$dirty">
+                        <span class="text-danger"><i class="fa fa-exclamation-triangle"></i> 名称不能为空</span>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-4 control-label">拼音</label>
+                <div class="col-sm-8">
+                    <input type="text" required name="pinyin" class="form-control" ng-model="data.pinyin">
+                    <div class="m-t-xs" ng-show="form.pinyin.$invalid && form.pinyin.$dirty">
+                        <span class="text-danger"><i class="fa fa-exclamation-triangle"></i> 拼音不能为空</span>
+                    </div>
+                </div>
+            </div>
+            <div ng-show="showExtendInfo">
+                <div class="form-group">
+                    <label class="col-sm-4 control-label">精确度类别</label>
+                    <div class="col-sm-8">
+                        <yunzhi-accuracy-display-name ng-model="data.accuracyDisplayName"></yunzhi-accuracy-display-name>
+                        <div class="m-t-xs">
+                            <span class="text-danger" ng-show="isAccuracyDisplayNameError() && form.submitted"><i class="fa fa-exclamation-triangle"></i> 必须选择精确度类别</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-4 control-label">精确度
+                        <button type="button" class="btn btn-xs btn-primary" ng-click="addEntity('accuracy')">+</button>
+                    </label>
+                    <div class="col-sm-8">
+                        <ul>
+                            <li ng-repeat="(index, data) in data.accuracies | orderBy: 'weight'">
+                                <a href="javascript:void(0);" ng-style="{'visibility': $first ? 'hidden' : 'visible'}" ng-click="upAccuracy(data)">&nbsp;<i class="fa fa-caret-square-o-up text-success"></i>&nbsp;</a>&nbsp;
+                                <a href="javascript:void(0);" ng-style="{'visibility': $last ? 'hidden' : 'visible'}" ng-click="downAccuracy(data)">&nbsp;<i class="fa fa-caret-square-o-down text-primary-2"></i>&nbsp;</a>&nbsp;
+                                <a href="javascript:void(0);" ng-click="editEntity(data)">&nbsp;<i class="fa fa-pencil-square-o text-info"></i>&nbsp;</a>&nbsp;
+                                <a href="javascript:void(0);" ng-click="popAccuraciesByIndex(data.value)">&nbsp;<i class="fa fa-trash-o text-danger"></i>&nbsp;</a>&nbsp;&nbsp;{{data.value}}
+                            </li>
+                        </ul>
+                        <div class="m-t-xs">
+                            <span class="text-danger" ng-show="isAccuraciesError() && form.submitted"><i class="fa fa-exclamation-triangle"></i> 必须加入可选精度</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-4 control-label">测量范围
+                        <button type="button" class="btn btn-xs btn-primary" ng-click="addEntity('measureScale')">+</button>
+                    </label>
+                    <div class="col-sm-8">
+                        <ul>
+                            <li ng-repeat="data in data.measureScales | orderBy: 'weight'">
+                                <a href="javascript:void(0);" ng-style="{'visibility': $first ? 'hidden' : 'visible'}" ng-click="upMeasureScale(data)">&nbsp;<i class="fa fa-caret-square-o-up text-success"></i>&nbsp;</a>&nbsp;
+                                <a href="javascript:void(0);" ng-style="{'visibility': $last ? 'hidden' : 'visible'}" ng-click="downMeasureScale(data)">&nbsp;<i class="fa fa-caret-square-o-down text-primary-2"></i>&nbsp;</a>&nbsp;
+                                <a href="javascript:void(0);" ng-click="editEntity(data)">&nbsp;<i class="fa fa-pencil-square-o text-info"></i>&nbsp;</a>&nbsp;
+                                <a href="javascript:void(0);" ng-click="popMeasureScalesByIndex(data.value)">&nbsp;<i class="fa fa-trash-o text-danger"></i>&nbsp;</a>&nbsp;&nbsp;{{data.value}}
+                            </li>
+                        </ul>
+                        <div class="m-t-xs">
+                            <span class="text-danger" ng-show="isMeasureScalesError() && form.submitted"><i class="fa fa-exclamation-triangle"></i> 必须加入可选测试范围</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-4 control-label">可选规格型号
+                        <button type="button" class="btn btn-xs btn-primary" ng-click="addEntity('specification')">+</button>
+                    </label>
+                    <div class="col-sm-8">
+                        <ul>
+                            <li ng-repeat="(index, data) in data.specifications | orderBy: 'weight'">
+                                <a href="javascript:void(0);" ng-style="{'visibility': $first ? 'hidden' : 'visible'}" ng-click="upSpecification(data)">&nbsp;<i class="fa fa-caret-square-o-up text-success"></i>&nbsp;</a>&nbsp;
+                                <a href="javascript:void(0);" ng-style="{'visibility': $last ? 'hidden' : 'visible'}" ng-click="downSpecification(data)">&nbsp;<i class="fa fa-caret-square-o-down text-primary-2"></i>&nbsp;</a>&nbsp;
+                                <a href="javascript:void(0);" ng-click="editEntity(data)">&nbsp;<i class="fa fa-pencil-square-o text-info"></i>&nbsp;</a>&nbsp;
+                                <a href="javascript:void(0);" ng-click="popSpecificationsByIndex(data.value)">&nbsp;<i class="fa fa-trash-o text-danger"></i>&nbsp;</a>&nbsp;&nbsp;{{data.value}}
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-4 control-label">可选用途</label>
+                    <div class="col-sm-8">
+                        <ul>
+                            <li ng-repeat="(index, data) in purposes">
+                                <label>
+                                    <input type="checkbox" ng-click="togglePurpose(data)" ng-checked="isPurposeChecked(data)" />&nbsp;&nbsp;{{data.name}}</label>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-sm-8 col-sm-offset-3">
+                        <button ng-hide="submiting" class="btn btn-primary" type="submit">
+                            <i class="fa fa-floppy-o" aria-hidden="true"></i>&nbsp;&nbsp;保存
+                        </button>
+                        <button ng-disabled="true" ng-show="submiting" class="btn btn-primary" type="button">
+                            &nbsp;&nbsp;数据正在处理...
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>

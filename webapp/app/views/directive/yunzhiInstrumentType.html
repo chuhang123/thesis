@@ -1,0 +1,7 @@
+<!--器具类别-->
+<ui-select ng-model="instrumentType.selected" theme="bootstrap" ng-change="updateModel(instrumentType.selected)">
+    <ui-select-match placeholder="请选择">{{$select.selected.name}}</ui-select-match>
+    <ui-select-choices repeat="instrumentType in instrumentTypes | propsFilter: {name: $select.search, pinyin: $select.search}">
+        <div ng-bind-html="instrumentType.name | highlight:$select.search"></div>
+    </ui-select-choices>
+</ui-select>

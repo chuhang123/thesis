@@ -1,0 +1,36 @@
+<div class="form-group">
+    <label class="col-sm-4 control-label">图片</label>
+    <div class="col-sm-8">
+        <input type="file" accept="image/png, image/jpg, image/jpeg" ng-model="ngModel" nv-file-select=""  uploader="uploader" multiple/>
+    </div>
+</div>
+
+<div uploader="uploader" ng-show="ngModel">
+    <div class="form-group">
+        <div class="col-sm-8 col-sm-offset-4">
+            <div class="row gallery-width">
+                <div class="col-sm-4">
+                    <div class="upload-gallery">
+                        <span class="image-title">&nbsp;{{ngModel.name | imageTitle}}</span>
+                        <div class="inner-gallery">
+                            <a ng-href="{{apiUrl}}/Attachment/image/{{ngModel.saveName}}">
+                                <img class="image" ng-src="{{apiUrl}}/Attachment/image/{{ngModel.saveName}}" alt="{{ngModel.name}}" />
+                            </a>
+                        </div>
+                        <div class="operate">
+                            <button class="btn btn-danger btn-xs" ng-hide="test" type="button" ng-click="delete(ngModel, $index)">
+                                <i class="glyphicon glyphicon-trash"></i>&nbsp;删除
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+<!--引入上传相关的样式表-->
+<link rel="stylesheet" href="styles/css/upload.css" />
+

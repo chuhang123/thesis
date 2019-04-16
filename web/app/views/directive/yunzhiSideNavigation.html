@@ -1,0 +1,7 @@
+<li ng-class="{active: isActive(menu)}" ng-repeat="menu in menus | orderBy: 'weight'">
+  <a ng-if="!hasChildren(menu) && menu.show" ui-sref="{{getRoute(menu)}}" ng-click="clickedParentMenu(menu)"><span class="nav-label">{{menu.name}}</span><span class="label label-success pull-right">{{menu.badgeContent}}</span></a>
+  <a ng-if="hasChildren(menu)&& menu.show" href="javascript:void(0);" ng-click="clickedParentMenu(menu)"><span class="nav-label">{{menu.name}}</span><span class="fa arrow"></span> </a>
+  <ul aria-expanded="menu.isClicked" ng-if="hasChildren(menu) && menu.show" ng-show="isActive(menu)" class="nav nav-second-level" ng-class="{in: $state.includes('{{menu.module}}')}" ng-repeat="_menu in menu._children">
+    <li ng-if="_menu.show" ui-sref-active="active" ng-class="{active: _menu.isClicked}" ng-click="clicked(_menu)"><a ui-sref="{{getRoute(_menu)}}">{{_menu.name}}</a></li>
+  </ul>
+</li>

@@ -1,0 +1,7 @@
+<!--区域-->
+<ui-select ng-model="category.selected" theme="bootstrap" ng-disabled="disabled">
+    <ui-select-match placeholder="请选择">{{$select.selected.name}}</ui-select-match>
+    <ui-select-choices repeat="category in categorys">
+        <div ng-bind-html="category.name | highlight: $select.search"></div>
+    </ui-select-choices>
+</ui-select>

@@ -1,0 +1,86 @@
+<div class="row">
+    <div class="col-lg-12">
+        <form method="get" class="form-horizontal" ng-submit="submit()" name="personalCenter">
+            <div class="form-group">
+                <label class="col-sm-4 control-label">用户名</label>
+                <p class="form-control-static">&nbsp;&nbsp;&nbsp;&nbsp;{{data.username}}</p>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-4 control-label">电话</label>
+                <div class="col-sm-4">
+                    <input type="text" class="form-control" ng-model="data.phone" name="phone"  ng-pattern="regex">
+                </div>
+                <div class="m-t-xs" ng-show="personalCenter.phone.$invalid && personalCenter.phone.$touched">
+                    <span class="text-danger" ng-show="personalCenter.phone.$error"><i class="fa fa-exclamation-triangle"></i> 请输入正确的电话号码</span>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-4 control-label">姓名</label>
+                <div class="col-sm-4">
+                    <input type="text" class="form-control" ng-model="data.name">
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-4 control-label">原密码</label>
+                <div class="col-sm-4">
+                    <input type="password" class="form-control" ng-model="password" name="password"  ng-blur="checkPasswordIsRight()" ng-focus="change=false" required>
+                    <span class="text-danger">
+                                <span class="yunzhi-glyphicon glyphicon glyphicon-remove-sign" style="left: 200px;" ng-show="isRight == false">原密码错误</span>
+                            </span>
+                    <span class="text-success yunzhi-glyphicon glyphicon glyphicon-ok-sign" style="left: 200px;" ng-show="isRight"></span>
+                    <div ng-show="personalCenter.password.$touched">
+                                <span class="text-danger" ng-show="password.length < 5 || password.length > 12">
+                                    <i class="fa fa-exclamation-triangle"></i>
+                                    密码的长度应大于5位且少于12位
+                                </span>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-4 control-label">重置密码</label>
+                <div class="col-sm-4">
+                    <input type="password" class="form-control" ng-model="resetPassword" name="resetPassword" ng-blur="transform=true" ng-focus="transform=false" required>
+                    <div class="m-t-xs" ng-show="personalCenter.resetPassword.$touched">
+                                <span class="text-danger" ng-show="resetPassword.length < 5 || resetPassword.length > 12">
+                                    <i class="fa fa-exclamation-triangle"></i>
+                                    密码的长度应大于5位且少于12位
+                                </span>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-4 control-label">确认密码</label>
+                <div class="col-sm-4">
+                    <input type="password" class="form-control" ng-model="confirmPassword" name="confirmPassword" ng-blur="transform=true" ng-focus="transform=false" required>
+                    <div class="m-t-xs" ng-show="personalCenter.confirmPassword.$touched">
+                                <span class="text-danger" ng-show="confirmPassword!=resetPassword && transform">
+                                    <i class="fa fa-exclamation-triangle"></i>
+                                    两次密码输入不一致
+                                </span>
+                        <span class="text-danger" ng-show="personalCenter.confirmpassword.$touched && confirmPassword == '' && transform">
+                                    <i class="fa fa-exclamation-triangle"></i>
+                                    重置密码不能为空
+                                </span>
+                    </div>
+                </div>
+            <div class="form-group">
+                <div class="col-sm-6 col-sm-offset-4">
+                    <button class="btn btn-primary" ng-hide="editForm.$submitted" type="submit"><i
+                        class="fa fa-floppy-o" aria-hidden="true"></i>&nbsp;&nbsp;保存
+                    </button>
+                    <button ng-disabled="true" ng-show="editForm.$submitted" class="btn btn-primary" type="button">
+                        &nbsp;&nbsp;数据正在处理...
+                    </button>
+                </div>
+            </div>
+        </form>
+    </div>
+    <div class="form-group">
+        <div class="col-sm-8 col-sm-offset-4">
+            <div ng-bind="info" class="text-success"></div>
+        </div>
+    </div>
+    </form>
+</div>
+</div>
+

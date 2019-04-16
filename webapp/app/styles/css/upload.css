@@ -1,0 +1,68 @@
+/*设置“上传图片按钮”样式*/
+.inputfile {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+    border-radius: 5px;
+}
+.inputfile + label {
+    font-size: 1.25em;
+    display: inline-block;
+    border-radius: 5px;
+    border: 2px solid #e7e7e7;
+}
+.inputfile:focus + label,
+.inputfile + label:hover {
+    background-color: #ebebeb;
+}
+.inputfile + label {
+    cursor: pointer; /* "hand" cursor */
+}
+
+/*设置显示图片的样式*/
+.upload-gallery {
+    padding: 5px;
+    width: 188px;
+    height: 243px;
+    border: 1px solid #DDD9D9;
+    background-color: #FFFFFF;
+}
+.image-title {
+    font-size: 15px;
+    color: #777;
+}
+.inner-gallery {
+    width: 178px;
+    height: 178px;
+    text-align: center;
+    margin-top: 4px;
+    border: 1px solid #DDD9D9;
+}
+.image {
+    padding: 4px;
+    height: 174px;
+    width: 174px;
+}
+.operate {
+    margin-top: 6px
+}
+@media screen and (min-width:1200px) {
+    .gallery-width {
+        width: 800px;
+    }
+}
+
+/*缩略图*/
+canvas {
+    /*background-color: #f3f3f3;*/
+    /*-webkit-box-shadow: 3px 3px 3px 0 #e3e3e3;*/
+    /*-moz-box-shadow: 3px 3px 3px 0 #e3e3e3;*/
+    /*box-shadow: 3px 3px 3px 0 #e3e3e3;*/
+    /*border: 1px solid #c3c3c3;*/
+    height: 174px;
+    width: 174px;
+    padding: 4px;
+}

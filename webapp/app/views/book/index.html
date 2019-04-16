@@ -1,0 +1,70 @@
+<div class="row">
+    <div class="col-lg-12">
+        <div class="row">
+            <div class="col-xs-2 col-xs-offset-10">
+                <a ui-sref="system.BookAdd">
+                    <button class="btn btn-info btn-sm" type="button"><i class="fa fa-plus"></i>&nbsp;新增</button>
+                </a>
+            </div>
+        </div>
+        <br>
+        <div class="table-responsive">
+            <div class="dataTables_wrapper form-inline dt-bootstrap no-footer" id="DataTables_Table_0_wrapper">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <yunzhi-page-size ng-model="params.size" data-reload="reloadBySize"></yunzhi-page-size>
+                    </div>
+                    <div class="col-sm-4 text-center">
+                        <yunzhi-exportbtn></yunzhi-exportbtn>
+                    </div>
+                    <div class="col-sm-4">
+                    </div>
+                </div>
+                <table cellpadding="1" cellspacing="1" class="table table-bordered table-striped">
+                    <thead>
+                    <tr>
+                        <th width="1%">序号</th>
+                        <th width="3%">名称</th>
+                        <th width="3%">类别</th>
+                        <th width="3%">价格</th>
+                        <th width="3%">作者</th>
+                        <th width="3%">简介</th>
+                        <th width="3%">封面</th>
+                        <th width="3%">点击量</th>
+                        <th width="3%">销量</th>
+                        <th width="3%">库存</th>
+                        <th width="3%">出版社</th>
+                        <th width="3%">操作</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr ng-repeat="(key, data) in data.content" ng-hide="data.hide">
+                        <td style="word-wrap: break-word">{{$index+1}}</td>
+                        <td style="word-wrap: break-word">{{data.name}}</td>
+                        <td style="word-wrap: break-word">{{data.category.name}}</td>
+                        <td style="word-wrap: break-word">{{data.price}}</td>
+                        <td style="word-wrap: break-word">{{data.author}}</td>
+                        <td style="word-wrap: break-word">{{data.briefIntroduction}}</td>
+                        <td style="word-wrap: break-word">
+                            <a ng-href="{{data.attachment.saveName | imagePath}}">
+                                <img class="image" ng-src="{{data.attachment.saveName | imagePath}}" alt="{{_image.name}}" style="width: 150px; height: 200px"/>
+                            </a>
+                        </td>
+                        <td style="word-wrap: break-word">{{data.clicks}}</td>
+                        <td style="word-wrap: break-word">{{data.sales}}</td>
+                        <td style="word-wrap: break-word">{{data.inventory}}</td>
+                        <td style="word-wrap: break-word">{{data.press}}</td>
+                        <td style="word-wrap: break-word;">
+                            <a ui-sref="standard.bookEdit({id: data.id, book: data})" class="btn btn-xs btn-info"> <i class="fa fa-paste"></i>&nbsp;
+                                编辑&nbsp;</a>
+                            <a ng-click="delete(data)" class="btn btn-xs btn-danger"><i class="fa fa-trash-o"></i>&nbsp;
+                                删除&nbsp;</a>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+                <yunzhi-page data-reload="reloadByPage" data-total-pages="data.totalPages" data-total-elements="data.totalElements" data-first="data.first" data-last="data.last" data-number="data.number" data-size="data.size" data-number-of-elements="data.numberOfElements"></yunzhi-page>
+            </div>
+        </div>
+    </div>
+</div>

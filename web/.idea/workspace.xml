@@ -1,0 +1,1158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8fb6d173-4b08-4acb-93e3-340ef8705610" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../book/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/cart.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/contact.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/css/animate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/css/chosen-sprite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/css/chosen.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/css/flexslider.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/css/meanmenu.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/css/owl.carousel.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/css/responsive.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/img/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/img/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/img/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/img/author/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/img/author/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/img/author/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/img/author/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/img/banner/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/img/banner/10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/img/banner/11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/img/banner/13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/img/banner/14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/img/banner/15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/img/banner/16.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/img/banner/17.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/img/banner/18.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/img/banner/19.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/img/banner/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/img/banner/20.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/img/banner/21.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/img/banner/22.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/img/banner/23.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/img/banner/24.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/img/banner/25.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/img/banner/26.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/img/banner/27.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/img/banner/28.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/img/banner/29.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/img/banner/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/img/banner/30.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/img/banner/31.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/img/banner/32.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/img/banner/33.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/img/banner/38.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/img/banner/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/img/banner/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/img/banner/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/img/banner/7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/img/banner/8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/img/banner/9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/img/blog/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/img/blog/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/img/blog/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/img/blog/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/img/blog/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/img/cart/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/img/cart/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/img/favicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/img/flag/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/img/flag/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/img/flag/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/img/flex/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/img/flex/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/img/flex/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/img/icon-img/select-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/img/icon-img/select.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/img/icon-img/service-1-white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/img/icon-img/service-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/img/icon-img/service-2-white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/img/icon-img/service-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/img/icon-img/service-3-white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/img/icon-img/service-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/img/logo/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/img/logo/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/img/logo/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/img/logo/5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/img/logo/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/img/map.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/img/post/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/img/post/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/img/post/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/img/post/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/img/product/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/img/product/10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/img/product/11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/img/product/13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/img/product/14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/img/product/15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/img/product/16.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/img/product/17.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/img/product/18.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/img/product/19.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/img/product/20.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/img/product/21.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/img/product/22.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/img/product/23.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/img/product/24.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/img/product/26.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/img/product/27.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/img/product/28.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/img/product/29.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/img/product/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/img/product/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/img/product/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/img/product/7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/img/product/8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/img/product/9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/img/product/quickview-l2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/img/product/quickview-l3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/img/product/quickview-l4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/img/product/quickview-l5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/img/product/quickview-s2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/img/product/quickview-s3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/img/product/quickview-s4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/img/product/quickview-s5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/img/slider/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/img/slider/10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/img/slider/11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/img/slider/12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/img/slider/13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/img/slider/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/img/slider/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/img/slider/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/img/slider/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/img/slider/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/img/slider/7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/img/slider/8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/img/slider/9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/img/team/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/img/team/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/img/team/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/img/team/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/img/thum-2/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/img/thum-2/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/img/thum-2/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/img/thum-2/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/img/thum-2/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/js/ajax-mail.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/js/chosen.jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/js/jquery.countdown.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/js/jquery.counterup.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/js/jquery.flexslider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/js/jquery.meanmenu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/js/jquery.parallax-1.1.3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/js/owl.carousel.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/js/plugins.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/js/vendor/jquery-1.12.0.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/js/vendor/modernizr-2.8.3.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/js/waypoints.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/js/wow.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bookstore/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jsLinters/jshint.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/web.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/author/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/author/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/author/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/author/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/banner/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/banner/10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/banner/11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/banner/13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/banner/14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/banner/15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/banner/16.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/banner/17.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/banner/18.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/banner/19.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/banner/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/banner/20.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/banner/21.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/banner/22.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/banner/23.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/banner/24.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/banner/25.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/banner/26.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/banner/27.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/banner/28.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/banner/29.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/banner/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/banner/30.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/banner/31.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/banner/32.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/banner/33.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/banner/38.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/banner/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/banner/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/banner/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/banner/7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/banner/8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/banner/9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/blog/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/blog/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/blog/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/blog/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/blog/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/cart/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/cart/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/favicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/flag/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/flag/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/flag/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/flex/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/flex/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/flex/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/icon-img/select-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/icon-img/select.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/icon-img/service-1-white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/icon-img/service-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/icon-img/service-2-white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/icon-img/service-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/icon-img/service-3-white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/icon-img/service-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/logo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/logo/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/logo/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/logo/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/logo/5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/logo/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/map.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/post/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/post/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/post/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/post/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/product/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/product/10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/product/11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/product/13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/product/14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/product/15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/product/16.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/product/17.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/product/18.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/product/19.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/product/20.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/product/21.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/product/22.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/product/23.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/product/24.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/product/26.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/product/27.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/product/28.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/product/29.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/product/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/product/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/product/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/product/7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/product/8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/product/9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/product/quickview-l2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/product/quickview-l3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/product/quickview-l4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/product/quickview-l5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/product/quickview-s2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/product/quickview-s3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/product/quickview-s4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/product/quickview-s5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/slider/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/slider/10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/slider/11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/slider/12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/slider/13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/slider/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/slider/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/slider/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/slider/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/slider/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/slider/7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/slider/8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/slider/9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/team/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/team/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/team/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/team/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/thum-2/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/thum-2/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/thum-2/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/thum-2/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/thum-2/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/author/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/author/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/author/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/author/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/banner/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/banner/10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/banner/11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/banner/13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/banner/14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/banner/15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/banner/16.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/banner/17.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/banner/18.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/banner/19.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/banner/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/banner/20.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/banner/21.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/banner/22.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/banner/23.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/banner/24.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/banner/25.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/banner/26.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/banner/27.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/banner/28.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/banner/29.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/banner/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/banner/30.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/banner/31.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/banner/32.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/banner/33.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/banner/38.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/banner/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/banner/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/banner/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/banner/7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/banner/8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/banner/9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/blog/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/blog/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/blog/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/blog/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/blog/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/cart/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/cart/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/flag/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/flag/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/flag/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/flex/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/flex/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/flex/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/green.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/green@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/icon-img/select-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/icon-img/select.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/icon-img/service-1-white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/icon-img/service-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/icon-img/service-2-white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/icon-img/service-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/icon-img/service-3-white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/icon-img/service-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/logo/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/logo/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/logo/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/logo/5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/logo/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/post/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/post/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/post/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/post/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/product/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/product/10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/product/11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/product/13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/product/14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/product/15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/product/16.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/product/17.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/product/18.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/product/19.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/product/20.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/product/21.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/product/22.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/product/23.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/product/24.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/product/26.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/product/27.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/product/28.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/product/29.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/product/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/product/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/product/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/product/7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/product/8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/product/9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/product/quickview-l2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/product/quickview-l3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/product/quickview-l4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/product/quickview-l5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/product/quickview-s2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/product/quickview-s3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/product/quickview-s4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/product/quickview-s5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/slider/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/slider/10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/slider/11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/slider/12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/slider/13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/slider/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/slider/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/slider/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/slider/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/slider/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/slider/7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/slider/8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/slider/9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/team/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/team/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/team/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/team/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/thum-2/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/thum-2/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/thum-2/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/thum-2/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/thum-2/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/ajax-mail.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/chosen.jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/jquery.countdown.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/jquery.counterup.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/jquery.flexslider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/jquery.meanmenu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/jquery.parallax-1.1.3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/owl.carousel.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/plugins.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/vendor/jquery-1.12.0.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/vendor/modernizr-2.8.3.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/waypoints.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/wow.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/scripts/controllers/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/styles/css/animate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/styles/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/styles/css/chosen-sprite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/styles/css/chosen.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/styles/css/flexslider.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/styles/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/styles/css/meanmenu.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/styles/css/owl.carousel.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/styles/css/responsive.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/styles/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/styles/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/styles/img/author/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/styles/img/author/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/styles/img/author/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/styles/img/author/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/styles/img/banner/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/styles/img/banner/10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/styles/img/banner/11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/styles/img/banner/13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/styles/img/banner/14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/styles/img/banner/15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/styles/img/banner/16.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/styles/img/banner/17.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/styles/img/banner/18.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/styles/img/banner/19.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/styles/img/banner/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/styles/img/banner/20.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/styles/img/banner/21.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/styles/img/banner/22.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/styles/img/banner/23.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/styles/img/banner/24.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/styles/img/banner/25.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/styles/img/banner/26.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/styles/img/banner/27.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/styles/img/banner/28.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/styles/img/banner/29.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/styles/img/banner/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/styles/img/banner/30.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/styles/img/banner/31.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/styles/img/banner/32.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/styles/img/banner/33.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/styles/img/banner/38.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/styles/img/banner/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/styles/img/banner/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/styles/img/banner/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/styles/img/banner/7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/styles/img/banner/8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/styles/img/banner/9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/styles/img/blog/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/styles/img/blog/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/styles/img/blog/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/styles/img/blog/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/styles/img/blog/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/styles/img/cart/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/styles/img/cart/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/styles/img/flag/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/styles/img/flag/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/styles/img/flag/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/styles/img/flex/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/styles/img/flex/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/styles/img/flex/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/styles/img/icon-img/select-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/styles/img/icon-img/select.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/styles/img/icon-img/service-1-white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/styles/img/icon-img/service-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/styles/img/icon-img/service-2-white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/styles/img/icon-img/service-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/styles/img/icon-img/service-3-white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/styles/img/icon-img/service-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/styles/img/logo/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/styles/img/logo/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/styles/img/logo/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/styles/img/logo/5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/styles/img/logo/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/styles/img/post/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/styles/img/post/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/styles/img/post/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/styles/img/post/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/styles/img/product/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/styles/img/product/10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/styles/img/product/11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/styles/img/product/13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/styles/img/product/14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/styles/img/product/15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/styles/img/product/16.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/styles/img/product/17.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/styles/img/product/18.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/styles/img/product/19.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/styles/img/product/20.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/styles/img/product/21.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/styles/img/product/22.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/styles/img/product/23.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/styles/img/product/24.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/styles/img/product/26.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/styles/img/product/27.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/styles/img/product/28.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/styles/img/product/29.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/styles/img/product/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/styles/img/product/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/styles/img/product/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/styles/img/product/7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/styles/img/product/8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/styles/img/product/9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/styles/img/product/quickview-l2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/styles/img/product/quickview-l3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/styles/img/product/quickview-l4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/styles/img/product/quickview-l5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/styles/img/product/quickview-s2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/styles/img/product/quickview-s3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/styles/img/product/quickview-s4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/styles/img/product/quickview-s5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/styles/img/slider/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/styles/img/slider/10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/styles/img/slider/11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/styles/img/slider/12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/styles/img/slider/13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/styles/img/slider/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/styles/img/slider/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/styles/img/slider/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/styles/img/slider/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/styles/img/slider/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/styles/img/slider/7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/styles/img/slider/8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/styles/img/slider/9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/styles/img/team/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/styles/img/team/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/styles/img/team/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/styles/img/team/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/styles/img/thum-2/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/styles/img/thum-2/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/styles/img/thum-2/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/styles/img/thum-2/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/styles/img/thum-2/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/styles/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/common/banner.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/common/middle.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/common/slider.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower_components/js/ajax-mail.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower_components/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower_components/js/chosen.jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower_components/js/jquery.countdown.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower_components/js/jquery.counterup.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower_components/js/jquery.flexslider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower_components/js/jquery.meanmenu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower_components/js/jquery.parallax-1.1.3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower_components/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower_components/js/owl.carousel.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower_components/js/plugins.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower_components/js/vendor/jquery-1.12.0.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower_components/js/vendor/modernizr-2.8.3.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower_components/js/waypoints.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower_components/js/wow.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webapp/app/scripts/controllers/book/add.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webapp/app/scripts/controllers/book/edit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webapp/app/scripts/controllers/book/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webapp/app/scripts/controllers/category/add.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webapp/app/scripts/controllers/category/edit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webapp/app/scripts/controllers/category/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webapp/app/scripts/directives/yunzhiuploadimage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webapp/app/scripts/services/attachmentservice.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webapp/app/scripts/services/bookservice.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webapp/app/scripts/services/categoryservice.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webapp/app/styles/css/upload.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webapp/app/views/book/add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webapp/app/views/book/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webapp/app/views/category/add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webapp/app/views/category/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webapp/app/views/directive/yunzhiUploadImage.html" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/common/footer.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
+              <folding>
+                <element signature="n#div#1;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/styles/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="46170">
+              <caret line="1710" column="38" selection-start-line="1710" selection-start-column="38" selection-end-line="1710" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/styles/img/green.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="358">
+              <caret line="80" column="47" selection-start-line="80" selection-start-column="47" selection-end-line="80" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/js/vendor/jquery-1.12.0.min.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="54">
+              <caret line="2" column="19111" selection-start-line="2" selection-start-column="19108" selection-end-line="2" selection-end-column="19111" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/js/jquery.flexslider.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/js/main.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/style.css">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/styles/css/bootstrap.min.css">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/images/banner/22.jpg">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>fonts.googleapis.com/css?family=Open+Sans:400,600,700,300</find>
+      <find>font</find>
+      <find>googleapi</find>
+      <find>WebAppMenu/</find>
+      <find>webAppMenuService</find>
+      <find>Search something special</find>
+      <find>header.html</find>
+      <find>product/3.jpg</find>
+      <find>product/1.jpg</find>
+      <find>Title</find>
+      <find>../</find>
+      <find>banner</find>
+      <find>img/product/7.jpg</find>
+      <find>img/product/11.jpg</find>
+      <find>img/</find>
+      <find>img</find>
+      <find>jquery</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/app/scripts/config.js" />
+        <option value="$PROJECT_DIR$/app/views/main.html" />
+        <option value="$PROJECT_DIR$/bower_components/sweetalert/lib/sweet-alert.scss" />
+        <option value="$PROJECT_DIR$/bower_components/sweetalert/lib/sweet-alert.css" />
+        <option value="$PROJECT_DIR$/bower_components/sweetalert/example/example.css" />
+        <option value="$PROJECT_DIR$/bower_components/sweetalert/example/example.scss" />
+        <option value="$PROJECT_DIR$/app/scripts/services/webappmenuservice.js" />
+        <option value="$PROJECT_DIR$/app/views/common/header.html" />
+        <option value="$PROJECT_DIR$/app/views/common/banner.html" />
+        <option value="$PROJECT_DIR$/app/views/common/middler.html" />
+        <option value="$PROJECT_DIR$/app/styles/css/style.css" />
+        <option value="$PROJECT_DIR$/app/styles/style.css" />
+        <option value="$PROJECT_DIR$/app/views/common/middle.html" />
+        <option value="$PROJECT_DIR$/app/views/common/footer.html" />
+        <option value="$PROJECT_DIR$/app/views/common/slider.html" />
+        <option value="$PROJECT_DIR$/app/views/dashboard.html" />
+        <option value="$PROJECT_DIR$/app/index.html" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="25" />
+    <option name="y" value="54" />
+    <option name="width" value="1203" />
+    <option name="height" value="639" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="editor.config.ad.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../webapp" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/styles" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/js/vendor" />
+      <recent name="$PROJECT_DIR$/app/js" />
+      <recent name="$PROJECT_DIR$/app" />
+      <recent name="$PROJECT_DIR$/app/styles/img" />
+      <recent name="$PROJECT_DIR$/app/styles/fonts" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="js.build_tools.grunt">
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8fb6d173-4b08-4acb-93e3-340ef8705610" name="Default Changelist" comment="" />
+      <created>1555239226968</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1555239226968</updated>
+      <workItem from="1555239229189" duration="11001000" />
+      <workItem from="1555286820433" duration="12823000" />
+      <workItem from="1555375058905" duration="1410000" />
+      <workItem from="1555376924070" duration="1240000" />
+      <workItem from="1555383757878" duration="770000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="27244000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="67" y="25" width="1299" height="743" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4953917" visible="true" weight="0.22901961" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="npm" order="2" side_tool="true" />
+      <window_info id="Grunt " order="3" sideWeight="0.5046083" side_tool="true" weight="0.22901961" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32952693" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.2910569" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/scripts/controllers/login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-162" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/controllers/personal.js" />
+    <entry file="file://$PROJECT_DIR$/app/styles/css/animate.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bower_components/js/vendor/jquery-1.12.0.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/controllers/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="20" column="18" lean-forward="true" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bower_components/css/googleFont.css" />
+    <entry file="file://$PROJECT_DIR$/bower_components/js/vendor/modernizr-2.8.3.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="6411" selection-start-line="3" selection-start-column="6411" selection-end-line="3" selection-end-column="6411" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bower_components/sweetalert/lib/sweet-alert.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bower_components/sweetalert/example/example.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bower_components/sweetalert/lib/sweet-alert.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="11" column="11" lean-forward="true" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bower_components/sweetalert/example/example.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="399" column="3" selection-start-line="399" selection-start-column="3" selection-end-line="399" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bower_components/sweetalert/sweetalert.gif">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/services/webappmenuservice.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="10" column="29" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/images/logo.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/images/logo/logo.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="6" selection-start-column="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/common/content.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/common/navigation.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/common/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
+          <folding>
+            <element signature="n#div#3;n#header#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/common/banner.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="39" column="40" lean-forward="true" selection-start-line="39" selection-start-column="40" selection-end-line="39" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/images/slider/3.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/images/slider/5.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/images/slider/7.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/images/slider/6.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/images/slider/13.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/images/slider/12.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/images/slider/11.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/images/slider/10.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/images/slider/9.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/images/slider/4.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/images/slider/2.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/images/slider/1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/images/slider/8.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/styles/main.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/images/banner/18.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/common/middle.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="37179">
+          <caret line="2016" column="6" selection-start-line="2016" selection-start-column="6" selection-end-line="2016" selection-end-column="6" />
+          <folding>
+            <element signature="n#div#1;n#div#0;n#div#0;n#!!top" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#4;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#5;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#6;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#7;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#8;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#9;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#10;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#11;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#12;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#13;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#4;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#5;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#6;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#7;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#8;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#9;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#10;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#11;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#12;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#13;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/common/slider.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="18" column="6" selection-end-line="27" selection-end-column="6" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/html5/embed.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/dashboard.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#5;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#5;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/common/footer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="n#div#1;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/styles/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46170">
+          <caret line="1710" column="38" selection-start-line="1710" selection-start-column="38" selection-end-line="1710" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/styles/img/green.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/style.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/css/animate.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/styles/css/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/images/banner/22.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/main.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/vendor/jquery-1.12.0.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="19111" selection-start-line="2" selection-start-column="19108" selection-end-line="2" selection-end-column="19111" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/jquery.flexslider.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="80" column="47" selection-start-line="80" selection-start-column="47" selection-end-line="80" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

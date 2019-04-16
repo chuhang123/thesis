@@ -1,0 +1,7 @@
+<!--日期-->
+<p class="input-group">
+    <input type="text" name="{{name}}" required="{{required}}" class="form-control" ng-click="open()" ng-change="change(date)" uib-datepicker-popup="{{format}}" ng-model="date" is-open="opened" max-date="maxDate" datepicker-options="dateOptions" ng-required="required" close-text="关闭" clear-text="清空" current-text="今天" alt-input-formats="altInputFormats" />
+    <span class="input-group-btn">
+    <button type="button" class="btn btn-default" ng-click="open()"><i class="glyphicon glyphicon-calendar"></i></button>
+</span>
+</p>

@@ -1,0 +1,57 @@
+<div class="row" ng-show="isShowAdd">
+    <div class="col-xs-2 col-xs-offset-10">
+        <a ui-sref="standard.deviceInstrumentAdd({deviceSetId: deviceSetId})">
+            <button class="btn btn-info btn-sm" type="button"><i class="fa fa-plus"></i>&nbsp;新增</button>
+        </a>
+    </div>
+</div>
+<br>
+<div class="table-responsive">
+    <div class="dataTables_wrapper form-inline dt-bootstrap no-footer" id="DataTables_Table_0_wrapper">
+        <div class="row">
+            <div class="col-sm-4">
+                <yunzhi-page-size ng-model="params.size" data-reload="reloadBySize"></yunzhi-page-size>
+            </div>
+            <div class="col-sm-4 text-center">
+            </div>
+            <div class="col-sm-4">
+            </div>
+        </div>
+        <table cellpadding="1" cellspacing="1" class="table table-bordered table-striped">
+            <thead>
+            <tr>
+                <th>系统编号</th>
+                <th>标准装置名称</th>
+                <th>学科类别</th>
+                <th>一级类别</th>
+                <th>二级类别</th>
+                <th>准确度等级</th>
+                <th>测量范围</th>
+                <th>操作</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr ng-repeat="object in data.content" ng-hide="object.hide">
+                <td>{{object.id}}</td>
+                <td>{{object.deviceSet.name}}</td>
+                <td>{{object.instrumentType.instrumentFirstLevelType.discipline.name}}</td>
+                <td>{{object.instrumentType.instrumentFirstLevelType.name}}</td>
+                <td>{{object.instrumentType.name}}</td>
+                <td>{{object.accuracy.value}}</td>
+                <td>{{object.minMeasureScale | yunzhiMeasureScale : object.maxMeasureScale}}</td>
+                <td>
+                    <yunzhi-access data-route="standard.FileDeviceInstrument"><a
+                        ng-click="delete(object)"
+                        class="btn btn-xs btn-danger"><i class="fa fa-trash-o"></i>&nbsp;删除</a></yunzhi-access>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+        <yunzhi-page
+            data-reload="reloadByPage"
+            data-total-pages="data.totalPages"
+            data-total-elements="data.totalElements" data-first="data.first" data-last="data.last"
+            data-number="data.number" data-size="data.size"
+            data-number-of-elements="data.numberOfElements"></yunzhi-page>
+    </div>
+</div>

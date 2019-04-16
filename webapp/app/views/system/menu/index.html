@@ -1,0 +1,48 @@
+<div class="row">
+
+  <div class="row">
+    <div class="col-lg-12">
+      <div class="hpanel">
+        <div class="panel-body">
+          <div class="row">
+
+          </div>
+          <div class="table-responsive">
+            <div class="dataTables_wrapper form-inline dt-bootstrap no-footer" id="DataTables_Table_0_wrapper">
+              <div class="row">
+
+              </div>
+              <table cellpadding="1" cellspacing="1" class="table table-bordered table-striped" style="table-layout: fixed; width: 100%"
+              >
+                <thead>
+                <tr>
+                  <th width="5%">编号</th>
+                  <th width="15%">名称</th>
+                  <th width="15%">路由</th>
+                  <th width="15%">URL</th>
+                  <th width="10%">权重</th>
+                  <th width="20%">描述</th>
+                  <th width="5%">是否显示</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr ng-repeat="data in datas">
+                  <td style="word-wrap: break-word">{{$index+1}}</td>
+                  <td style="word-wrap: break-word">{{getFullName(data)}}</td>
+                  <td style="word-wrap: break-word"
+                  >{{getRoute(data)}}</td>
+                  <td style="word-wrap: break-word">{{getUrl(data)}}</td>
+                  <td style="word-wrap: break-word">{{data.weight}}</td>
+                  <td style="word-wrap: break-word">{{data.description}}</td>
+                  <td style="word-wrap: break-word">{{data.show | ChineseOfBoolean}}</td>
+                </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>

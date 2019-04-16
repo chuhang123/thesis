@@ -1,0 +1,7 @@
+<!--学科类别-->
+<ui-select ng-model="discipline.selected" theme="bootstrap" ng-disabled="disabled" ng-change="updateModel(discipline.selected)">
+    <ui-select-match placeholder="请选择">{{$select.selected.name}}</ui-select-match>
+    <ui-select-choices repeat="discipline in disciplines | propsFilter: {name: $select.search, pinyin: $select.search}">
+        <div ng-bind-html="discipline.name | highlight: $select.search"></div>
+    </ui-select-choices>
+</ui-select>

@@ -1,0 +1,7 @@
+<!--精度显示名称-->
+<ui-select ng-model="accuracyDisplay.selected" theme="bootstrap" ng-disabled="disabled" ng-change="update(accuracyDisplay.selected)">
+    <ui-select-match placeholder="请选择">{{$select.selected.name}}</ui-select-match>
+    <ui-select-choices repeat="data in datas | propsFilter: {name: $select.search, pinyin: $select.search}">
+        <div ng-bind-html="data.name | highlight: $select.search"></div>
+    </ui-select-choices>
+</ui-select>

@@ -1,0 +1,1019 @@
+Index: ../api/.idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"7da2c26e-e06b-48a0-a34b-e70cd8a973e0\" name=\"Default\" comment=\"\">\n      <change type=\"NEW\" beforePath=\"\" afterPath=\"$PROJECT_DIR$/../webapp/app/styles/css/loading.css\" />\n      <change type=\"NEW\" beforePath=\"\" afterPath=\"$PROJECT_DIR$/../webapp/app/styles/css/style.css\" />\n      <change type=\"MODIFICATION\" beforePath=\"$PROJECT_DIR$/../webapp/.idea/workspace.xml\" afterPath=\"$PROJECT_DIR$/../webapp/.idea/workspace.xml\" />\n      <change type=\"MODIFICATION\" beforePath=\"$PROJECT_DIR$/../webapp/app/index.html\" afterPath=\"$PROJECT_DIR$/../webapp/app/index.html\" />\n      <change type=\"MODIFICATION\" beforePath=\"$PROJECT_DIR$/../webapp/app/scripts/app.js\" afterPath=\"$PROJECT_DIR$/../webapp/app/scripts/app.js\" />\n      <change type=\"MODIFICATION\" beforePath=\"$PROJECT_DIR$/../webapp/app/scripts/controllers/login.js\" afterPath=\"$PROJECT_DIR$/../webapp/app/scripts/controllers/login.js\" />\n      <change type=\"MODIFICATION\" beforePath=\"$PROJECT_DIR$/../webapp/app/views/login.html\" afterPath=\"$PROJECT_DIR$/../webapp/app/views/login.html\" />\n      <change type=\"MODIFICATION\" beforePath=\"$PROJECT_DIR$/../webapp/bower.json\" afterPath=\"$PROJECT_DIR$/../webapp/bower.json\" />\n      <change type=\"MODIFICATION\" beforePath=\"$PROJECT_DIR$/../webapp/test/karma.conf.js\" afterPath=\"$PROJECT_DIR$/../webapp/test/karma.conf.js\" />\n    </list>\n    <ignored path=\"$PROJECT_DIR$/out/\" />\n    <ignored path=\"$PROJECT_DIR$/target/\" />\n    <option name=\"EXCLUDED_CONVERTED_TO_IGNORED\" value=\"true\" />\n    <option name=\"TRACKING_ENABLED\" value=\"true\" />\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"FileEditorManager\">\n    <leaf SIDE_TABS_SIZE_LIMIT_KEY=\"300\">\n      <file leaf-file-name=\"ApiApplication.java\" pinned=\"false\" current-in-tab=\"false\">\n        <entry file=\"file://$PROJECT_DIR$/src/main/java/com/mengyunzhi/ApiApplication.java\">\n          <provider selected=\"true\" editor-type-id=\"text-editor\">\n            <state relative-caret-position=\"450\">\n              <caret line=\"28\" column=\"5\" lean-forward=\"false\" selection-start-line=\"28\" selection-start-column=\"5\" selection-end-line=\"28\" selection-end-column=\"5\" />\n              <folding>\n                <element signature=\"imports\" expanded=\"true\" />\n                <element signature=\"e#565#566#0\" expanded=\"true\" />\n                <element signature=\"e#630#631#0\" expanded=\"true\" />\n                <element signature=\"e#705#957#0\" expanded=\"true\" />\n                <element signature=\"e#956#957#0\" expanded=\"true\" />\n              </folding>\n            </state>\n          </provider>\n        </entry>\n      </file>\n      <file leaf-file-name=\"UserRepository.java\" pinned=\"false\" current-in-tab=\"false\">\n        <entry file=\"file://$PROJECT_DIR$/src/main/java/com/mengyunzhi/repository/UserRepository.java\">\n          <provider selected=\"true\" editor-type-id=\"text-editor\">\n            <state relative-caret-position=\"180\">\n              <caret line=\"6\" column=\"7\" lean-forward=\"false\" selection-start-line=\"6\" selection-start-column=\"7\" selection-end-line=\"6\" selection-end-column=\"7\" />\n              <folding />\n            </state>\n          </provider>\n        </entry>\n      </file>\n      <file leaf-file-name=\"User.java\" pinned=\"false\" current-in-tab=\"false\">\n        <entry file=\"file://$PROJECT_DIR$/src/main/java/com/mengyunzhi/repository/User.java\">\n          <provider selected=\"true\" editor-type-id=\"text-editor\">\n            <state relative-caret-position=\"270\">\n              <caret line=\"15\" column=\"17\" lean-forward=\"false\" selection-start-line=\"15\" selection-start-column=\"13\" selection-end-line=\"15\" selection-end-column=\"17\" />\n              <folding>\n                <element signature=\"imports\" expanded=\"true\" />\n                <element signature=\"e#889#890#0\" expanded=\"true\" />\n                <element signature=\"e#928#929#0\" expanded=\"true\" />\n                <element signature=\"e#955#956#0\" expanded=\"true\" />\n                <element signature=\"e#980#981#0\" expanded=\"true\" />\n                <element signature=\"e#1014#1015#0\" expanded=\"true\" />\n                <element signature=\"e#1042#1043#0\" expanded=\"true\" />\n                <element signature=\"e#1073#1074#0\" expanded=\"true\" />\n                <element signature=\"e#1100#1101#0\" expanded=\"true\" />\n                <element signature=\"e#1140#1141#0\" expanded=\"true\" />\n                <element signature=\"e#1172#1173#0\" expanded=\"true\" />\n                <element signature=\"e#1207#1208#0\" expanded=\"true\" />\n                <element signature=\"e#1238#1239#0\" expanded=\"true\" />\n                <element signature=\"e#1286#1287#0\" expanded=\"true\" />\n                <element signature=\"e#1326#1327#0\" expanded=\"true\" />\n                <element signature=\"e#1361#1362#0\" expanded=\"true\" />\n                <element signature=\"e#1392#1393#0\" expanded=\"true\" />\n                <element signature=\"e#1440#1441#0\" expanded=\"true\" />\n                <element signature=\"e#1480#1481#0\" expanded=\"true\" />\n                <element signature=\"e#1519#1520#0\" expanded=\"true\" />\n                <element signature=\"e#1552#1553#0\" expanded=\"true\" />\n                <element signature=\"e#1606#1607#0\" expanded=\"true\" />\n                <element signature=\"e#1650#1651#0\" expanded=\"true\" />\n                <element signature=\"e#1689#1690#0\" expanded=\"true\" />\n                <element signature=\"e#1722#1723#0\" expanded=\"true\" />\n                <element signature=\"e#1776#1777#0\" expanded=\"true\" />\n                <element signature=\"e#1820#1821#0\" expanded=\"true\" />\n              </folding>\n            </state>\n          </provider>\n        </entry>\n      </file>\n      <file leaf-file-name=\"UserRepositoryTest.java\" pinned=\"false\" current-in-tab=\"false\">\n        <entry file=\"file://$PROJECT_DIR$/src/test/java/com/mengyunzhi/repository/UserRepositoryTest.java\">\n          <provider selected=\"true\" editor-type-id=\"text-editor\">\n            <state relative-caret-position=\"450\">\n              <caret line=\"18\" column=\"0\" lean-forward=\"false\" selection-start-line=\"18\" selection-start-column=\"0\" selection-end-line=\"18\" selection-end-column=\"0\" />\n              <folding>\n                <element signature=\"imports\" expanded=\"true\" />\n              </folding>\n            </state>\n          </provider>\n        </entry>\n      </file>\n      <file leaf-file-name=\"UserController.java\" pinned=\"false\" current-in-tab=\"false\">\n        <entry file=\"file://$PROJECT_DIR$/src/main/java/com/mengyunzhi/controller/UserController.java\">\n          <provider selected=\"true\" editor-type-id=\"text-editor\">\n            <state relative-caret-position=\"608\">\n              <caret line=\"26\" column=\"35\" lean-forward=\"false\" selection-start-line=\"26\" selection-start-column=\"35\" selection-end-line=\"26\" selection-end-column=\"35\" />\n              <folding>\n                <element signature=\"imports\" expanded=\"true\" />\n                <element signature=\"e#772#773#0\" expanded=\"true\" />\n                <element signature=\"e#814#815#0\" expanded=\"true\" />\n              </folding>\n            </state>\n          </provider>\n        </entry>\n      </file>\n      <file leaf-file-name=\"UserService.java\" pinned=\"false\" current-in-tab=\"false\">\n        <entry file=\"file://$PROJECT_DIR$/src/main/java/com/mengyunzhi/service/UserService.java\">\n          <provider selected=\"true\" editor-type-id=\"text-editor\">\n            <state relative-caret-position=\"180\">\n              <caret line=\"6\" column=\"7\" lean-forward=\"false\" selection-start-line=\"6\" selection-start-column=\"7\" selection-end-line=\"6\" selection-end-column=\"7\" />\n              <folding />\n            </state>\n          </provider>\n        </entry>\n      </file>\n      <file leaf-file-name=\"UserServiceImpl.java\" pinned=\"false\" current-in-tab=\"true\">\n        <entry file=\"file://$PROJECT_DIR$/src/main/java/com/mengyunzhi/service/UserServiceImpl.java\">\n          <provider selected=\"true\" editor-type-id=\"text-editor\">\n            <state relative-caret-position=\"540\">\n              <caret line=\"18\" column=\"0\" lean-forward=\"false\" selection-start-line=\"18\" selection-start-column=\"0\" selection-end-line=\"18\" selection-end-column=\"0\" />\n              <folding>\n                <element signature=\"imports\" expanded=\"true\" />\n                <element signature=\"e#490#491#0\" expanded=\"true\" />\n              </folding>\n            </state>\n          </provider>\n        </entry>\n      </file>\n      <file leaf-file-name=\"User.class\" pinned=\"false\" current-in-tab=\"false\">\n        <entry file=\"jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/8.5.23/tomcat-embed-core-8.5.23.jar!/org/apache/catalina/User.class\">\n          <provider selected=\"true\" editor-type-id=\"text-editor\">\n            <state relative-caret-position=\"180\">\n              <caret line=\"10\" column=\"17\" lean-forward=\"false\" selection-start-line=\"10\" selection-start-column=\"17\" selection-end-line=\"10\" selection-end-column=\"17\" />\n              <folding />\n            </state>\n          </provider>\n        </entry>\n      </file>\n      <file leaf-file-name=\"RepositoryTest.java\" pinned=\"false\" current-in-tab=\"false\">\n        <entry file=\"file://$PROJECT_DIR$/src/test/java/com/mengyunzhi/repository/RepositoryTest.java\">\n          <provider selected=\"true\" editor-type-id=\"text-editor\">\n            <state relative-caret-position=\"300\">\n              <caret line=\"14\" column=\"15\" lean-forward=\"false\" selection-start-line=\"14\" selection-start-column=\"15\" selection-end-line=\"14\" selection-end-column=\"15\" />\n              <folding>\n                <element signature=\"imports\" expanded=\"true\" />\n              </folding>\n            </state>\n          </provider>\n        </entry>\n      </file>\n      <file leaf-file-name=\"ApiApplicationTests.java\" pinned=\"false\" current-in-tab=\"false\">\n        <entry file=\"file://$PROJECT_DIR$/src/test/java/com/mengyunzhi/ApiApplicationTests.java\">\n          <provider selected=\"true\" editor-type-id=\"text-editor\">\n            <state relative-caret-position=\"150\">\n              <caret line=\"5\" column=\"32\" lean-forward=\"false\" selection-start-line=\"5\" selection-start-column=\"32\" selection-end-line=\"5\" selection-end-column=\"32\" />\n              <folding />\n            </state>\n          </provider>\n        </entry>\n      </file>\n    </leaf>\n  </component>\n  <component name=\"FileTemplateManagerImpl\">\n    <option name=\"RECENT_TEMPLATES\">\n      <list>\n        <option value=\"JUnit4 Test Class\" />\n        <option value=\"Kotlin Class\" />\n        <option value=\"Class\" />\n      </list>\n    </option>\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$/..\" />\n  </component>\n  <component name=\"GradleLocalSettings\">\n    <option name=\"externalProjectsViewState\">\n      <projects_view />\n    </option>\n  </component>\n  <component name=\"HighlightingSettingsPerFile\">\n    <setting file=\"dummy://restClient/response7.json\" root0=\"SKIP_INSPECTION\" />\n  </component>\n  <component name=\"IdeDocumentHistory\">\n    <option name=\"CHANGED_PATHS\">\n      <list>\n        <option value=\"$PROJECT_DIR$/src/main/resources/application.properties\" />\n        <option value=\"$PROJECT_DIR$/pom.xml\" />\n        <option value=\"$PROJECT_DIR$/src/test/java/com/mengyunzhi/repository/RepositoryTest.java\" />\n        <option value=\"$PROJECT_DIR$/src/main/java/com/mengyunzhi/repository/UserRepository.java\" />\n        <option value=\"$PROJECT_DIR$/src/main/java/com/mengyunzhi/repository/User.java\" />\n        <option value=\"$PROJECT_DIR$/src/test/java/com/mengyunzhi/repository/UserRepositoryTest.java\" />\n        <option value=\"$PROJECT_DIR$/src/main/java/com/mengyunzhi/service/UserService.kt\" />\n        <option value=\"$PROJECT_DIR$/src/main/java/com/mengyunzhi/service/UserService.java\" />\n        <option value=\"$PROJECT_DIR$/src/main/java/com/mengyunzhi/service/UserServiceImpl.java\" />\n        <option value=\"$PROJECT_DIR$/src/main/java/com/mengyunzhi/controller/UserController.java\" />\n        <option value=\"$PROJECT_DIR$/src/main/java/com/mengyunzhi/ApiApplication.java\" />\n      </list>\n    </option>\n  </component>\n  <component name=\"JsBuildToolGruntFileManager\" detection-done=\"true\" sorting=\"DEFINITION_ORDER\" />\n  <component name=\"JsBuildToolPackageJson\" detection-done=\"true\" sorting=\"DEFINITION_ORDER\" />\n  <component name=\"JsGulpfileManager\">\n    <detection-done>true</detection-done>\n    <sorting>DEFINITION_ORDER</sorting>\n  </component>\n  <component name=\"MavenImportPreferences\">\n    <option name=\"importingSettings\">\n      <MavenImportingSettings>\n        <option name=\"importAutomatically\" value=\"true\" />\n      </MavenImportingSettings>\n    </option>\n  </component>\n  <component name=\"ProjectFrameBounds\" extendedState=\"6\">\n    <option name=\"x\" value=\"1247\" />\n    <option name=\"y\" value=\"-4\" />\n    <option name=\"width\" value=\"1299\" />\n    <option name=\"height\" value=\"764\" />\n  </component>\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\">\n    <ConfirmationsSetting value=\"2\" id=\"Add\" />\n  </component>\n  <component name=\"ProjectView\">\n    <navigator currentView=\"ProjectPane\" proportions=\"\" version=\"1\">\n      <flattenPackages />\n      <showMembers />\n      <showModules />\n      <showLibraryContents />\n      <hideEmptyPackages />\n      <abbreviatePackageNames />\n      <autoscrollToSource />\n      <autoscrollFromSource />\n      <sortByType />\n      <manualOrder />\n      <foldersAlwaysOnTop value=\"true\" />\n    </navigator>\n    <panes>\n      <pane id=\"Scope\" />\n      <pane id=\"ProjectPane\">\n        <subPane>\n          <expand>\n            <path>\n              <item name=\"myCodeRepository\" type=\"b2602c69:ProjectViewProjectNode\" />\n              <item name=\"api\" type=\"462c0819:PsiDirectoryNode\" />\n            </path>\n            <path>\n              <item name=\"myCodeRepository\" type=\"b2602c69:ProjectViewProjectNode\" />\n              <item name=\"api\" type=\"462c0819:PsiDirectoryNode\" />\n              <item name=\"src\" type=\"462c0819:PsiDirectoryNode\" />\n            </path>\n            <path>\n              <item name=\"myCodeRepository\" type=\"b2602c69:ProjectViewProjectNode\" />\n              <item name=\"api\" type=\"462c0819:PsiDirectoryNode\" />\n              <item name=\"src\" type=\"462c0819:PsiDirectoryNode\" />\n              <item name=\"main\" type=\"462c0819:PsiDirectoryNode\" />\n            </path>\n            <path>\n              <item name=\"myCodeRepository\" type=\"b2602c69:ProjectViewProjectNode\" />\n              <item name=\"api\" type=\"462c0819:PsiDirectoryNode\" />\n              <item name=\"src\" type=\"462c0819:PsiDirectoryNode\" />\n              <item name=\"main\" type=\"462c0819:PsiDirectoryNode\" />\n              <item name=\"java\" type=\"462c0819:PsiDirectoryNode\" />\n            </path>\n            <path>\n              <item name=\"myCodeRepository\" type=\"b2602c69:ProjectViewProjectNode\" />\n              <item name=\"api\" type=\"462c0819:PsiDirectoryNode\" />\n              <item name=\"src\" type=\"462c0819:PsiDirectoryNode\" />\n              <item name=\"main\" type=\"462c0819:PsiDirectoryNode\" />\n              <item name=\"java\" type=\"462c0819:PsiDirectoryNode\" />\n              <item name=\"mengyunzhi\" type=\"462c0819:PsiDirectoryNode\" />\n            </path>\n            <path>\n              <item name=\"myCodeRepository\" type=\"b2602c69:ProjectViewProjectNode\" />\n              <item name=\"api\" type=\"462c0819:PsiDirectoryNode\" />\n              <item name=\"src\" type=\"462c0819:PsiDirectoryNode\" />\n              <item name=\"main\" type=\"462c0819:PsiDirectoryNode\" />\n              <item name=\"java\" type=\"462c0819:PsiDirectoryNode\" />\n              <item name=\"mengyunzhi\" type=\"462c0819:PsiDirectoryNode\" />\n              <item name=\"controller\" type=\"462c0819:PsiDirectoryNode\" />\n            </path>\n            <path>\n              <item name=\"myCodeRepository\" type=\"b2602c69:ProjectViewProjectNode\" />\n              <item name=\"api\" type=\"462c0819:PsiDirectoryNode\" />\n              <item name=\"src\" type=\"462c0819:PsiDirectoryNode\" />\n              <item name=\"main\" type=\"462c0819:PsiDirectoryNode\" />\n              <item name=\"resources\" type=\"462c0819:PsiDirectoryNode\" />\n            </path>\n            <path>\n              <item name=\"myCodeRepository\" type=\"b2602c69:ProjectViewProjectNode\" />\n              <item name=\"api\" type=\"462c0819:PsiDirectoryNode\" />\n              <item name=\"src\" type=\"462c0819:PsiDirectoryNode\" />\n              <item name=\"test\" type=\"462c0819:PsiDirectoryNode\" />\n            </path>\n            <path>\n              <item name=\"myCodeRepository\" type=\"b2602c69:ProjectViewProjectNode\" />\n              <item name=\"api\" type=\"462c0819:PsiDirectoryNode\" />\n              <item name=\"src\" type=\"462c0819:PsiDirectoryNode\" />\n              <item name=\"test\" type=\"462c0819:PsiDirectoryNode\" />\n              <item name=\"java\" type=\"462c0819:PsiDirectoryNode\" />\n            </path>\n            <path>\n              <item name=\"myCodeRepository\" type=\"b2602c69:ProjectViewProjectNode\" />\n              <item name=\"api\" type=\"462c0819:PsiDirectoryNode\" />\n              <item name=\"src\" type=\"462c0819:PsiDirectoryNode\" />\n              <item name=\"test\" type=\"462c0819:PsiDirectoryNode\" />\n              <item name=\"java\" type=\"462c0819:PsiDirectoryNode\" />\n              <item name=\"mengyunzhi\" type=\"462c0819:PsiDirectoryNode\" />\n            </path>\n          </expand>\n          <select />\n        </subPane>\n      </pane>\n      <pane id=\"Scratches\" />\n      <pane id=\"PackagesPane\" />\n      <pane id=\"AndroidView\" />\n    </panes>\n  </component>\n  <component name=\"PropertiesComponent\">\n    <property name=\"settings.editor.selected.configurable\" value=\"project.propVCSSupport.Mappings\" />\n    <property name=\"nodejs_interpreter_path\" value=\"/usr/bin/node\" />\n    <property name=\"WebServerToolWindowFactoryState\" value=\"false\" />\n    <property name=\"aspect.path.notification.shown\" value=\"true\" />\n    <property name=\"com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary\" value=\"JUnit4\" />\n  </component>\n  <component name=\"RecentsManager\">\n    <key name=\"CreateTestDialog.RecentsKey\">\n      <recent name=\"com.mengyunzhi.repository\" />\n    </key>\n    <key name=\"CreateTestDialog.Recents.Supers\">\n      <recent name=\"\" />\n    </key>\n    <key name=\"CreateClassDialog.RecentsKey\">\n      <recent name=\"com.mengyunzhi.service\" />\n    </key>\n  </component>\n  <component name=\"RestClientSettings\">\n    <option name=\"REQUEST_HISTORY\">\n      <list>\n        <RestClientRequest>\n          <option name=\"httpMethod\" value=\"GET\" />\n          <option name=\"urlBase\" value=\"http://localhost:8080\" />\n          <option name=\"urlPath\" value=\"/User/1\" />\n          <option name=\"headers\">\n            <list>\n              <KeyValuePair>\n                <option name=\"key\" value=\"Accept\" />\n                <option name=\"value\" value=\"*/*\" />\n              </KeyValuePair>\n              <KeyValuePair>\n                <option name=\"key\" value=\"Cache-Control\" />\n                <option name=\"value\" value=\"no-cache\" />\n              </KeyValuePair>\n            </list>\n          </option>\n          <option name=\"parametersEnabled\" value=\"true\" />\n          <option name=\"textToSend\" value=\"\" />\n          <option name=\"filesToSend\" value=\"\" />\n        </RestClientRequest>\n        <RestClientRequest>\n          <option name=\"httpMethod\" value=\"GET\" />\n          <option name=\"urlBase\" value=\"http://localhost:8080\" />\n          <option name=\"urlPath\" value=\"/resources\" />\n          <option name=\"headers\">\n            <list>\n              <KeyValuePair>\n                <option name=\"key\" value=\"Accept\" />\n                <option name=\"value\" value=\"*/*\" />\n              </KeyValuePair>\n              <KeyValuePair>\n                <option name=\"key\" value=\"Cache-Control\" />\n                <option name=\"value\" value=\"no-cache\" />\n              </KeyValuePair>\n            </list>\n          </option>\n          <option name=\"parametersEnabled\" value=\"true\" />\n          <option name=\"textToSend\" value=\"\" />\n          <option name=\"filesToSend\" value=\"\" />\n        </RestClientRequest>\n      </list>\n    </option>\n  </component>\n  <component name=\"RunDashboard\">\n    <option name=\"ruleStates\">\n      <list>\n        <RuleState>\n          <option name=\"name\" value=\"ConfigurationTypeDashboardGroupingRule\" />\n        </RuleState>\n        <RuleState>\n          <option name=\"name\" value=\"StatusDashboardGroupingRule\" />\n        </RuleState>\n      </list>\n    </option>\n  </component>\n  <component name=\"RunManager\" selected=\"Application.ApiApplication\">\n    <configuration name=\"ApiApplication\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\n      <extension name=\"coverage\" enabled=\"false\" merge=\"false\" sample_coverage=\"true\" runner=\"idea\">\n        <pattern>\n          <option name=\"PATTERN\" value=\"com.mengyunzhi.*\" />\n          <option name=\"ENABLED\" value=\"true\" />\n        </pattern>\n      </extension>\n      <option name=\"MAIN_CLASS_NAME\" value=\"com.mengyunzhi.ApiApplication\" />\n      <option name=\"VM_PARAMETERS\" />\n      <option name=\"PROGRAM_PARAMETERS\" />\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$\" />\n      <option name=\"ALTERNATIVE_JRE_PATH_ENABLED\" value=\"false\" />\n      <option name=\"ALTERNATIVE_JRE_PATH\" />\n      <option name=\"ENABLE_SWING_INSPECTOR\" value=\"false\" />\n      <option name=\"ENV_VARIABLES\" />\n      <option name=\"PASS_PARENT_ENVS\" value=\"true\" />\n      <module name=\"api\" />\n      <envs />\n    </configuration>\n    <configuration name=\"UserRepositoryTest.save\" type=\"JUnit\" factoryName=\"JUnit\" temporary=\"true\" nameIsGenerated=\"true\">\n      <extension name=\"coverage\" enabled=\"false\" merge=\"false\" sample_coverage=\"true\" runner=\"idea\">\n        <pattern>\n          <option name=\"PATTERN\" value=\"com.mengyunzhi.repository.*\" />\n          <option name=\"ENABLED\" value=\"true\" />\n        </pattern>\n      </extension>\n      <module name=\"api\" />\n      <option name=\"ALTERNATIVE_JRE_PATH_ENABLED\" value=\"false\" />\n      <option name=\"ALTERNATIVE_JRE_PATH\" />\n      <option name=\"PACKAGE_NAME\" value=\"com.mengyunzhi.repository\" />\n      <option name=\"MAIN_CLASS_NAME\" value=\"com.mengyunzhi.repository.UserRepositoryTest\" />\n      <option name=\"METHOD_NAME\" value=\"save\" />\n      <option name=\"TEST_OBJECT\" value=\"method\" />\n      <option name=\"VM_PARAMETERS\" value=\"-ea\" />\n      <option name=\"PARAMETERS\" />\n      <option name=\"WORKING_DIRECTORY\" value=\"$MODULE_DIR$\" />\n      <option name=\"ENV_VARIABLES\" />\n      <option name=\"PASS_PARENT_ENVS\" value=\"true\" />\n      <option name=\"TEST_SEARCH_SCOPE\">\n        <value defaultName=\"singleModule\" />\n      </option>\n      <envs />\n      <patterns />\n    </configuration>\n    <configuration default=\"true\" type=\"Applet\" factoryName=\"Applet\">\n      <option name=\"HTML_USED\" value=\"false\" />\n      <option name=\"WIDTH\" value=\"400\" />\n      <option name=\"HEIGHT\" value=\"300\" />\n      <option name=\"POLICY_FILE\" value=\"$APPLICATION_HOME_DIR$/bin/appletviewer.policy\" />\n      <module />\n    </configuration>\n    <configuration default=\"true\" type=\"Application\" factoryName=\"Application\">\n      <extension name=\"coverage\" enabled=\"false\" merge=\"false\" sample_coverage=\"true\" runner=\"idea\" />\n      <option name=\"MAIN_CLASS_NAME\" />\n      <option name=\"VM_PARAMETERS\" />\n      <option name=\"PROGRAM_PARAMETERS\" />\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$\" />\n      <option name=\"ALTERNATIVE_JRE_PATH_ENABLED\" value=\"false\" />\n      <option name=\"ALTERNATIVE_JRE_PATH\" />\n      <option name=\"ENABLE_SWING_INSPECTOR\" value=\"false\" />\n      <option name=\"ENV_VARIABLES\" />\n      <option name=\"PASS_PARENT_ENVS\" value=\"true\" />\n      <module name=\"\" />\n      <envs />\n    </configuration>\n    <configuration default=\"true\" type=\"JUnit\" factoryName=\"JUnit\">\n      <extension name=\"coverage\" enabled=\"false\" merge=\"false\" sample_coverage=\"true\" runner=\"idea\" />\n      <module name=\"\" />\n      <option name=\"ALTERNATIVE_JRE_PATH_ENABLED\" value=\"false\" />\n      <option name=\"ALTERNATIVE_JRE_PATH\" />\n      <option name=\"PACKAGE_NAME\" />\n      <option name=\"MAIN_CLASS_NAME\" />\n      <option name=\"METHOD_NAME\" />\n      <option name=\"TEST_OBJECT\" value=\"class\" />\n      <option name=\"VM_PARAMETERS\" value=\"-ea\" />\n      <option name=\"PARAMETERS\" />\n      <option name=\"WORKING_DIRECTORY\" value=\"$MODULE_DIR$\" />\n      <option name=\"ENV_VARIABLES\" />\n      <option name=\"PASS_PARENT_ENVS\" value=\"true\" />\n      <option name=\"TEST_SEARCH_SCOPE\">\n        <value defaultName=\"singleModule\" />\n      </option>\n      <envs />\n      <patterns />\n    </configuration>\n    <configuration default=\"true\" type=\"#org.jetbrains.idea.devkit.run.PluginConfigurationType\" factoryName=\"Plugin\">\n      <module name=\"\" />\n      <option name=\"VM_PARAMETERS\" value=\"-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea\" />\n      <option name=\"PROGRAM_PARAMETERS\" />\n      <predefined_log_file id=\"idea.log\" enabled=\"true\" />\n    </configuration>\n    <configuration default=\"true\" type=\"Remote\" factoryName=\"Remote\">\n      <option name=\"USE_SOCKET_TRANSPORT\" value=\"true\" />\n      <option name=\"SERVER_MODE\" value=\"false\" />\n      <option name=\"SHMEM_ADDRESS\" value=\"javadebug\" />\n      <option name=\"HOST\" value=\"localhost\" />\n      <option name=\"PORT\" value=\"5005\" />\n    </configuration>\n    <configuration default=\"true\" type=\"TestNG\" factoryName=\"TestNG\">\n      <extension name=\"coverage\" enabled=\"false\" merge=\"false\" sample_coverage=\"true\" runner=\"idea\" />\n      <module name=\"\" />\n      <option name=\"ALTERNATIVE_JRE_PATH_ENABLED\" value=\"false\" />\n      <option name=\"ALTERNATIVE_JRE_PATH\" />\n      <option name=\"SUITE_NAME\" />\n      <option name=\"PACKAGE_NAME\" />\n      <option name=\"MAIN_CLASS_NAME\" />\n      <option name=\"METHOD_NAME\" />\n      <option name=\"GROUP_NAME\" />\n      <option name=\"TEST_OBJECT\" value=\"CLASS\" />\n      <option name=\"VM_PARAMETERS\" value=\"-ea\" />\n      <option name=\"PARAMETERS\" />\n      <option name=\"WORKING_DIRECTORY\" value=\"$MODULE_DIR$\" />\n      <option name=\"OUTPUT_DIRECTORY\" />\n      <option name=\"ANNOTATION_TYPE\" />\n      <option name=\"ENV_VARIABLES\" />\n      <option name=\"PASS_PARENT_ENVS\" value=\"true\" />\n      <option name=\"TEST_SEARCH_SCOPE\">\n        <value defaultName=\"singleModule\" />\n      </option>\n      <option name=\"USE_DEFAULT_REPORTERS\" value=\"false\" />\n      <option name=\"PROPERTIES_FILE\" />\n      <envs />\n      <properties />\n      <listeners />\n    </configuration>\n    <list size=\"2\">\n      <item index=\"0\" class=\"java.lang.String\" itemvalue=\"Application.ApiApplication\" />\n      <item index=\"1\" class=\"java.lang.String\" itemvalue=\"JUnit.UserRepositoryTest.save\" />\n    </list>\n    <recent_temporary>\n      <list size=\"2\">\n        <item index=\"0\" class=\"java.lang.String\" itemvalue=\"Application.ApiApplication\" />\n        <item index=\"1\" class=\"java.lang.String\" itemvalue=\"JUnit.UserRepositoryTest.save\" />\n      </list>\n    </recent_temporary>\n  </component>\n  <component name=\"ShelveChangesManager\" show_recycled=\"false\">\n    <option name=\"remove_strategy\" value=\"false\" />\n  </component>\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"7da2c26e-e06b-48a0-a34b-e70cd8a973e0\" name=\"Default\" comment=\"\" />\n      <created>1511600872558</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1511600872558</updated>\n      <workItem from=\"1511600878154\" duration=\"2646000\" />\n      <workItem from=\"1511750532274\" duration=\"1812000\" />\n      <workItem from=\"1511787522553\" duration=\"600000\" />\n      <workItem from=\"1511830220478\" duration=\"599000\" />\n      <workItem from=\"1511960144786\" duration=\"220000\" />\n      <workItem from=\"1511963226006\" duration=\"3141000\" />\n      <workItem from=\"1512019952125\" duration=\"324000\" />\n      <workItem from=\"1512107876521\" duration=\"3678000\" />\n    </task>\n    <servers />\n  </component>\n  <component name=\"TestHistory\">\n    <history-entry file=\"UserRepositoryTest_save - 2017.11.29 at 22h 42m 29s.xml\">\n      <configuration name=\"UserRepositoryTest.save\" configurationId=\"JUnit\" />\n    </history-entry>\n  </component>\n  <component name=\"TimeTrackingManager\">\n    <option name=\"totallyTimeSpent\" value=\"13020000\" />\n  </component>\n  <component name=\"ToolWindowManager\">\n    <frame x=\"1431\" y=\"-4\" width=\"1855\" height=\"1084\" extended-state=\"6\" />\n    <layout>\n      <window_info id=\"Palette\" active=\"false\" anchor=\"right\" auto_hide=\"false\" internal_type=\"DOCKED\" type=\"DOCKED\" visible=\"false\" show_stripe_button=\"true\" weight=\"0.33\" sideWeight=\"0.5\" order=\"3\" side_tool=\"false\" content_ui=\"tabs\" />\n      <window_info id=\"TODO\" active=\"false\" anchor=\"bottom\" auto_hide=\"false\" internal_type=\"DOCKED\" type=\"DOCKED\" visible=\"false\" show_stripe_button=\"true\" weight=\"0.33\" sideWeight=\"0.5\" order=\"6\" side_tool=\"false\" content_ui=\"tabs\" />\n      <window_info id=\"Messages\" active=\"false\" anchor=\"bottom\" auto_hide=\"false\" internal_type=\"DOCKED\" type=\"DOCKED\" visible=\"false\" show_stripe_button=\"true\" weight=\"0.33\" sideWeight=\"0.5\" order=\"7\" side_tool=\"false\" content_ui=\"tabs\" />\n      <window_info id=\"Palette&#9;\" active=\"false\" anchor=\"right\" auto_hide=\"false\" internal_type=\"DOCKED\" type=\"DOCKED\" visible=\"false\" show_stripe_button=\"true\" weight=\"0.33\" sideWeight=\"0.5\" order=\"3\" side_tool=\"false\" content_ui=\"tabs\" />\n      <window_info id=\"Image Layers\" active=\"false\" anchor=\"left\" auto_hide=\"false\" internal_type=\"DOCKED\" type=\"DOCKED\" visible=\"false\" show_stripe_button=\"true\" weight=\"0.33\" sideWeight=\"0.5\" order=\"2\" side_tool=\"false\" content_ui=\"tabs\" />\n      <window_info id=\"Capture Analysis\" active=\"false\" anchor=\"right\" auto_hide=\"false\" internal_type=\"DOCKED\" type=\"DOCKED\" visible=\"false\" show_stripe_button=\"true\" weight=\"0.33\" sideWeight=\"0.5\" order=\"3\" side_tool=\"false\" content_ui=\"tabs\" />\n      <window_info id=\"Event Log\" active=\"false\" anchor=\"bottom\" auto_hide=\"false\" internal_type=\"DOCKED\" type=\"DOCKED\" visible=\"false\" show_stripe_button=\"true\" weight=\"0.33\" sideWeight=\"0.5\" order=\"7\" side_tool=\"true\" content_ui=\"tabs\" />\n      <window_info id=\"Maven Projects\" active=\"false\" anchor=\"right\" auto_hide=\"false\" internal_type=\"DOCKED\" type=\"DOCKED\" visible=\"false\" show_stripe_button=\"true\" weight=\"0.33\" sideWeight=\"0.5\" order=\"3\" side_tool=\"false\" content_ui=\"tabs\" />\n      <window_info id=\"REST Client\" active=\"true\" anchor=\"bottom\" auto_hide=\"false\" internal_type=\"DOCKED\" type=\"DOCKED\" visible=\"true\" show_stripe_button=\"true\" weight=\"0.32985386\" sideWeight=\"0.5\" order=\"-1\" side_tool=\"false\" content_ui=\"tabs\" />\n      <window_info id=\"Version Control\" active=\"false\" anchor=\"bottom\" auto_hide=\"false\" internal_type=\"DOCKED\" type=\"DOCKED\" visible=\"false\" show_stripe_button=\"true\" weight=\"0.33\" sideWeight=\"0.5\" order=\"7\" side_tool=\"false\" content_ui=\"tabs\" />\n      <window_info id=\"Run\" active=\"false\" anchor=\"bottom\" auto_hide=\"false\" internal_type=\"DOCKED\" type=\"DOCKED\" visible=\"false\" show_stripe_button=\"true\" weight=\"0.4697286\" sideWeight=\"0.5\" order=\"2\" side_tool=\"false\" content_ui=\"tabs\" />\n      <window_info id=\"Spring\" active=\"false\" anchor=\"bottom\" auto_hide=\"false\" internal_type=\"DOCKED\" type=\"DOCKED\" visible=\"false\" show_stripe_button=\"true\" weight=\"0.33\" sideWeight=\"0.5\" order=\"7\" side_tool=\"false\" content_ui=\"tabs\" />\n      <window_info id=\"Terminal\" active=\"false\" anchor=\"bottom\" auto_hide=\"false\" internal_type=\"DOCKED\" type=\"DOCKED\" visible=\"false\" show_stripe_button=\"true\" weight=\"0.2721585\" sideWeight=\"0.5\" order=\"7\" side_tool=\"false\" content_ui=\"tabs\" />\n      <window_info id=\"Capture Tool\" active=\"false\" anchor=\"left\" auto_hide=\"false\" internal_type=\"DOCKED\" type=\"DOCKED\" visible=\"false\" show_stripe_button=\"true\" weight=\"0.33\" sideWeight=\"0.5\" order=\"2\" side_tool=\"false\" content_ui=\"tabs\" />\n      <window_info id=\"Designer\" active=\"false\" anchor=\"left\" auto_hide=\"false\" internal_type=\"DOCKED\" type=\"DOCKED\" visible=\"false\" show_stripe_button=\"true\" weight=\"0.33\" sideWeight=\"0.5\" order=\"2\" side_tool=\"false\" content_ui=\"tabs\" />\n      <window_info id=\"Project\" active=\"false\" anchor=\"left\" auto_hide=\"false\" internal_type=\"DOCKED\" type=\"DOCKED\" visible=\"true\" show_stripe_button=\"true\" weight=\"0.18036404\" sideWeight=\"0.5\" order=\"0\" side_tool=\"false\" content_ui=\"combo\" />\n      <window_info id=\"Bean Validation\" active=\"false\" anchor=\"right\" auto_hide=\"false\" internal_type=\"DOCKED\" type=\"DOCKED\" visible=\"false\" show_stripe_button=\"true\" weight=\"0.33\" sideWeight=\"0.5\" order=\"3\" side_tool=\"false\" content_ui=\"tabs\" />\n      <window_info id=\"Database\" active=\"false\" anchor=\"right\" auto_hide=\"false\" internal_type=\"DOCKED\" type=\"DOCKED\" visible=\"false\" show_stripe_button=\"true\" weight=\"0.33\" sideWeight=\"0.5\" order=\"3\" side_tool=\"false\" content_ui=\"tabs\" />\n      <window_info id=\"Structure\" active=\"false\" anchor=\"left\" auto_hide=\"false\" internal_type=\"DOCKED\" type=\"DOCKED\" visible=\"false\" show_stripe_button=\"true\" weight=\"0.25\" sideWeight=\"0.5\" order=\"1\" side_tool=\"false\" content_ui=\"tabs\" />\n      <window_info id=\"Ant Build\" active=\"false\" anchor=\"right\" auto_hide=\"false\" internal_type=\"DOCKED\" type=\"DOCKED\" visible=\"false\" show_stripe_button=\"true\" weight=\"0.25\" sideWeight=\"0.5\" order=\"1\" side_tool=\"false\" content_ui=\"tabs\" />\n      <window_info id=\"UI Designer\" active=\"false\" anchor=\"left\" auto_hide=\"false\" internal_type=\"DOCKED\" type=\"DOCKED\" visible=\"false\" show_stripe_button=\"true\" weight=\"0.33\" sideWeight=\"0.5\" order=\"2\" side_tool=\"false\" content_ui=\"tabs\" />\n      <window_info id=\"Theme Preview\" active=\"false\" anchor=\"right\" auto_hide=\"false\" internal_type=\"DOCKED\" type=\"DOCKED\" visible=\"false\" show_stripe_button=\"true\" weight=\"0.33\" sideWeight=\"0.5\" order=\"3\" side_tool=\"false\" content_ui=\"tabs\" />\n      <window_info id=\"Favorites\" active=\"false\" anchor=\"left\" auto_hide=\"false\" internal_type=\"DOCKED\" type=\"DOCKED\" visible=\"false\" show_stripe_button=\"true\" weight=\"0.33\" sideWeight=\"0.5\" order=\"2\" side_tool=\"true\" content_ui=\"tabs\" />\n      <window_info id=\"Debug\" active=\"false\" anchor=\"bottom\" auto_hide=\"false\" internal_type=\"DOCKED\" type=\"DOCKED\" visible=\"false\" show_stripe_button=\"true\" weight=\"0.39937434\" sideWeight=\"0.5\" order=\"3\" side_tool=\"false\" content_ui=\"tabs\" />\n      <window_info id=\"Cvs\" active=\"false\" anchor=\"bottom\" auto_hide=\"false\" internal_type=\"DOCKED\" type=\"DOCKED\" visible=\"false\" show_stripe_button=\"true\" weight=\"0.25\" sideWeight=\"0.5\" order=\"4\" side_tool=\"false\" content_ui=\"tabs\" />\n      <window_info id=\"Message\" active=\"false\" anchor=\"bottom\" auto_hide=\"false\" internal_type=\"DOCKED\" type=\"DOCKED\" visible=\"false\" show_stripe_button=\"true\" weight=\"0.33\" sideWeight=\"0.5\" order=\"0\" side_tool=\"false\" content_ui=\"tabs\" />\n      <window_info id=\"Commander\" active=\"false\" anchor=\"right\" auto_hide=\"false\" internal_type=\"DOCKED\" type=\"DOCKED\" visible=\"false\" show_stripe_button=\"true\" weight=\"0.4\" sideWeight=\"0.5\" order=\"0\" side_tool=\"false\" content_ui=\"tabs\" />\n      <window_info id=\"Hierarchy\" active=\"false\" anchor=\"right\" auto_hide=\"false\" internal_type=\"DOCKED\" type=\"DOCKED\" visible=\"false\" show_stripe_button=\"true\" weight=\"0.25\" sideWeight=\"0.5\" order=\"2\" side_tool=\"false\" content_ui=\"combo\" />\n      <window_info id=\"Inspection\" active=\"false\" anchor=\"bottom\" auto_hide=\"false\" internal_type=\"DOCKED\" type=\"DOCKED\" visible=\"false\" show_stripe_button=\"true\" weight=\"0.4\" sideWeight=\"0.5\" order=\"5\" side_tool=\"false\" content_ui=\"tabs\" />\n      <window_info id=\"Find\" active=\"false\" anchor=\"bottom\" auto_hide=\"false\" internal_type=\"DOCKED\" type=\"DOCKED\" visible=\"false\" show_stripe_button=\"true\" weight=\"0.33\" sideWeight=\"0.5\" order=\"1\" side_tool=\"false\" content_ui=\"tabs\" />\n    </layout>\n  </component>\n  <component name=\"TypeScriptGeneratedFilesManager\">\n    <option name=\"version\" value=\"1\" />\n  </component>\n  <component name=\"VcsContentAnnotationSettings\">\n    <option name=\"myLimit\" value=\"2678400000\" />\n  </component>\n  <component name=\"XDebuggerManager\">\n    <breakpoint-manager />\n    <watches-manager />\n  </component>\n  <component name=\"editorHistoryManager\">\n    <entry file=\"file://$PROJECT_DIR$/src/main/java/com/mengyunzhi/ApiApplication.java\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"0\">\n          <caret line=\"0\" column=\"0\" lean-forward=\"false\" selection-start-line=\"0\" selection-start-column=\"0\" selection-end-line=\"0\" selection-end-column=\"0\" />\n          <folding>\n            <element signature=\"imports\" expanded=\"true\" />\n            <element signature=\"e#565#566#0\" expanded=\"true\" />\n            <element signature=\"e#630#631#0\" expanded=\"true\" />\n            <element signature=\"e#705#957#0\" expanded=\"true\" />\n            <element signature=\"e#956#957#0\" expanded=\"true\" />\n          </folding>\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/src/main/java/com/mengyunzhi/repository/UserRepository.java\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"180\">\n          <caret line=\"6\" column=\"7\" lean-forward=\"false\" selection-start-line=\"6\" selection-start-column=\"7\" selection-end-line=\"6\" selection-end-column=\"7\" />\n          <folding />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/src/main/java/com/mengyunzhi/repository/User.java\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"270\">\n          <caret line=\"15\" column=\"17\" lean-forward=\"false\" selection-start-line=\"15\" selection-start-column=\"13\" selection-end-line=\"15\" selection-end-column=\"17\" />\n          <folding>\n            <element signature=\"imports\" expanded=\"true\" />\n            <element signature=\"e#889#890#0\" expanded=\"true\" />\n            <element signature=\"e#928#929#0\" expanded=\"true\" />\n            <element signature=\"e#955#956#0\" expanded=\"true\" />\n            <element signature=\"e#980#981#0\" expanded=\"true\" />\n            <element signature=\"e#1014#1015#0\" expanded=\"true\" />\n            <element signature=\"e#1042#1043#0\" expanded=\"true\" />\n            <element signature=\"e#1073#1074#0\" expanded=\"true\" />\n            <element signature=\"e#1100#1101#0\" expanded=\"true\" />\n            <element signature=\"e#1140#1141#0\" expanded=\"true\" />\n            <element signature=\"e#1172#1173#0\" expanded=\"true\" />\n            <element signature=\"e#1207#1208#0\" expanded=\"true\" />\n            <element signature=\"e#1238#1239#0\" expanded=\"true\" />\n            <element signature=\"e#1286#1287#0\" expanded=\"true\" />\n            <element signature=\"e#1326#1327#0\" expanded=\"true\" />\n            <element signature=\"e#1361#1362#0\" expanded=\"true\" />\n            <element signature=\"e#1392#1393#0\" expanded=\"true\" />\n            <element signature=\"e#1440#1441#0\" expanded=\"true\" />\n            <element signature=\"e#1480#1481#0\" expanded=\"true\" />\n            <element signature=\"e#1519#1520#0\" expanded=\"true\" />\n            <element signature=\"e#1552#1553#0\" expanded=\"true\" />\n            <element signature=\"e#1606#1607#0\" expanded=\"true\" />\n            <element signature=\"e#1650#1651#0\" expanded=\"true\" />\n            <element signature=\"e#1689#1690#0\" expanded=\"true\" />\n            <element signature=\"e#1722#1723#0\" expanded=\"true\" />\n            <element signature=\"e#1776#1777#0\" expanded=\"true\" />\n            <element signature=\"e#1820#1821#0\" expanded=\"true\" />\n          </folding>\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/src/test/java/com/mengyunzhi/repository/UserRepositoryTest.java\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"450\">\n          <caret line=\"18\" column=\"0\" lean-forward=\"false\" selection-start-line=\"18\" selection-start-column=\"0\" selection-end-line=\"18\" selection-end-column=\"0\" />\n          <folding>\n            <element signature=\"imports\" expanded=\"true\" />\n          </folding>\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/src/main/java/com/mengyunzhi/controller/UserController.java\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"510\">\n          <caret line=\"26\" column=\"35\" lean-forward=\"false\" selection-start-line=\"26\" selection-start-column=\"35\" selection-end-line=\"26\" selection-end-column=\"35\" />\n          <folding>\n            <element signature=\"imports\" expanded=\"true\" />\n            <element signature=\"e#772#773#0\" expanded=\"true\" />\n            <element signature=\"e#814#815#0\" expanded=\"true\" />\n          </folding>\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/src/main/java/com/mengyunzhi/service/UserService.java\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"180\">\n          <caret line=\"6\" column=\"7\" lean-forward=\"false\" selection-start-line=\"6\" selection-start-column=\"7\" selection-end-line=\"6\" selection-end-column=\"7\" />\n          <folding />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/src/main/java/com/mengyunzhi/service/UserServiceImpl.java\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"240\">\n          <caret line=\"11\" column=\"8\" lean-forward=\"false\" selection-start-line=\"11\" selection-start-column=\"8\" selection-end-line=\"11\" selection-end-column=\"8\" />\n          <folding>\n            <element signature=\"imports\" expanded=\"true\" />\n            <element signature=\"e#490#491#0\" expanded=\"true\" />\n          </folding>\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/8.5.23/tomcat-embed-core-8.5.23.jar!/org/apache/catalina/User.class\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"180\">\n          <caret line=\"10\" column=\"17\" lean-forward=\"false\" selection-start-line=\"10\" selection-start-column=\"17\" selection-end-line=\"10\" selection-end-column=\"17\" />\n          <folding />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/src/test/java/com/mengyunzhi/repository/RepositoryTest.java\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"300\">\n          <caret line=\"14\" column=\"15\" lean-forward=\"false\" selection-start-line=\"14\" selection-start-column=\"15\" selection-end-line=\"14\" selection-end-column=\"15\" />\n          <folding>\n            <element signature=\"imports\" expanded=\"true\" />\n          </folding>\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/src/test/java/com/mengyunzhi/ApiApplicationTests.java\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"150\">\n          <caret line=\"5\" column=\"32\" lean-forward=\"false\" selection-start-line=\"5\" selection-start-column=\"32\" selection-end-line=\"5\" selection-end-column=\"32\" />\n          <folding />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/src/main/java/com/mengyunzhi/ApiApplication.java\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"0\">\n          <caret line=\"0\" column=\"0\" lean-forward=\"false\" selection-start-line=\"0\" selection-start-column=\"0\" selection-end-line=\"0\" selection-end-column=\"0\" />\n          <folding>\n            <element signature=\"imports\" expanded=\"true\" />\n            <element signature=\"e#565#566#0\" expanded=\"true\" />\n            <element signature=\"e#630#631#0\" expanded=\"true\" />\n            <element signature=\"e#705#957#0\" expanded=\"true\" />\n            <element signature=\"e#956#957#0\" expanded=\"true\" />\n          </folding>\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/src/main/java/com/mengyunzhi/repository/User.java\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"450\">\n          <caret line=\"15\" column=\"17\" lean-forward=\"false\" selection-start-line=\"15\" selection-start-column=\"13\" selection-end-line=\"15\" selection-end-column=\"17\" />\n          <folding>\n            <element signature=\"imports\" expanded=\"true\" />\n            <element signature=\"e#889#890#0\" expanded=\"true\" />\n            <element signature=\"e#928#929#0\" expanded=\"true\" />\n            <element signature=\"e#955#956#0\" expanded=\"true\" />\n            <element signature=\"e#980#981#0\" expanded=\"true\" />\n            <element signature=\"e#1014#1015#0\" expanded=\"true\" />\n            <element signature=\"e#1042#1043#0\" expanded=\"true\" />\n            <element signature=\"e#1073#1074#0\" expanded=\"true\" />\n            <element signature=\"e#1100#1101#0\" expanded=\"true\" />\n            <element signature=\"e#1140#1141#0\" expanded=\"true\" />\n            <element signature=\"e#1172#1173#0\" expanded=\"true\" />\n            <element signature=\"e#1207#1208#0\" expanded=\"true\" />\n            <element signature=\"e#1238#1239#0\" expanded=\"true\" />\n            <element signature=\"e#1286#1287#0\" expanded=\"true\" />\n            <element signature=\"e#1326#1327#0\" expanded=\"true\" />\n            <element signature=\"e#1361#1362#0\" expanded=\"true\" />\n            <element signature=\"e#1392#1393#0\" expanded=\"true\" />\n            <element signature=\"e#1440#1441#0\" expanded=\"true\" />\n            <element signature=\"e#1480#1481#0\" expanded=\"true\" />\n            <element signature=\"e#1519#1520#0\" expanded=\"true\" />\n            <element signature=\"e#1552#1553#0\" expanded=\"true\" />\n            <element signature=\"e#1606#1607#0\" expanded=\"true\" />\n            <element signature=\"e#1650#1651#0\" expanded=\"true\" />\n            <element signature=\"e#1689#1690#0\" expanded=\"true\" />\n            <element signature=\"e#1722#1723#0\" expanded=\"true\" />\n            <element signature=\"e#1776#1777#0\" expanded=\"true\" />\n            <element signature=\"e#1820#1821#0\" expanded=\"true\" />\n          </folding>\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/src/main/java/com/mengyunzhi/repository/UserRepository.java\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"180\">\n          <caret line=\"6\" column=\"7\" lean-forward=\"false\" selection-start-line=\"6\" selection-start-column=\"7\" selection-end-line=\"6\" selection-end-column=\"7\" />\n          <folding />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/src/test/java/com/mengyunzhi/repository/UserRepositoryTest.java\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"450\">\n          <caret line=\"18\" column=\"0\" lean-forward=\"true\" selection-start-line=\"18\" selection-start-column=\"0\" selection-end-line=\"18\" selection-end-column=\"0\" />\n          <folding>\n            <element signature=\"imports\" expanded=\"true\" />\n          </folding>\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/src/main/java/com/mengyunzhi/controller/UserController.java\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"510\">\n          <caret line=\"26\" column=\"35\" lean-forward=\"false\" selection-start-line=\"26\" selection-start-column=\"35\" selection-end-line=\"26\" selection-end-column=\"35\" />\n          <folding>\n            <element signature=\"imports\" expanded=\"true\" />\n            <element signature=\"e#772#773#0\" expanded=\"true\" />\n            <element signature=\"e#814#815#0\" expanded=\"true\" />\n          </folding>\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/src/main/java/com/mengyunzhi/service/UserService.java\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"180\">\n          <caret line=\"6\" column=\"7\" lean-forward=\"false\" selection-start-line=\"6\" selection-start-column=\"7\" selection-end-line=\"6\" selection-end-column=\"7\" />\n          <folding />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/src/main/java/com/mengyunzhi/service/UserServiceImpl.java\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"240\">\n          <caret line=\"11\" column=\"8\" lean-forward=\"false\" selection-start-line=\"11\" selection-start-column=\"8\" selection-end-line=\"11\" selection-end-column=\"8\" />\n          <folding>\n            <element signature=\"imports\" expanded=\"true\" />\n            <element signature=\"e#490#491#0\" expanded=\"true\" />\n          </folding>\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/8.5.23/tomcat-embed-core-8.5.23.jar!/org/apache/catalina/User.class\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"180\">\n          <caret line=\"10\" column=\"17\" lean-forward=\"false\" selection-start-line=\"10\" selection-start-column=\"17\" selection-end-line=\"10\" selection-end-column=\"17\" />\n          <folding />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/src/test/java/com/mengyunzhi/repository/RepositoryTest.java\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"300\">\n          <caret line=\"14\" column=\"15\" lean-forward=\"false\" selection-start-line=\"14\" selection-start-column=\"15\" selection-end-line=\"14\" selection-end-column=\"15\" />\n          <folding>\n            <element signature=\"imports\" expanded=\"true\" />\n          </folding>\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/src/test/java/com/mengyunzhi/ApiApplicationTests.java\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"150\">\n          <caret line=\"5\" column=\"32\" lean-forward=\"false\" selection-start-line=\"5\" selection-start-column=\"32\" selection-end-line=\"5\" selection-end-column=\"32\" />\n          <folding />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/pom.xml\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"1620\">\n          <caret line=\"54\" column=\"8\" lean-forward=\"false\" selection-start-line=\"54\" selection-start-column=\"12\" selection-end-line=\"57\" selection-end-column=\"25\" />\n          <folding />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/src/main/resources/application.properties\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"90\">\n          <caret line=\"3\" column=\"66\" lean-forward=\"false\" selection-start-line=\"3\" selection-start-column=\"50\" selection-end-line=\"3\" selection-end-column=\"66\" />\n          <folding />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/src/main/java/com/mengyunzhi/ApiApplication.java\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"90\">\n          <caret line=\"4\" column=\"0\" lean-forward=\"false\" selection-start-line=\"4\" selection-start-column=\"0\" selection-end-line=\"4\" selection-end-column=\"0\" />\n          <folding>\n            <element signature=\"imports\" expanded=\"true\" />\n            <element signature=\"e#565#566#0\" expanded=\"true\" />\n            <element signature=\"e#630#631#0\" expanded=\"true\" />\n            <element signature=\"e#705#957#0\" expanded=\"true\" />\n            <element signature=\"e#956#957#0\" expanded=\"true\" />\n          </folding>\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/pom.xml\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"1620\">\n          <caret line=\"54\" column=\"8\" lean-forward=\"false\" selection-start-line=\"54\" selection-start-column=\"12\" selection-end-line=\"57\" selection-end-column=\"25\" />\n          <folding />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/src/main/resources/application.properties\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"90\">\n          <caret line=\"3\" column=\"66\" lean-forward=\"false\" selection-start-line=\"3\" selection-start-column=\"50\" selection-end-line=\"3\" selection-end-column=\"66\" />\n          <folding />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/src/main/java/com/mengyunzhi/ApiApplication.java\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"120\">\n          <caret line=\"4\" column=\"0\" lean-forward=\"false\" selection-start-line=\"4\" selection-start-column=\"0\" selection-end-line=\"4\" selection-end-column=\"0\" />\n          <folding>\n            <element signature=\"imports\" expanded=\"true\" />\n            <element signature=\"e#565#566#0\" expanded=\"true\" />\n            <element signature=\"e#630#631#0\" expanded=\"true\" />\n            <element signature=\"e#705#957#0\" expanded=\"true\" />\n            <element signature=\"e#956#957#0\" expanded=\"true\" />\n          </folding>\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/pom.xml\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"1620\">\n          <caret line=\"54\" column=\"8\" lean-forward=\"false\" selection-start-line=\"54\" selection-start-column=\"12\" selection-end-line=\"57\" selection-end-column=\"25\" />\n          <folding />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/src/main/resources/application.properties\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"90\">\n          <caret line=\"3\" column=\"66\" lean-forward=\"false\" selection-start-line=\"3\" selection-start-column=\"50\" selection-end-line=\"3\" selection-end-column=\"66\" />\n          <folding />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/src/main/java/com/mengyunzhi/ApiApplication.java\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"90\">\n          <caret line=\"4\" column=\"0\" lean-forward=\"false\" selection-start-line=\"4\" selection-start-column=\"0\" selection-end-line=\"4\" selection-end-column=\"0\" />\n          <folding>\n            <element signature=\"imports\" expanded=\"true\" />\n            <element signature=\"e#565#566#0\" expanded=\"true\" />\n            <element signature=\"e#630#631#0\" expanded=\"true\" />\n            <element signature=\"e#705#957#0\" expanded=\"true\" />\n            <element signature=\"e#956#957#0\" expanded=\"true\" />\n          </folding>\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/pom.xml\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"1620\">\n          <caret line=\"54\" column=\"8\" lean-forward=\"false\" selection-start-line=\"54\" selection-start-column=\"12\" selection-end-line=\"57\" selection-end-column=\"25\" />\n          <folding />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/src/main/resources/application.properties\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"90\">\n          <caret line=\"3\" column=\"66\" lean-forward=\"false\" selection-start-line=\"3\" selection-start-column=\"50\" selection-end-line=\"3\" selection-end-column=\"66\" />\n          <folding />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/src/main/java/com/mengyunzhi/ApiApplication.java\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"120\">\n          <caret line=\"4\" column=\"0\" lean-forward=\"false\" selection-start-line=\"4\" selection-start-column=\"0\" selection-end-line=\"4\" selection-end-column=\"0\" />\n          <folding>\n            <element signature=\"imports\" expanded=\"true\" />\n            <element signature=\"e#565#566#0\" expanded=\"true\" />\n            <element signature=\"e#630#631#0\" expanded=\"true\" />\n            <element signature=\"e#705#957#0\" expanded=\"true\" />\n            <element signature=\"e#956#957#0\" expanded=\"true\" />\n          </folding>\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/pom.xml\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"0\">\n          <caret line=\"54\" column=\"8\" lean-forward=\"false\" selection-start-line=\"54\" selection-start-column=\"12\" selection-end-line=\"57\" selection-end-column=\"25\" />\n          <folding />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/src/main/resources/application.properties\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"90\">\n          <caret line=\"3\" column=\"66\" lean-forward=\"false\" selection-start-line=\"3\" selection-start-column=\"50\" selection-end-line=\"3\" selection-end-column=\"66\" />\n          <folding />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/src/test/java/com/mengyunzhi/ApiApplicationTests.java\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"150\">\n          <caret line=\"5\" column=\"32\" lean-forward=\"false\" selection-start-line=\"5\" selection-start-column=\"32\" selection-end-line=\"5\" selection-end-column=\"32\" />\n          <folding />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/src/test/java/com/mengyunzhi/repository/RepositoryTest.java\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"300\">\n          <caret line=\"14\" column=\"15\" lean-forward=\"false\" selection-start-line=\"14\" selection-start-column=\"15\" selection-end-line=\"14\" selection-end-column=\"15\" />\n          <folding>\n            <element signature=\"imports\" expanded=\"true\" />\n          </folding>\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/src/main/java/com/mengyunzhi/repository/UserRepository.java\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"180\">\n          <caret line=\"6\" column=\"7\" lean-forward=\"false\" selection-start-line=\"6\" selection-start-column=\"7\" selection-end-line=\"6\" selection-end-column=\"7\" />\n          <folding />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/8.5.23/tomcat-embed-core-8.5.23.jar!/org/apache/catalina/User.class\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"180\">\n          <caret line=\"10\" column=\"17\" lean-forward=\"false\" selection-start-line=\"10\" selection-start-column=\"17\" selection-end-line=\"10\" selection-end-column=\"17\" />\n          <folding />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/src/test/java/com/mengyunzhi/repository/UserRepositoryTest.java\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"450\">\n          <caret line=\"18\" column=\"0\" lean-forward=\"false\" selection-start-line=\"18\" selection-start-column=\"0\" selection-end-line=\"18\" selection-end-column=\"0\" />\n          <folding>\n            <element signature=\"imports\" expanded=\"true\" />\n          </folding>\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/src/main/java/com/mengyunzhi/service/UserService.kt\" />\n    <entry file=\"file://$PROJECT_DIR$/src/main/java/com/mengyunzhi/repository/User.java\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"270\">\n          <caret line=\"15\" column=\"17\" lean-forward=\"false\" selection-start-line=\"15\" selection-start-column=\"13\" selection-end-line=\"15\" selection-end-column=\"17\" />\n          <folding>\n            <element signature=\"imports\" expanded=\"true\" />\n            <element signature=\"e#889#890#0\" expanded=\"true\" />\n            <element signature=\"e#928#929#0\" expanded=\"true\" />\n            <element signature=\"e#955#956#0\" expanded=\"true\" />\n            <element signature=\"e#980#981#0\" expanded=\"true\" />\n            <element signature=\"e#1014#1015#0\" expanded=\"true\" />\n            <element signature=\"e#1042#1043#0\" expanded=\"true\" />\n            <element signature=\"e#1073#1074#0\" expanded=\"true\" />\n            <element signature=\"e#1100#1101#0\" expanded=\"true\" />\n            <element signature=\"e#1140#1141#0\" expanded=\"true\" />\n            <element signature=\"e#1172#1173#0\" expanded=\"true\" />\n            <element signature=\"e#1207#1208#0\" expanded=\"true\" />\n            <element signature=\"e#1238#1239#0\" expanded=\"true\" />\n            <element signature=\"e#1286#1287#0\" expanded=\"true\" />\n            <element signature=\"e#1326#1327#0\" expanded=\"true\" />\n            <element signature=\"e#1361#1362#0\" expanded=\"true\" />\n            <element signature=\"e#1392#1393#0\" expanded=\"true\" />\n            <element signature=\"e#1440#1441#0\" expanded=\"true\" />\n            <element signature=\"e#1480#1481#0\" expanded=\"true\" />\n            <element signature=\"e#1519#1520#0\" expanded=\"true\" />\n            <element signature=\"e#1552#1553#0\" expanded=\"true\" />\n            <element signature=\"e#1606#1607#0\" expanded=\"true\" />\n            <element signature=\"e#1650#1651#0\" expanded=\"true\" />\n            <element signature=\"e#1689#1690#0\" expanded=\"true\" />\n            <element signature=\"e#1722#1723#0\" expanded=\"true\" />\n            <element signature=\"e#1776#1777#0\" expanded=\"true\" />\n            <element signature=\"e#1820#1821#0\" expanded=\"true\" />\n          </folding>\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/src/main/java/com/mengyunzhi/service/UserService.java\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"180\">\n          <caret line=\"6\" column=\"7\" lean-forward=\"false\" selection-start-line=\"6\" selection-start-column=\"7\" selection-end-line=\"6\" selection-end-column=\"7\" />\n          <folding />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/src/main/java/com/mengyunzhi/ApiApplication.java\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"450\">\n          <caret line=\"28\" column=\"5\" lean-forward=\"false\" selection-start-line=\"28\" selection-start-column=\"5\" selection-end-line=\"28\" selection-end-column=\"5\" />\n          <folding>\n            <element signature=\"imports\" expanded=\"true\" />\n            <element signature=\"e#565#566#0\" expanded=\"true\" />\n            <element signature=\"e#630#631#0\" expanded=\"true\" />\n            <element signature=\"e#705#957#0\" expanded=\"true\" />\n            <element signature=\"e#956#957#0\" expanded=\"true\" />\n          </folding>\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/src/main/java/com/mengyunzhi/controller/UserController.java\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"608\">\n          <caret line=\"26\" column=\"35\" lean-forward=\"false\" selection-start-line=\"26\" selection-start-column=\"35\" selection-end-line=\"26\" selection-end-column=\"35\" />\n          <folding>\n            <element signature=\"imports\" expanded=\"true\" />\n            <element signature=\"e#772#773#0\" expanded=\"true\" />\n            <element signature=\"e#814#815#0\" expanded=\"true\" />\n          </folding>\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/src/main/java/com/mengyunzhi/service/UserServiceImpl.java\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"540\">\n          <caret line=\"18\" column=\"0\" lean-forward=\"false\" selection-start-line=\"18\" selection-start-column=\"0\" selection-end-line=\"18\" selection-end-column=\"0\" />\n          <folding>\n            <element signature=\"imports\" expanded=\"true\" />\n            <element signature=\"e#490#491#0\" expanded=\"true\" />\n          </folding>\n        </state>\n      </provider>\n    </entry>\n  </component>\n  <component name=\"masterDetails\">\n    <states>\n      <state key=\"ProjectJDKs.UI\">\n        <settings>\n          <last-edited>1.8</last-edited>\n          <splitter-proportions>\n            <option name=\"proportions\">\n              <list>\n                <option value=\"0.2\" />\n              </list>\n            </option>\n          </splitter-proportions>\n        </settings>\n      </state>\n    </states>\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- ../api/.idea/workspace.xml	(date 1512224247000)
++++ ../api/.idea/workspace.xml	(revision )
+@@ -2,15 +2,8 @@
+ <project version="4">
+   <component name="ChangeListManager">
+     <list default="true" id="7da2c26e-e06b-48a0-a34b-e70cd8a973e0" name="Default" comment="">
+-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../webapp/app/styles/css/loading.css" />
+-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../webapp/app/styles/css/style.css" />
++      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../webapp/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../webapp/.idea/workspace.xml" />
+-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../webapp/app/index.html" afterPath="$PROJECT_DIR$/../webapp/app/index.html" />
+-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../webapp/app/scripts/app.js" afterPath="$PROJECT_DIR$/../webapp/app/scripts/app.js" />
+-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../webapp/app/scripts/controllers/login.js" afterPath="$PROJECT_DIR$/../webapp/app/scripts/controllers/login.js" />
+-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../webapp/app/views/login.html" afterPath="$PROJECT_DIR$/../webapp/app/views/login.html" />
+-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../webapp/bower.json" afterPath="$PROJECT_DIR$/../webapp/bower.json" />
+-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../webapp/test/karma.conf.js" afterPath="$PROJECT_DIR$/../webapp/test/karma.conf.js" />
+     </list>
+     <ignored path="$PROJECT_DIR$/out/" />
+     <ignored path="$PROJECT_DIR$/target/" />
+@@ -26,14 +19,12 @@
+       <file leaf-file-name="ApiApplication.java" pinned="false" current-in-tab="false">
+         <entry file="file://$PROJECT_DIR$/src/main/java/com/mengyunzhi/ApiApplication.java">
+           <provider selected="true" editor-type-id="text-editor">
+-            <state relative-caret-position="450">
++            <state relative-caret-position="630">
+               <caret line="28" column="5" lean-forward="false" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+               <folding>
+                 <element signature="imports" expanded="true" />
+                 <element signature="e#565#566#0" expanded="true" />
+                 <element signature="e#630#631#0" expanded="true" />
+-                <element signature="e#705#957#0" expanded="true" />
+-                <element signature="e#956#957#0" expanded="true" />
+               </folding>
+             </state>
+           </provider>
+@@ -102,7 +93,7 @@
+       <file leaf-file-name="UserController.java" pinned="false" current-in-tab="false">
+         <entry file="file://$PROJECT_DIR$/src/main/java/com/mengyunzhi/controller/UserController.java">
+           <provider selected="true" editor-type-id="text-editor">
+-            <state relative-caret-position="608">
++            <state relative-caret-position="510">
+               <caret line="26" column="35" lean-forward="false" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
+               <folding>
+                 <element signature="imports" expanded="true" />
+@@ -126,10 +117,11 @@
+       <file leaf-file-name="UserServiceImpl.java" pinned="false" current-in-tab="true">
+         <entry file="file://$PROJECT_DIR$/src/main/java/com/mengyunzhi/service/UserServiceImpl.java">
+           <provider selected="true" editor-type-id="text-editor">
+-            <state relative-caret-position="540">
+-              <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
++            <state relative-caret-position="630">
++              <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+               <folding>
+                 <element signature="imports" expanded="true" />
++                <element signature="e#441#442#0" expanded="true" />
+                 <element signature="e#490#491#0" expanded="true" />
+               </folding>
+             </state>
+@@ -187,9 +179,6 @@
+       <projects_view />
+     </option>
+   </component>
+-  <component name="HighlightingSettingsPerFile">
+-    <setting file="dummy://restClient/response7.json" root0="SKIP_INSPECTION" />
+-  </component>
+   <component name="IdeDocumentHistory">
+     <option name="CHANGED_PATHS">
+       <list>
+@@ -201,9 +190,9 @@
+         <option value="$PROJECT_DIR$/src/test/java/com/mengyunzhi/repository/UserRepositoryTest.java" />
+         <option value="$PROJECT_DIR$/src/main/java/com/mengyunzhi/service/UserService.kt" />
+         <option value="$PROJECT_DIR$/src/main/java/com/mengyunzhi/service/UserService.java" />
+-        <option value="$PROJECT_DIR$/src/main/java/com/mengyunzhi/service/UserServiceImpl.java" />
+         <option value="$PROJECT_DIR$/src/main/java/com/mengyunzhi/controller/UserController.java" />
+         <option value="$PROJECT_DIR$/src/main/java/com/mengyunzhi/ApiApplication.java" />
++        <option value="$PROJECT_DIR$/src/main/java/com/mengyunzhi/service/UserServiceImpl.java" />
+       </list>
+     </option>
+   </component>
+@@ -244,7 +233,7 @@
+       <foldersAlwaysOnTop value="true" />
+     </navigator>
+     <panes>
+-      <pane id="Scope" />
++      <pane id="AndroidView" />
+       <pane id="ProjectPane">
+         <subPane>
+           <expand>
+@@ -321,7 +310,7 @@
+       </pane>
+       <pane id="Scratches" />
+       <pane id="PackagesPane" />
+-      <pane id="AndroidView" />
++      <pane id="Scope" />
+     </panes>
+   </component>
+   <component name="PropertiesComponent">
+@@ -555,6 +544,7 @@
+       <workItem from="1511963226006" duration="3141000" />
+       <workItem from="1512019952125" duration="324000" />
+       <workItem from="1512107876521" duration="3678000" />
++      <workItem from="1512194389953" duration="925000" />
+     </task>
+     <servers />
+   </component>
+@@ -564,27 +554,25 @@
+     </history-entry>
+   </component>
+   <component name="TimeTrackingManager">
+-    <option name="totallyTimeSpent" value="13020000" />
++    <option name="totallyTimeSpent" value="13945000" />
+   </component>
+   <component name="ToolWindowManager">
+     <frame x="1431" y="-4" width="1855" height="1084" extended-state="6" />
+     <layout>
+       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+-      <window_info id="REST Client" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32985386" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4697286" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2721585" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18036404" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
++      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18201876" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+@@ -597,7 +585,9 @@
+       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
++      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
++      <window_info id="REST Client" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32985386" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+     </layout>
+   </component>
+@@ -612,6 +602,64 @@
+     <watches-manager />
+   </component>
+   <component name="editorHistoryManager">
++    <entry file="file://$PROJECT_DIR$/src/main/java/com/mengyunzhi/controller/UserController.java">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="510">
++          <caret line="26" column="35" lean-forward="false" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
++          <folding>
++            <element signature="imports" expanded="true" />
++            <element signature="e#772#773#0" expanded="true" />
++            <element signature="e#814#815#0" expanded="true" />
++          </folding>
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/src/main/java/com/mengyunzhi/service/UserService.java">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="180">
++          <caret line="6" column="7" lean-forward="false" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
++          <folding />
++        </state>
++      </provider>
++    </entry>
++    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/8.5.23/tomcat-embed-core-8.5.23.jar!/org/apache/catalina/User.class">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="180">
++          <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
++          <folding />
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/src/test/java/com/mengyunzhi/repository/RepositoryTest.java">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="300">
++          <caret line="14" column="15" lean-forward="false" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
++          <folding>
++            <element signature="imports" expanded="true" />
++          </folding>
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/src/test/java/com/mengyunzhi/ApiApplicationTests.java">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="150">
++          <caret line="5" column="32" lean-forward="false" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
++          <folding />
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/src/main/java/com/mengyunzhi/service/UserServiceImpl.java">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="450">
++          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
++          <folding>
++            <element signature="imports" expanded="true" />
++            <element signature="e#441#442#0" expanded="true" />
++            <element signature="e#490#491#0" expanded="true" />
++          </folding>
++        </state>
++      </provider>
++    </entry>
+     <entry file="file://$PROJECT_DIR$/src/main/java/com/mengyunzhi/ApiApplication.java">
+       <provider selected="true" editor-type-id="text-editor">
+         <state relative-caret-position="0">
+@@ -620,8 +668,6 @@
+             <element signature="imports" expanded="true" />
+             <element signature="e#565#566#0" expanded="true" />
+             <element signature="e#630#631#0" expanded="true" />
+-            <element signature="e#705#957#0" expanded="true" />
+-            <element signature="e#956#957#0" expanded="true" />
+           </folding>
+         </state>
+       </provider>
+@@ -706,6 +752,7 @@
+           <caret line="11" column="8" lean-forward="false" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+           <folding>
+             <element signature="imports" expanded="true" />
++            <element signature="e#441#442#0" expanded="true" />
+             <element signature="e#490#491#0" expanded="true" />
+           </folding>
+         </state>
+@@ -745,8 +792,6 @@
+             <element signature="imports" expanded="true" />
+             <element signature="e#565#566#0" expanded="true" />
+             <element signature="e#630#631#0" expanded="true" />
+-            <element signature="e#705#957#0" expanded="true" />
+-            <element signature="e#956#957#0" expanded="true" />
+           </folding>
+         </state>
+       </provider>
+@@ -831,6 +876,7 @@
+           <caret line="11" column="8" lean-forward="false" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+           <folding>
+             <element signature="imports" expanded="true" />
++            <element signature="e#441#442#0" expanded="true" />
+             <element signature="e#490#491#0" expanded="true" />
+           </folding>
+         </state>
+@@ -886,8 +932,6 @@
+             <element signature="imports" expanded="true" />
+             <element signature="e#565#566#0" expanded="true" />
+             <element signature="e#630#631#0" expanded="true" />
+-            <element signature="e#705#957#0" expanded="true" />
+-            <element signature="e#956#957#0" expanded="true" />
+           </folding>
+         </state>
+       </provider>
+@@ -916,8 +960,6 @@
+             <element signature="imports" expanded="true" />
+             <element signature="e#565#566#0" expanded="true" />
+             <element signature="e#630#631#0" expanded="true" />
+-            <element signature="e#705#957#0" expanded="true" />
+-            <element signature="e#956#957#0" expanded="true" />
+           </folding>
+         </state>
+       </provider>
+@@ -946,8 +988,6 @@
+             <element signature="imports" expanded="true" />
+             <element signature="e#565#566#0" expanded="true" />
+             <element signature="e#630#631#0" expanded="true" />
+-            <element signature="e#705#957#0" expanded="true" />
+-            <element signature="e#956#957#0" expanded="true" />
+           </folding>
+         </state>
+       </provider>
+@@ -976,8 +1016,6 @@
+             <element signature="imports" expanded="true" />
+             <element signature="e#565#566#0" expanded="true" />
+             <element signature="e#630#631#0" expanded="true" />
+-            <element signature="e#705#957#0" expanded="true" />
+-            <element signature="e#956#957#0" expanded="true" />
+           </folding>
+         </state>
+       </provider>
+@@ -1089,21 +1127,19 @@
+     </entry>
+     <entry file="file://$PROJECT_DIR$/src/main/java/com/mengyunzhi/ApiApplication.java">
+       <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="450">
++        <state relative-caret-position="630">
+           <caret line="28" column="5" lean-forward="false" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+           <folding>
+             <element signature="imports" expanded="true" />
+             <element signature="e#565#566#0" expanded="true" />
+             <element signature="e#630#631#0" expanded="true" />
+-            <element signature="e#705#957#0" expanded="true" />
+-            <element signature="e#956#957#0" expanded="true" />
+           </folding>
+         </state>
+       </provider>
+     </entry>
+     <entry file="file://$PROJECT_DIR$/src/main/java/com/mengyunzhi/controller/UserController.java">
+       <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="608">
++        <state relative-caret-position="510">
+           <caret line="26" column="35" lean-forward="false" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
+           <folding>
+             <element signature="imports" expanded="true" />
+@@ -1115,10 +1151,11 @@
+     </entry>
+     <entry file="file://$PROJECT_DIR$/src/main/java/com/mengyunzhi/service/UserServiceImpl.java">
+       <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="540">
+-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
++        <state relative-caret-position="630">
++          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+           <folding>
+             <element signature="imports" expanded="true" />
++            <element signature="e#441#442#0" expanded="true" />
+             <element signature="e#490#491#0" expanded="true" />
+           </folding>
+         </state>
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"c808ea9c-9610-4ab4-ae94-20223e7f2500\" name=\"Default\" comment=\"\">\n      <change type=\"NEW\" beforePath=\"\" afterPath=\"$PROJECT_DIR$/app/styles/css/loading.css\" />\n      <change type=\"NEW\" beforePath=\"\" afterPath=\"$PROJECT_DIR$/app/styles/css/style.css\" />\n      <change type=\"MODIFICATION\" beforePath=\"$PROJECT_DIR$/../api/.idea/workspace.xml\" afterPath=\"$PROJECT_DIR$/../api/.idea/workspace.xml\" />\n      <change type=\"MODIFICATION\" beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" />\n      <change type=\"MODIFICATION\" beforePath=\"$PROJECT_DIR$/app/index.html\" afterPath=\"$PROJECT_DIR$/app/index.html\" />\n      <change type=\"MODIFICATION\" beforePath=\"$PROJECT_DIR$/app/scripts/app.js\" afterPath=\"$PROJECT_DIR$/app/scripts/app.js\" />\n      <change type=\"MODIFICATION\" beforePath=\"$PROJECT_DIR$/app/scripts/controllers/login.js\" afterPath=\"$PROJECT_DIR$/app/scripts/controllers/login.js\" />\n      <change type=\"MODIFICATION\" beforePath=\"$PROJECT_DIR$/app/scripts/services/userserver.js\" afterPath=\"$PROJECT_DIR$/app/scripts/services/userserver.js\" />\n      <change type=\"MODIFICATION\" beforePath=\"$PROJECT_DIR$/app/views/login.html\" afterPath=\"$PROJECT_DIR$/app/views/login.html\" />\n      <change type=\"MODIFICATION\" beforePath=\"$PROJECT_DIR$/bower.json\" afterPath=\"$PROJECT_DIR$/bower.json\" />\n      <change type=\"MODIFICATION\" beforePath=\"$PROJECT_DIR$/test/karma.conf.js\" afterPath=\"$PROJECT_DIR$/test/karma.conf.js\" />\n    </list>\n    <ignored path=\"$PROJECT_DIR$/.tmp/\" />\n    <ignored path=\"$PROJECT_DIR$/temp/\" />\n    <ignored path=\"$PROJECT_DIR$/tmp/\" />\n    <option name=\"EXCLUDED_CONVERTED_TO_IGNORED\" value=\"true\" />\n    <option name=\"TRACKING_ENABLED\" value=\"true\" />\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"FileEditorManager\">\n    <leaf SIDE_TABS_SIZE_LIMIT_KEY=\"300\">\n      <file leaf-file-name=\"login.html\" pinned=\"false\" current-in-tab=\"false\">\n        <entry file=\"file://$PROJECT_DIR$/app/views/login.html\">\n          <provider selected=\"true\" editor-type-id=\"text-editor\">\n            <state relative-caret-position=\"360\">\n              <caret line=\"36\" column=\"0\" lean-forward=\"true\" selection-start-line=\"36\" selection-start-column=\"0\" selection-end-line=\"36\" selection-end-column=\"0\" />\n              <folding />\n            </state>\n          </provider>\n        </entry>\n      </file>\n      <file leaf-file-name=\"login.js\" pinned=\"false\" current-in-tab=\"false\">\n        <entry file=\"file://$PROJECT_DIR$/app/scripts/controllers/login.js\">\n          <provider selected=\"true\" editor-type-id=\"text-editor\">\n            <state relative-caret-position=\"741\">\n              <caret line=\"32\" column=\"30\" lean-forward=\"false\" selection-start-line=\"32\" selection-start-column=\"30\" selection-end-line=\"32\" selection-end-column=\"30\" />\n              <folding />\n            </state>\n          </provider>\n        </entry>\n      </file>\n      <file leaf-file-name=\"main.html\" pinned=\"false\" current-in-tab=\"false\">\n        <entry file=\"file://$PROJECT_DIR$/app/views/main.html\">\n          <provider selected=\"true\" editor-type-id=\"text-editor\">\n            <state relative-caret-position=\"485\">\n              <caret line=\"18\" column=\"6\" lean-forward=\"false\" selection-start-line=\"18\" selection-start-column=\"6\" selection-end-line=\"18\" selection-end-column=\"6\" />\n              <folding />\n            </state>\n          </provider>\n        </entry>\n      </file>\n      <file leaf-file-name=\"favicon.ico\" pinned=\"false\" current-in-tab=\"false\">\n        <entry file=\"file://$PROJECT_DIR$/app/favicon.ico\">\n          <provider selected=\"true\" editor-type-id=\"images\">\n            <state />\n          </provider>\n        </entry>\n      </file>\n      <file leaf-file-name=\"index.html\" pinned=\"false\" current-in-tab=\"false\">\n        <entry file=\"file://$PROJECT_DIR$/app/index.html\">\n          <provider selected=\"true\" editor-type-id=\"text-editor\">\n            <state relative-caret-position=\"329\">\n              <caret line=\"14\" column=\"84\" lean-forward=\"false\" selection-start-line=\"14\" selection-start-column=\"84\" selection-end-line=\"14\" selection-end-column=\"84\" />\n              <folding />\n            </state>\n          </provider>\n        </entry>\n      </file>\n      <file leaf-file-name=\"userserver.js\" pinned=\"false\" current-in-tab=\"true\">\n        <entry file=\"file://$PROJECT_DIR$/app/scripts/services/userserver.js\">\n          <provider selected=\"true\" editor-type-id=\"text-editor\">\n            <state relative-caret-position=\"750\">\n              <caret line=\"53\" column=\"22\" lean-forward=\"true\" selection-start-line=\"53\" selection-start-column=\"22\" selection-end-line=\"53\" selection-end-column=\"22\" />\n              <folding />\n            </state>\n          </provider>\n        </entry>\n      </file>\n      <file leaf-file-name=\"style.css\" pinned=\"false\" current-in-tab=\"false\">\n        <entry file=\"file://$PROJECT_DIR$/app/styles/css/style.css\">\n          <provider selected=\"true\" editor-type-id=\"text-editor\">\n            <state relative-caret-position=\"0\">\n              <caret line=\"0\" column=\"67302\" lean-forward=\"false\" selection-start-line=\"0\" selection-start-column=\"67302\" selection-end-line=\"0\" selection-end-column=\"67302\" />\n              <folding>\n                <element signature=\"e#56512#56763#2\" expanded=\"true\" />\n              </folding>\n            </state>\n          </provider>\n        </entry>\n      </file>\n      <file leaf-file-name=\"loading.css\" pinned=\"false\" current-in-tab=\"false\">\n        <entry file=\"file://$PROJECT_DIR$/app/styles/css/loading.css\">\n          <provider selected=\"true\" editor-type-id=\"text-editor\">\n            <state relative-caret-position=\"1230\">\n              <caret line=\"41\" column=\"1\" lean-forward=\"false\" selection-start-line=\"41\" selection-start-column=\"1\" selection-end-line=\"41\" selection-end-column=\"1\" />\n              <folding />\n            </state>\n          </provider>\n        </entry>\n      </file>\n      <file leaf-file-name=\"index.html\" pinned=\"false\" current-in-tab=\"false\">\n        <entry file=\"file://$PROJECT_DIR$/template/full/app/index.html\">\n          <provider selected=\"true\" editor-type-id=\"text-editor\">\n            <state relative-caret-position=\"150\">\n              <caret line=\"5\" column=\"4\" lean-forward=\"false\" selection-start-line=\"5\" selection-start-column=\"4\" selection-end-line=\"5\" selection-end-column=\"74\" />\n              <folding />\n            </state>\n          </provider>\n        </entry>\n      </file>\n      <file leaf-file-name=\"main.css\" pinned=\"false\" current-in-tab=\"false\">\n        <entry file=\"file://$PROJECT_DIR$/app/styles/main.css\">\n          <provider selected=\"true\" editor-type-id=\"text-editor\">\n            <state relative-caret-position=\"-1260\">\n              <caret line=\"0\" column=\"0\" lean-forward=\"false\" selection-start-line=\"0\" selection-start-column=\"0\" selection-end-line=\"0\" selection-end-column=\"0\" />\n              <folding />\n            </state>\n          </provider>\n        </entry>\n      </file>\n    </leaf>\n  </component>\n  <component name=\"FileTemplateManagerImpl\">\n    <option name=\"RECENT_TEMPLATES\">\n      <list>\n        <option value=\"JavaScript File\" />\n        <option value=\"HTML File\" />\n        <option value=\"CSS File\" />\n      </list>\n    </option>\n  </component>\n  <component name=\"FindInProjectRecents\">\n    <findStrings>\n      <find>Your income from the last year in sales product X.</find>\n      <find>navigation.html</find>\n      <find>content.html</find>\n      <find>content</find>\n      <find>webappAppjsApp</find>\n      <find>cfpLoadingB</find>\n      <find>editableOption</find>\n      <find>main.ht</find>\n      <find>gstat</find>\n      <find>Title</find>\n    </findStrings>\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$/..\" />\n  </component>\n  <component name=\"IdeDocumentHistory\">\n    <option name=\"CHANGED_PATHS\">\n      <list>\n        <option value=\"$PROJECT_DIR$/app/scripts/controllers/main.js\" />\n        <option value=\"$PROJECT_DIR$/app/styles/svg/loading-bars.svg\" />\n        <option value=\"$PROJECT_DIR$/template/full/app/index.html\" />\n        <option value=\"$PROJECT_DIR$/app/views/common/content.html\" />\n        <option value=\"$PROJECT_DIR$/app/views/dashboard.html\" />\n        <option value=\"$PROJECT_DIR$/app/scripts/webappApp.js\" />\n        <option value=\"$PROJECT_DIR$/bower.json\" />\n        <option value=\"$PROJECT_DIR$/app/scripts/config.js\" />\n        <option value=\"$PROJECT_DIR$/app/scripts/app.js\" />\n        <option value=\"$PROJECT_DIR$/app/views/login.html\" />\n        <option value=\"$PROJECT_DIR$/app/styles/css/loading.css\" />\n        <option value=\"$PROJECT_DIR$/app/styles/css/style.css\" />\n        <option value=\"$PROJECT_DIR$/app/index.html\" />\n        <option value=\"$PROJECT_DIR$/app/scripts/controllers/login.js\" />\n        <option value=\"$PROJECT_DIR$/app/scripts/services/userserver.js\" />\n      </list>\n    </option>\n  </component>\n  <component name=\"JsBuildToolGruntFileManager\" detection-done=\"true\" sorting=\"DEFINITION_ORDER\">\n    <gruntfile path=\"$PROJECT_DIR$/Gruntfile.js\" />\n  </component>\n  <component name=\"JsBuildToolPackageJson\" detection-done=\"true\" sorting=\"DEFINITION_ORDER\">\n    <package-json value=\"$PROJECT_DIR$/package.json\" />\n  </component>\n  <component name=\"JsGulpfileManager\">\n    <detection-done>true</detection-done>\n    <sorting>DEFINITION_ORDER</sorting>\n  </component>\n  <component name=\"NodeModulesDirectoryManager\">\n    <handled-path value=\"$PROJECT_DIR$/node_modules\" />\n    <handled-path value=\"$PROJECT_DIR$/template/full/node_modules\" />\n    <handled-path value=\"$PROJECT_DIR$/template/seed/node_modules\" />\n  </component>\n  <component name=\"ProjectFrameBounds\" extendedState=\"6\">\n    <option name=\"x\" value=\"1431\" />\n    <option name=\"y\" value=\"-4\" />\n    <option name=\"width\" value=\"1855\" />\n    <option name=\"height\" value=\"1084\" />\n  </component>\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\">\n    <ConfirmationsSetting value=\"2\" id=\"Add\" />\n  </component>\n  <component name=\"ProjectView\">\n    <navigator currentView=\"ProjectPane\" proportions=\"\" version=\"1\">\n      <flattenPackages />\n      <showMembers />\n      <showModules />\n      <showLibraryContents />\n      <hideEmptyPackages />\n      <abbreviatePackageNames />\n      <autoscrollToSource />\n      <autoscrollFromSource />\n      <sortByType />\n      <manualOrder />\n      <foldersAlwaysOnTop value=\"true\" />\n    </navigator>\n    <panes>\n      <pane id=\"Scratches\" />\n      <pane id=\"ProjectPane\">\n        <subPane>\n          <expand>\n            <path>\n              <item name=\"webapp\" type=\"b2602c69:ProjectViewProjectNode\" />\n              <item name=\"webapp\" type=\"462c0819:PsiDirectoryNode\" />\n            </path>\n            <path>\n              <item name=\"webapp\" type=\"b2602c69:ProjectViewProjectNode\" />\n              <item name=\"webapp\" type=\"462c0819:PsiDirectoryNode\" />\n              <item name=\"app\" type=\"462c0819:PsiDirectoryNode\" />\n            </path>\n            <path>\n              <item name=\"webapp\" type=\"b2602c69:ProjectViewProjectNode\" />\n              <item name=\"webapp\" type=\"462c0819:PsiDirectoryNode\" />\n              <item name=\"app\" type=\"462c0819:PsiDirectoryNode\" />\n              <item name=\"scripts\" type=\"462c0819:PsiDirectoryNode\" />\n            </path>\n            <path>\n              <item name=\"webapp\" type=\"b2602c69:ProjectViewProjectNode\" />\n              <item name=\"webapp\" type=\"462c0819:PsiDirectoryNode\" />\n              <item name=\"app\" type=\"462c0819:PsiDirectoryNode\" />\n              <item name=\"scripts\" type=\"462c0819:PsiDirectoryNode\" />\n              <item name=\"controllers\" type=\"462c0819:PsiDirectoryNode\" />\n            </path>\n            <path>\n              <item name=\"webapp\" type=\"b2602c69:ProjectViewProjectNode\" />\n              <item name=\"webapp\" type=\"462c0819:PsiDirectoryNode\" />\n              <item name=\"app\" type=\"462c0819:PsiDirectoryNode\" />\n              <item name=\"scripts\" type=\"462c0819:PsiDirectoryNode\" />\n              <item name=\"services\" type=\"462c0819:PsiDirectoryNode\" />\n            </path>\n            <path>\n              <item name=\"webapp\" type=\"b2602c69:ProjectViewProjectNode\" />\n              <item name=\"webapp\" type=\"462c0819:PsiDirectoryNode\" />\n              <item name=\"app\" type=\"462c0819:PsiDirectoryNode\" />\n              <item name=\"styles\" type=\"462c0819:PsiDirectoryNode\" />\n            </path>\n            <path>\n              <item name=\"webapp\" type=\"b2602c69:ProjectViewProjectNode\" />\n              <item name=\"webapp\" type=\"462c0819:PsiDirectoryNode\" />\n              <item name=\"app\" type=\"462c0819:PsiDirectoryNode\" />\n              <item name=\"styles\" type=\"462c0819:PsiDirectoryNode\" />\n              <item name=\"css\" type=\"462c0819:PsiDirectoryNode\" />\n            </path>\n            <path>\n              <item name=\"webapp\" type=\"b2602c69:ProjectViewProjectNode\" />\n              <item name=\"webapp\" type=\"462c0819:PsiDirectoryNode\" />\n              <item name=\"app\" type=\"462c0819:PsiDirectoryNode\" />\n              <item name=\"views\" type=\"462c0819:PsiDirectoryNode\" />\n            </path>\n            <path>\n              <item name=\"webapp\" type=\"b2602c69:ProjectViewProjectNode\" />\n              <item name=\"webapp\" type=\"462c0819:PsiDirectoryNode\" />\n              <item name=\"bower_components\" type=\"462c0819:PsiDirectoryNode\" />\n            </path>\n            <path>\n              <item name=\"webapp\" type=\"b2602c69:ProjectViewProjectNode\" />\n              <item name=\"webapp\" type=\"462c0819:PsiDirectoryNode\" />\n              <item name=\"template\" type=\"462c0819:PsiDirectoryNode\" />\n            </path>\n            <path>\n              <item name=\"webapp\" type=\"b2602c69:ProjectViewProjectNode\" />\n              <item name=\"webapp\" type=\"462c0819:PsiDirectoryNode\" />\n              <item name=\"template\" type=\"462c0819:PsiDirectoryNode\" />\n              <item name=\"full\" type=\"462c0819:PsiDirectoryNode\" />\n            </path>\n            <path>\n              <item name=\"webapp\" type=\"b2602c69:ProjectViewProjectNode\" />\n              <item name=\"webapp\" type=\"462c0819:PsiDirectoryNode\" />\n              <item name=\"template\" type=\"462c0819:PsiDirectoryNode\" />\n              <item name=\"full\" type=\"462c0819:PsiDirectoryNode\" />\n              <item name=\"app\" type=\"462c0819:PsiDirectoryNode\" />\n            </path>\n            <path>\n              <item name=\"webapp\" type=\"b2602c69:ProjectViewProjectNode\" />\n              <item name=\"webapp\" type=\"462c0819:PsiDirectoryNode\" />\n              <item name=\"template\" type=\"462c0819:PsiDirectoryNode\" />\n              <item name=\"full\" type=\"462c0819:PsiDirectoryNode\" />\n              <item name=\"app\" type=\"462c0819:PsiDirectoryNode\" />\n              <item name=\"scripts\" type=\"462c0819:PsiDirectoryNode\" />\n            </path>\n          </expand>\n          <select />\n        </subPane>\n      </pane>\n      <pane id=\"Scope\" />\n    </panes>\n  </component>\n  <component name=\"PropertiesComponent\">\n    <property name=\"WebServerToolWindowFactoryState\" value=\"false\" />\n    <property name=\"last_opened_file_path\" value=\"$PROJECT_DIR$\" />\n    <property name=\"nodejs_interpreter_path\" value=\"/usr/bin/node\" />\n    <property name=\"HbShouldOpenHtmlAsHb\" value=\"\" />\n    <property name=\"node.js.path.for.package.jscs\" value=\"project\" />\n    <property name=\"node.js.detected.package.jscs\" value=\"true\" />\n    <property name=\"node.js.selected.package.jscs\" value=\"$PROJECT_DIR$/node_modules/jscs\" />\n    <property name=\"node.js.path.for.package.tslint\" value=\"project\" />\n    <property name=\"node.js.detected.package.tslint\" value=\"true\" />\n    <property name=\"node.js.selected.package.tslint\" value=\"\" />\n    <property name=\"DefaultHtmlFileTemplate\" value=\"HTML File\" />\n    <property name=\"settings.editor.selected.configurable\" value=\"project.propVCSSupport.Mappings\" />\n    <property name=\"list.type.of.created.stylesheet\" value=\"CSS\" />\n  </component>\n  <component name=\"RunDashboard\">\n    <option name=\"ruleStates\">\n      <list>\n        <RuleState>\n          <option name=\"name\" value=\"ConfigurationTypeDashboardGroupingRule\" />\n        </RuleState>\n        <RuleState>\n          <option name=\"name\" value=\"StatusDashboardGroupingRule\" />\n        </RuleState>\n      </list>\n    </option>\n  </component>\n  <component name=\"ShelveChangesManager\" show_recycled=\"false\">\n    <option name=\"remove_strategy\" value=\"false\" />\n  </component>\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"c808ea9c-9610-4ab4-ae94-20223e7f2500\" name=\"Default\" comment=\"\" />\n      <created>1511614110382</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1511614110382</updated>\n      <workItem from=\"1511614112514\" duration=\"3168000\" />\n      <workItem from=\"1511750735189\" duration=\"23000\" />\n      <workItem from=\"1511787511278\" duration=\"3280000\" />\n      <workItem from=\"1511828364816\" duration=\"11000\" />\n      <workItem from=\"1511830728572\" duration=\"2759000\" />\n      <workItem from=\"1511963242892\" duration=\"1608000\" />\n      <workItem from=\"1512019924557\" duration=\"3021000\" />\n      <workItem from=\"1512040155574\" duration=\"1473000\" />\n      <workItem from=\"1512106246714\" duration=\"9104000\" />\n    </task>\n    <task id=\"LOCAL-00001\" summary=\"允许跨域请求\">\n      <created>1512110106155</created>\n      <option name=\"number\" value=\"00001\" />\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1512110106155</updated>\n    </task>\n    <task id=\"LOCAL-00002\" summary=\"增加ui.bootstrap\">\n      <created>1512114104044</created>\n      <option name=\"number\" value=\"00002\" />\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1512114104044</updated>\n    </task>\n    <option name=\"localTasksCounter\" value=\"3\" />\n    <servers />\n  </component>\n  <component name=\"TimeTrackingManager\">\n    <option name=\"totallyTimeSpent\" value=\"24447000\" />\n  </component>\n  <component name=\"ToolWindowManager\">\n    <frame x=\"1431\" y=\"-4\" width=\"1857\" height=\"1092\" extended-state=\"6\" />\n    <editor active=\"true\" />\n    <layout>\n      <window_info id=\"Project\" active=\"false\" anchor=\"left\" auto_hide=\"false\" internal_type=\"DOCKED\" type=\"DOCKED\" visible=\"true\" show_stripe_button=\"true\" weight=\"0.174482\" sideWeight=\"0.5\" order=\"0\" side_tool=\"false\" content_ui=\"combo\" />\n      <window_info id=\"TODO\" active=\"false\" anchor=\"bottom\" auto_hide=\"false\" internal_type=\"DOCKED\" type=\"DOCKED\" visible=\"false\" show_stripe_button=\"true\" weight=\"0.33\" sideWeight=\"0.5\" order=\"6\" side_tool=\"false\" content_ui=\"tabs\" />\n      <window_info id=\"Grunt \" active=\"false\" anchor=\"left\" auto_hide=\"false\" internal_type=\"DOCKED\" type=\"DOCKED\" visible=\"false\" show_stripe_button=\"true\" weight=\"0.33\" sideWeight=\"0.5\" order=\"2\" side_tool=\"true\" content_ui=\"tabs\" />\n      <window_info id=\"Event Log\" active=\"false\" anchor=\"bottom\" auto_hide=\"false\" internal_type=\"DOCKED\" type=\"DOCKED\" visible=\"false\" show_stripe_button=\"true\" weight=\"0.33\" sideWeight=\"0.5\" order=\"7\" side_tool=\"true\" content_ui=\"tabs\" />\n      <window_info id=\"Find\" active=\"false\" anchor=\"bottom\" auto_hide=\"false\" internal_type=\"DOCKED\" type=\"DOCKED\" visible=\"false\" show_stripe_button=\"true\" weight=\"0.33\" sideWeight=\"0.5\" order=\"1\" side_tool=\"false\" content_ui=\"tabs\" />\n      <window_info id=\"Version Control\" active=\"false\" anchor=\"bottom\" auto_hide=\"false\" internal_type=\"DOCKED\" type=\"DOCKED\" visible=\"false\" show_stripe_button=\"true\" weight=\"0.33\" sideWeight=\"0.5\" order=\"7\" side_tool=\"false\" content_ui=\"tabs\" />\n      <window_info id=\"npm\" active=\"false\" anchor=\"left\" auto_hide=\"false\" internal_type=\"DOCKED\" type=\"DOCKED\" visible=\"false\" show_stripe_button=\"true\" weight=\"0.33\" sideWeight=\"0.5\" order=\"2\" side_tool=\"true\" content_ui=\"tabs\" />\n      <window_info id=\"Run\" active=\"false\" anchor=\"bottom\" auto_hide=\"false\" internal_type=\"DOCKED\" type=\"DOCKED\" visible=\"false\" show_stripe_button=\"true\" weight=\"0.33\" sideWeight=\"0.5\" order=\"2\" side_tool=\"false\" content_ui=\"tabs\" />\n      <window_info id=\"Structure\" active=\"false\" anchor=\"left\" auto_hide=\"false\" internal_type=\"DOCKED\" type=\"DOCKED\" visible=\"false\" show_stripe_button=\"true\" weight=\"0.25\" sideWeight=\"0.5\" order=\"1\" side_tool=\"false\" content_ui=\"tabs\" />\n      <window_info id=\"Terminal\" active=\"false\" anchor=\"bottom\" auto_hide=\"false\" internal_type=\"DOCKED\" type=\"DOCKED\" visible=\"false\" show_stripe_button=\"true\" weight=\"0.40083507\" sideWeight=\"0.5\" order=\"7\" side_tool=\"false\" content_ui=\"tabs\" />\n      <window_info id=\"Favorites\" active=\"false\" anchor=\"left\" auto_hide=\"false\" internal_type=\"DOCKED\" type=\"DOCKED\" visible=\"false\" show_stripe_button=\"true\" weight=\"0.33\" sideWeight=\"0.5\" order=\"2\" side_tool=\"true\" content_ui=\"tabs\" />\n      <window_info id=\"Debug\" active=\"false\" anchor=\"bottom\" auto_hide=\"false\" internal_type=\"DOCKED\" type=\"DOCKED\" visible=\"false\" show_stripe_button=\"true\" weight=\"0.4\" sideWeight=\"0.5\" order=\"3\" side_tool=\"false\" content_ui=\"tabs\" />\n      <window_info id=\"Cvs\" active=\"false\" anchor=\"bottom\" auto_hide=\"false\" internal_type=\"DOCKED\" type=\"DOCKED\" visible=\"false\" show_stripe_button=\"true\" weight=\"0.25\" sideWeight=\"0.5\" order=\"4\" side_tool=\"false\" content_ui=\"tabs\" />\n      <window_info id=\"Message\" active=\"false\" anchor=\"bottom\" auto_hide=\"false\" internal_type=\"DOCKED\" type=\"DOCKED\" visible=\"false\" show_stripe_button=\"true\" weight=\"0.33\" sideWeight=\"0.5\" order=\"0\" side_tool=\"false\" content_ui=\"tabs\" />\n      <window_info id=\"Commander\" active=\"false\" anchor=\"right\" auto_hide=\"false\" internal_type=\"DOCKED\" type=\"DOCKED\" visible=\"false\" show_stripe_button=\"true\" weight=\"0.4\" sideWeight=\"0.5\" order=\"0\" side_tool=\"false\" content_ui=\"tabs\" />\n      <window_info id=\"Inspection\" active=\"false\" anchor=\"bottom\" auto_hide=\"false\" internal_type=\"DOCKED\" type=\"DOCKED\" visible=\"false\" show_stripe_button=\"true\" weight=\"0.4\" sideWeight=\"0.5\" order=\"5\" side_tool=\"false\" content_ui=\"tabs\" />\n      <window_info id=\"Hierarchy\" active=\"false\" anchor=\"right\" auto_hide=\"false\" internal_type=\"DOCKED\" type=\"DOCKED\" visible=\"false\" show_stripe_button=\"true\" weight=\"0.25\" sideWeight=\"0.5\" order=\"2\" side_tool=\"false\" content_ui=\"combo\" />\n      <window_info id=\"Ant Build\" active=\"false\" anchor=\"right\" auto_hide=\"false\" internal_type=\"DOCKED\" type=\"DOCKED\" visible=\"false\" show_stripe_button=\"true\" weight=\"0.25\" sideWeight=\"0.5\" order=\"1\" side_tool=\"false\" content_ui=\"tabs\" />\n    </layout>\n  </component>\n  <component name=\"TypeScriptGeneratedFilesManager\">\n    <option name=\"version\" value=\"1\" />\n  </component>\n  <component name=\"VcsContentAnnotationSettings\">\n    <option name=\"myLimit\" value=\"2678400000\" />\n  </component>\n  <component name=\"VcsManagerConfiguration\">\n    <MESSAGE value=\"允许跨域请求\" />\n    <MESSAGE value=\"增加ui.bootstrap\" />\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"增加ui.bootstrap\" />\n  </component>\n  <component name=\"XDebuggerManager\">\n    <breakpoint-manager />\n    <watches-manager />\n  </component>\n  <component name=\"editorHistoryManager\">\n    <entry file=\"file://$PROJECT_DIR$/app/scripts/controllers/main.js\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"270\">\n          <caret line=\"9\" column=\"56\" lean-forward=\"false\" selection-start-line=\"9\" selection-start-column=\"56\" selection-end-line=\"9\" selection-end-column=\"56\" />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/app/scripts/config.js\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"2100\">\n          <caret line=\"70\" column=\"0\" lean-forward=\"false\" selection-start-line=\"70\" selection-start-column=\"0\" selection-end-line=\"70\" selection-end-column=\"0\" />\n          <folding />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/template/full/app/views/common/content.html\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"0\">\n          <caret line=\"0\" column=\"0\" lean-forward=\"false\" selection-start-line=\"0\" selection-start-column=\"0\" selection-end-line=\"0\" selection-end-column=\"0\" />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/template/full/app/index.html\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"330\">\n          <caret line=\"57\" column=\"17\" lean-forward=\"true\" selection-start-line=\"57\" selection-start-column=\"17\" selection-end-line=\"57\" selection-end-column=\"17\" />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/app/scripts/app.js\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"540\">\n          <caret line=\"18\" column=\"5\" lean-forward=\"false\" selection-start-line=\"18\" selection-start-column=\"5\" selection-end-line=\"18\" selection-end-column=\"5\" />\n          <folding />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/app/views/common/content.html\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"30\">\n          <caret line=\"1\" column=\"0\" lean-forward=\"true\" selection-start-line=\"1\" selection-start-column=\"0\" selection-end-line=\"1\" selection-end-column=\"0\" />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/template/full/app/scripts/app.js\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"0\">\n          <caret line=\"0\" column=\"0\" lean-forward=\"false\" selection-start-line=\"0\" selection-start-column=\"0\" selection-end-line=\"0\" selection-end-column=\"0\" />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/template/full/app/scripts/config.js\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"18390\">\n          <caret line=\"613\" column=\"36\" lean-forward=\"true\" selection-start-line=\"613\" selection-start-column=\"36\" selection-end-line=\"613\" selection-end-column=\"36\" />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/app/styles/svg/loading-bars.svg\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"510\">\n          <caret line=\"17\" column=\"0\" lean-forward=\"true\" selection-start-line=\"17\" selection-start-column=\"0\" selection-end-line=\"17\" selection-end-column=\"0\" />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/template/full/app/scripts/controllers/main.js\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"6300\">\n          <caret line=\"210\" column=\"15\" lean-forward=\"true\" selection-start-line=\"210\" selection-start-column=\"15\" selection-end-line=\"210\" selection-end-column=\"15\" />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/app/scripts/controllers/main.js\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"270\">\n          <caret line=\"9\" column=\"56\" lean-forward=\"false\" selection-start-line=\"9\" selection-start-column=\"56\" selection-end-line=\"9\" selection-end-column=\"56\" />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/app/scripts/config.js\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"1470\">\n          <caret line=\"49\" column=\"4\" lean-forward=\"false\" selection-start-line=\"49\" selection-start-column=\"4\" selection-end-line=\"49\" selection-end-column=\"4\" />\n          <folding />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/app/index.html\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"0\">\n          <caret line=\"0\" column=\"0\" lean-forward=\"false\" selection-start-line=\"0\" selection-start-column=\"0\" selection-end-line=\"0\" selection-end-column=\"0\" />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/template/full/app/index.html\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"30\">\n          <caret line=\"1\" column=\"17\" lean-forward=\"false\" selection-start-line=\"1\" selection-start-column=\"17\" selection-end-line=\"1\" selection-end-column=\"17\" />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/bower_components/angular-route/angular-route.js\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"28290\">\n          <caret line=\"943\" column=\"0\" lean-forward=\"false\" selection-start-line=\"943\" selection-start-column=\"0\" selection-end-line=\"943\" selection-end-column=\"0\" />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/app/views/main.html\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"0\">\n          <caret line=\"0\" column=\"0\" lean-forward=\"false\" selection-start-line=\"0\" selection-start-column=\"0\" selection-end-line=\"0\" selection-end-column=\"0\" />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/app/scripts/app.js\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"660\">\n          <caret line=\"22\" column=\"31\" lean-forward=\"false\" selection-start-line=\"22\" selection-start-column=\"31\" selection-end-line=\"22\" selection-end-column=\"31\" />\n          <folding />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/app/scripts/controllers/main.js\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"0\">\n          <caret line=\"0\" column=\"0\" lean-forward=\"false\" selection-start-line=\"0\" selection-start-column=\"0\" selection-end-line=\"0\" selection-end-column=\"0\" />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/app/scripts/controllers/about.js\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"0\">\n          <caret line=\"0\" column=\"0\" lean-forward=\"false\" selection-start-line=\"0\" selection-start-column=\"0\" selection-end-line=\"0\" selection-end-column=\"0\" />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/bower_components/angular-route/angular-route.js\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"28290\">\n          <caret line=\"943\" column=\"0\" lean-forward=\"false\" selection-start-line=\"943\" selection-start-column=\"0\" selection-end-line=\"943\" selection-end-column=\"0\" />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/app/scripts/controllers/about.js\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"0\">\n          <caret line=\"0\" column=\"0\" lean-forward=\"false\" selection-start-line=\"0\" selection-start-column=\"0\" selection-end-line=\"0\" selection-end-column=\"0\" />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/template/full/app/views/common/navigation.html\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"326\">\n          <caret line=\"33\" column=\"0\" lean-forward=\"true\" selection-start-line=\"33\" selection-start-column=\"0\" selection-end-line=\"33\" selection-end-column=\"0\" />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/template/full/dist/views/common/content_small.html\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"0\">\n          <caret line=\"0\" column=\"288\" lean-forward=\"false\" selection-start-line=\"0\" selection-start-column=\"288\" selection-end-line=\"0\" selection-end-column=\"288\" />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/template/full/app/views/common/content.html\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"0\">\n          <caret line=\"0\" column=\"0\" lean-forward=\"false\" selection-start-line=\"0\" selection-start-column=\"0\" selection-end-line=\"0\" selection-end-column=\"0\" />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/template/full/app/scripts/controllers/main.js\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"6300\">\n          <caret line=\"210\" column=\"15\" lean-forward=\"false\" selection-start-line=\"210\" selection-start-column=\"15\" selection-end-line=\"210\" selection-end-column=\"15\" />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/app/scripts/controllers/main.js\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"270\">\n          <caret line=\"9\" column=\"56\" lean-forward=\"false\" selection-start-line=\"9\" selection-start-column=\"56\" selection-end-line=\"9\" selection-end-column=\"56\" />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/app/styles/svg/loading-bars.svg\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"510\">\n          <caret line=\"17\" column=\"0\" lean-forward=\"false\" selection-start-line=\"17\" selection-start-column=\"0\" selection-end-line=\"17\" selection-end-column=\"0\" />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/app/views/common/content.html\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"30\">\n          <caret line=\"1\" column=\"0\" lean-forward=\"false\" selection-start-line=\"1\" selection-start-column=\"0\" selection-end-line=\"1\" selection-end-column=\"0\" />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/app/scripts/config.hs\" />\n    <entry file=\"file://$PROJECT_DIR$/app/scripts/webappApp.js\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"1860\">\n          <caret line=\"62\" column=\"10\" lean-forward=\"false\" selection-start-line=\"62\" selection-start-column=\"10\" selection-end-line=\"62\" selection-end-column=\"10\" />\n          <folding />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/bower.json\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"900\">\n          <caret line=\"30\" column=\"0\" lean-forward=\"false\" selection-start-line=\"30\" selection-start-column=\"0\" selection-end-line=\"30\" selection-end-column=\"0\" />\n          <folding />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/app/404.html\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"0\">\n          <caret line=\"0\" column=\"0\" lean-forward=\"false\" selection-start-line=\"0\" selection-start-column=\"0\" selection-end-line=\"0\" selection-end-column=\"0\" />\n          <folding />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/bower_components/angular-loading-bar/index.js\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"0\">\n          <caret line=\"0\" column=\"0\" lean-forward=\"false\" selection-start-line=\"0\" selection-start-column=\"0\" selection-end-line=\"0\" selection-end-column=\"0\" />\n          <folding />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/app/robots.txt\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"0\">\n          <caret line=\"0\" column=\"0\" lean-forward=\"false\" selection-start-line=\"0\" selection-start-column=\"0\" selection-end-line=\"0\" selection-end-column=\"0\" />\n          <folding />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/app/views/dashboard.html\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"0\">\n          <caret line=\"0\" column=\"9\" lean-forward=\"false\" selection-start-line=\"0\" selection-start-column=\"9\" selection-end-line=\"0\" selection-end-column=\"9\" />\n          <folding />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/template/seed/bower_components/moment/src/locale/gl.js\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"0\">\n          <caret line=\"0\" column=\"0\" lean-forward=\"false\" selection-start-line=\"0\" selection-start-column=\"0\" selection-end-line=\"0\" selection-end-column=\"0\" />\n          <folding>\n            <element signature=\"n#!!doc\" expanded=\"false\" />\n          </folding>\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/app/scripts/config.js\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"1440\">\n          <caret line=\"48\" column=\"17\" lean-forward=\"false\" selection-start-line=\"48\" selection-start-column=\"17\" selection-end-line=\"48\" selection-end-column=\"17\" />\n          <folding />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/package.json\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"240\">\n          <caret line=\"8\" column=\"27\" lean-forward=\"false\" selection-start-line=\"8\" selection-start-column=\"27\" selection-end-line=\"8\" selection-end-column=\"27\" />\n          <folding />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/template/full/app/scripts/config.js\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"681\">\n          <caret line=\"613\" column=\"36\" lean-forward=\"false\" selection-start-line=\"613\" selection-start-column=\"36\" selection-end-line=\"613\" selection-end-column=\"36\" />\n          <folding />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/template/full/app/scripts/app.js\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"0\">\n          <caret line=\"0\" column=\"0\" lean-forward=\"false\" selection-start-line=\"0\" selection-start-column=\"0\" selection-end-line=\"0\" selection-end-column=\"0\" />\n          <folding />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/app/scripts/app.js\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"600\">\n          <caret line=\"20\" column=\"57\" lean-forward=\"false\" selection-start-line=\"20\" selection-start-column=\"57\" selection-end-line=\"20\" selection-end-column=\"57\" />\n          <folding />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/app/views/main.html\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"485\">\n          <caret line=\"18\" column=\"6\" lean-forward=\"false\" selection-start-line=\"18\" selection-start-column=\"6\" selection-end-line=\"18\" selection-end-column=\"6\" />\n          <folding />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/app/styles/main.css\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"-1260\">\n          <caret line=\"0\" column=\"0\" lean-forward=\"false\" selection-start-line=\"0\" selection-start-column=\"0\" selection-end-line=\"0\" selection-end-column=\"0\" />\n          <folding />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/template/full/app/index.html\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"150\">\n          <caret line=\"5\" column=\"4\" lean-forward=\"false\" selection-start-line=\"5\" selection-start-column=\"4\" selection-end-line=\"5\" selection-end-column=\"74\" />\n          <folding />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/app/styles/css/loading.css\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"1230\">\n          <caret line=\"41\" column=\"1\" lean-forward=\"false\" selection-start-line=\"41\" selection-start-column=\"1\" selection-end-line=\"41\" selection-end-column=\"1\" />\n          <folding />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/app/styles/css/style.css\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"0\">\n          <caret line=\"0\" column=\"67302\" lean-forward=\"false\" selection-start-line=\"0\" selection-start-column=\"67302\" selection-end-line=\"0\" selection-end-column=\"67302\" />\n          <folding>\n            <element signature=\"e#56512#56763#2\" expanded=\"true\" />\n          </folding>\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/app/favicon.ico\">\n      <provider selected=\"true\" editor-type-id=\"images\">\n        <state />\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/app/views/login.html\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"360\">\n          <caret line=\"36\" column=\"0\" lean-forward=\"true\" selection-start-line=\"36\" selection-start-column=\"0\" selection-end-line=\"36\" selection-end-column=\"0\" />\n          <folding />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/app/index.html\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"329\">\n          <caret line=\"14\" column=\"84\" lean-forward=\"false\" selection-start-line=\"14\" selection-start-column=\"84\" selection-end-line=\"14\" selection-end-column=\"84\" />\n          <folding />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/app/scripts/controllers/login.js\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"741\">\n          <caret line=\"32\" column=\"30\" lean-forward=\"false\" selection-start-line=\"32\" selection-start-column=\"30\" selection-end-line=\"32\" selection-end-column=\"30\" />\n          <folding />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/app/scripts/services/userserver.js\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"750\">\n          <caret line=\"53\" column=\"22\" lean-forward=\"true\" selection-start-line=\"53\" selection-start-column=\"22\" selection-end-line=\"53\" selection-end-column=\"22\" />\n          <folding />\n        </state>\n      </provider>\n    </entry>\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/workspace.xml	(date 1512224247000)
++++ .idea/workspace.xml	(revision )
+@@ -1,17 +1,11 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
+   <component name="ChangeListManager">
+-    <list default="true" id="c808ea9c-9610-4ab4-ae94-20223e7f2500" name="Default" comment="">
+-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/styles/css/loading.css" />
+-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/styles/css/style.css" />
++    <list default="true" id="c808ea9c-9610-4ab4-ae94-20223e7f2500" name="Default" comment="完成登录前台，TODO后台登录代码实现">
+       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../api/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../api/.idea/workspace.xml" />
+       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/index.html" afterPath="$PROJECT_DIR$/app/index.html" />
+-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/app.js" afterPath="$PROJECT_DIR$/app/scripts/app.js" />
+       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/controllers/login.js" afterPath="$PROJECT_DIR$/app/scripts/controllers/login.js" />
+-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/services/userserver.js" afterPath="$PROJECT_DIR$/app/scripts/services/userserver.js" />
+-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/login.html" afterPath="$PROJECT_DIR$/app/views/login.html" />
+-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower.json" afterPath="$PROJECT_DIR$/bower.json" />
+       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/karma.conf.js" afterPath="$PROJECT_DIR$/test/karma.conf.js" />
+     </list>
+     <ignored path="$PROJECT_DIR$/.tmp/" />
+@@ -29,8 +23,8 @@
+       <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
+         <entry file="file://$PROJECT_DIR$/app/views/login.html">
+           <provider selected="true" editor-type-id="text-editor">
+-            <state relative-caret-position="360">
+-              <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
++            <state relative-caret-position="990">
++              <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+               <folding />
+             </state>
+           </provider>
+@@ -39,18 +33,18 @@
+       <file leaf-file-name="login.js" pinned="false" current-in-tab="false">
+         <entry file="file://$PROJECT_DIR$/app/scripts/controllers/login.js">
+           <provider selected="true" editor-type-id="text-editor">
+-            <state relative-caret-position="741">
+-              <caret line="32" column="30" lean-forward="false" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="30" />
++            <state relative-caret-position="1260">
++              <caret line="48" column="3" lean-forward="false" selection-start-line="48" selection-start-column="3" selection-end-line="48" selection-end-column="3" />
+               <folding />
+             </state>
+           </provider>
+         </entry>
+       </file>
+-      <file leaf-file-name="main.html" pinned="false" current-in-tab="false">
+-        <entry file="file://$PROJECT_DIR$/app/views/main.html">
++      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
++        <entry file="file://$PROJECT_DIR$/app/scripts/controllers/main.js">
+           <provider selected="true" editor-type-id="text-editor">
+-            <state relative-caret-position="485">
+-              <caret line="18" column="6" lean-forward="false" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
++            <state relative-caret-position="270">
++              <caret line="9" column="56" lean-forward="false" selection-start-line="9" selection-start-column="56" selection-end-line="9" selection-end-column="56" />
+               <folding />
+             </state>
+           </provider>
+@@ -63,63 +57,64 @@
+           </provider>
+         </entry>
+       </file>
+-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
++      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+         <entry file="file://$PROJECT_DIR$/app/index.html">
+           <provider selected="true" editor-type-id="text-editor">
+-            <state relative-caret-position="329">
+-              <caret line="14" column="84" lean-forward="false" selection-start-line="14" selection-start-column="84" selection-end-line="14" selection-end-column="84" />
++            <state relative-caret-position="402">
++              <caret line="65" column="31" lean-forward="false" selection-start-line="65" selection-start-column="31" selection-end-line="65" selection-end-column="31" />
+               <folding />
+             </state>
+           </provider>
+         </entry>
+       </file>
+-      <file leaf-file-name="userserver.js" pinned="false" current-in-tab="true">
+-        <entry file="file://$PROJECT_DIR$/app/scripts/services/userserver.js">
++      <file leaf-file-name="config.js" pinned="false" current-in-tab="false">
++        <entry file="file://$PROJECT_DIR$/app/scripts/config.js">
+           <provider selected="true" editor-type-id="text-editor">
+-            <state relative-caret-position="750">
+-              <caret line="53" column="22" lean-forward="true" selection-start-line="53" selection-start-column="22" selection-end-line="53" selection-end-column="22" />
++            <state relative-caret-position="1440">
++              <caret line="48" column="17" lean-forward="false" selection-start-line="48" selection-start-column="17" selection-end-line="48" selection-end-column="17" />
+               <folding />
+             </state>
+           </provider>
+         </entry>
+       </file>
+-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+-        <entry file="file://$PROJECT_DIR$/app/styles/css/style.css">
++      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
++        <entry file="file://$PROJECT_DIR$/app/scripts/app.js">
+           <provider selected="true" editor-type-id="text-editor">
+-            <state relative-caret-position="0">
+-              <caret line="0" column="67302" lean-forward="false" selection-start-line="0" selection-start-column="67302" selection-end-line="0" selection-end-column="67302" />
+-              <folding>
+-                <element signature="e#56512#56763#2" expanded="true" />
+-              </folding>
++            <state relative-caret-position="600">
++              <caret line="20" column="57" lean-forward="false" selection-start-line="20" selection-start-column="57" selection-end-line="20" selection-end-column="57" />
++              <folding />
+             </state>
+           </provider>
+         </entry>
+       </file>
+-      <file leaf-file-name="loading.css" pinned="false" current-in-tab="false">
+-        <entry file="file://$PROJECT_DIR$/app/styles/css/loading.css">
++      <file leaf-file-name="userserver.js" pinned="false" current-in-tab="false">
++        <entry file="file://$PROJECT_DIR$/app/scripts/services/userserver.js">
+           <provider selected="true" editor-type-id="text-editor">
+-            <state relative-caret-position="1230">
+-              <caret line="41" column="1" lean-forward="false" selection-start-line="41" selection-start-column="1" selection-end-line="41" selection-end-column="1" />
+-              <folding />
++            <state relative-caret-position="171">
++              <caret line="10" column="52" lean-forward="false" selection-start-line="10" selection-start-column="52" selection-end-line="10" selection-end-column="52" />
++              <folding>
++                <element signature="e#593#1180#0" expanded="false" />
++                <element signature="e#2348#2535#0" expanded="false" />
++              </folding>
+             </state>
+           </provider>
+         </entry>
+       </file>
+-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+-        <entry file="file://$PROJECT_DIR$/template/full/app/index.html">
++      <file leaf-file-name="commonservice.js" pinned="false" current-in-tab="false">
++        <entry file="file://$PROJECT_DIR$/app/scripts/services/commonservice.js">
+           <provider selected="true" editor-type-id="text-editor">
+-            <state relative-caret-position="150">
+-              <caret line="5" column="4" lean-forward="false" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="74" />
++            <state relative-caret-position="346">
++              <caret line="465" column="10" lean-forward="true" selection-start-line="465" selection-start-column="10" selection-end-line="465" selection-end-column="10" />
+               <folding />
+             </state>
+           </provider>
+         </entry>
+       </file>
+-      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
+-        <entry file="file://$PROJECT_DIR$/app/styles/main.css">
++      <file leaf-file-name="sweetalert.js" pinned="false" current-in-tab="false">
++        <entry file="file://$PROJECT_DIR$/app/scripts/factory/sweetalert.js">
+           <provider selected="true" editor-type-id="text-editor">
+-            <state relative-caret-position="-1260">
+-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
++            <state relative-caret-position="282">
++              <caret line="14" column="24" lean-forward="false" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+               <folding />
+             </state>
+           </provider>
+@@ -148,6 +143,7 @@
+       <find>main.ht</find>
+       <find>gstat</find>
+       <find>Title</find>
++      <find>&quot;</find>
+     </findStrings>
+   </component>
+   <component name="Git.Settings">
+@@ -168,9 +164,11 @@
+         <option value="$PROJECT_DIR$/app/views/login.html" />
+         <option value="$PROJECT_DIR$/app/styles/css/loading.css" />
+         <option value="$PROJECT_DIR$/app/styles/css/style.css" />
+-        <option value="$PROJECT_DIR$/app/index.html" />
++        <option value="$PROJECT_DIR$/app/scripts/services/sweetalert.js" />
++        <option value="$PROJECT_DIR$/app/scripts/services/commonservice.js" />
+         <option value="$PROJECT_DIR$/app/scripts/controllers/login.js" />
+         <option value="$PROJECT_DIR$/app/scripts/services/userserver.js" />
++        <option value="$PROJECT_DIR$/app/index.html" />
+       </list>
+     </option>
+   </component>
+@@ -213,7 +211,6 @@
+       <foldersAlwaysOnTop value="true" />
+     </navigator>
+     <panes>
+-      <pane id="Scratches" />
+       <pane id="ProjectPane">
+         <subPane>
+           <expand>
+@@ -244,62 +241,39 @@
+               <item name="webapp" type="462c0819:PsiDirectoryNode" />
+               <item name="app" type="462c0819:PsiDirectoryNode" />
+               <item name="scripts" type="462c0819:PsiDirectoryNode" />
+-              <item name="services" type="462c0819:PsiDirectoryNode" />
++              <item name="factory" type="462c0819:PsiDirectoryNode" />
+             </path>
+             <path>
+               <item name="webapp" type="b2602c69:ProjectViewProjectNode" />
+               <item name="webapp" type="462c0819:PsiDirectoryNode" />
+               <item name="app" type="462c0819:PsiDirectoryNode" />
+-              <item name="styles" type="462c0819:PsiDirectoryNode" />
++              <item name="scripts" type="462c0819:PsiDirectoryNode" />
++              <item name="services" type="462c0819:PsiDirectoryNode" />
+             </path>
+             <path>
+               <item name="webapp" type="b2602c69:ProjectViewProjectNode" />
+               <item name="webapp" type="462c0819:PsiDirectoryNode" />
+               <item name="app" type="462c0819:PsiDirectoryNode" />
+               <item name="styles" type="462c0819:PsiDirectoryNode" />
+-              <item name="css" type="462c0819:PsiDirectoryNode" />
+             </path>
+             <path>
+               <item name="webapp" type="b2602c69:ProjectViewProjectNode" />
+               <item name="webapp" type="462c0819:PsiDirectoryNode" />
+               <item name="app" type="462c0819:PsiDirectoryNode" />
+-              <item name="views" type="462c0819:PsiDirectoryNode" />
++              <item name="styles" type="462c0819:PsiDirectoryNode" />
++              <item name="css" type="462c0819:PsiDirectoryNode" />
+             </path>
+             <path>
+               <item name="webapp" type="b2602c69:ProjectViewProjectNode" />
+               <item name="webapp" type="462c0819:PsiDirectoryNode" />
+-              <item name="bower_components" type="462c0819:PsiDirectoryNode" />
+-            </path>
+-            <path>
+-              <item name="webapp" type="b2602c69:ProjectViewProjectNode" />
+-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+-              <item name="template" type="462c0819:PsiDirectoryNode" />
+-            </path>
+-            <path>
+-              <item name="webapp" type="b2602c69:ProjectViewProjectNode" />
+-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+-              <item name="template" type="462c0819:PsiDirectoryNode" />
+-              <item name="full" type="462c0819:PsiDirectoryNode" />
+-            </path>
+-            <path>
+-              <item name="webapp" type="b2602c69:ProjectViewProjectNode" />
+-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+-              <item name="template" type="462c0819:PsiDirectoryNode" />
+-              <item name="full" type="462c0819:PsiDirectoryNode" />
+               <item name="app" type="462c0819:PsiDirectoryNode" />
+-            </path>
+-            <path>
+-              <item name="webapp" type="b2602c69:ProjectViewProjectNode" />
+-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+-              <item name="template" type="462c0819:PsiDirectoryNode" />
+-              <item name="full" type="462c0819:PsiDirectoryNode" />
+-              <item name="app" type="462c0819:PsiDirectoryNode" />
+-              <item name="scripts" type="462c0819:PsiDirectoryNode" />
++              <item name="views" type="462c0819:PsiDirectoryNode" />
+             </path>
+           </expand>
+           <select />
+         </subPane>
+       </pane>
++      <pane id="Scratches" />
+       <pane id="Scope" />
+     </panes>
+   </component>
+@@ -318,6 +292,11 @@
+     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+     <property name="list.type.of.created.stylesheet" value="CSS" />
+   </component>
++  <component name="RecentsManager">
++    <key name="MoveFile.RECENT_KEYS">
++      <recent name="$PROJECT_DIR$/app/scripts/factory" />
++    </key>
++  </component>
+   <component name="RunDashboard">
+     <option name="ruleStates">
+       <list>
+@@ -348,7 +327,9 @@
+       <workItem from="1511963242892" duration="1608000" />
+       <workItem from="1512019924557" duration="3021000" />
+       <workItem from="1512040155574" duration="1473000" />
+-      <workItem from="1512106246714" duration="9104000" />
++      <workItem from="1512106246714" duration="9156000" />
++      <workItem from="1512194378476" duration="3622000" />
++      <workItem from="1512199907931" duration="3490000" />
+     </task>
+     <task id="LOCAL-00001" summary="允许跨域请求">
+       <created>1512110106155</created>
+@@ -364,33 +345,46 @@
+       <option name="project" value="LOCAL" />
+       <updated>1512114104044</updated>
+     </task>
+-    <option name="localTasksCounter" value="3" />
++    <task id="LOCAL-00003" summary="完成登录前台，TODO后台登录代码实现">
++      <created>1512117369492</created>
++      <option name="number" value="00003" />
++      <option name="presentableId" value="LOCAL-00003" />
++      <option name="project" value="LOCAL" />
++      <updated>1512117369493</updated>
++    </task>
++    <task id="LOCAL-00004" summary="完成登录前台，TODO后台登录代码实现">
++      <created>1512224247641</created>
++      <option name="number" value="00004" />
++      <option name="presentableId" value="LOCAL-00004" />
++      <option name="project" value="LOCAL" />
++      <updated>1512224247641</updated>
++    </task>
++    <option name="localTasksCounter" value="5" />
+     <servers />
+   </component>
+   <component name="TimeTrackingManager">
+-    <option name="totallyTimeSpent" value="24447000" />
++    <option name="totallyTimeSpent" value="31611000" />
+   </component>
+   <component name="ToolWindowManager">
+-    <frame x="1431" y="-4" width="1857" height="1092" extended-state="6" />
+-    <editor active="true" />
++    <frame x="1431" y="-4" width="1855" height="1084" extended-state="6" />
+     <layout>
+-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.174482" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+-      <window_info id="Grunt " active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
++      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
++      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39979124" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
++      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17650303" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
++      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2498621" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
++      <window_info id="Grunt " active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
++      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40083507" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
++      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+     </layout>
+   </component>
+@@ -403,28 +397,14 @@
+   <component name="VcsManagerConfiguration">
+     <MESSAGE value="允许跨域请求" />
+     <MESSAGE value="增加ui.bootstrap" />
+-    <option name="LAST_COMMIT_MESSAGE" value="增加ui.bootstrap" />
++    <MESSAGE value="完成登录前台，TODO后台登录代码实现" />
++    <option name="LAST_COMMIT_MESSAGE" value="完成登录前台，TODO后台登录代码实现" />
+   </component>
+   <component name="XDebuggerManager">
+     <breakpoint-manager />
+     <watches-manager />
+   </component>
+   <component name="editorHistoryManager">
+-    <entry file="file://$PROJECT_DIR$/app/scripts/controllers/main.js">
+-      <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="270">
+-          <caret line="9" column="56" lean-forward="false" selection-start-line="9" selection-start-column="56" selection-end-line="9" selection-end-column="56" />
+-        </state>
+-      </provider>
+-    </entry>
+-    <entry file="file://$PROJECT_DIR$/app/scripts/config.js">
+-      <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="2100">
+-          <caret line="70" column="0" lean-forward="false" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
+-          <folding />
+-        </state>
+-      </provider>
+-    </entry>
+     <entry file="file://$PROJECT_DIR$/template/full/app/views/common/content.html">
+       <provider selected="true" editor-type-id="text-editor">
+         <state relative-caret-position="0">
+@@ -589,13 +569,6 @@
+         </state>
+       </provider>
+     </entry>
+-    <entry file="file://$PROJECT_DIR$/app/scripts/controllers/main.js">
+-      <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="270">
+-          <caret line="9" column="56" lean-forward="false" selection-start-line="9" selection-start-column="56" selection-end-line="9" selection-end-column="56" />
+-        </state>
+-      </provider>
+-    </entry>
+     <entry file="file://$PROJECT_DIR$/app/styles/svg/loading-bars.svg">
+       <provider selected="true" editor-type-id="text-editor">
+         <state relative-caret-position="510">
+@@ -623,7 +596,6 @@
+       <provider selected="true" editor-type-id="text-editor">
+         <state relative-caret-position="900">
+           <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+-          <folding />
+         </state>
+       </provider>
+     </entry>
+@@ -631,7 +603,6 @@
+       <provider selected="true" editor-type-id="text-editor">
+         <state relative-caret-position="0">
+           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+-          <folding />
+         </state>
+       </provider>
+     </entry>
+@@ -639,7 +610,6 @@
+       <provider selected="true" editor-type-id="text-editor">
+         <state relative-caret-position="0">
+           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+-          <folding />
+         </state>
+       </provider>
+     </entry>
+@@ -647,7 +617,6 @@
+       <provider selected="true" editor-type-id="text-editor">
+         <state relative-caret-position="0">
+           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+-          <folding />
+         </state>
+       </provider>
+     </entry>
+@@ -655,7 +624,6 @@
+       <provider selected="true" editor-type-id="text-editor">
+         <state relative-caret-position="0">
+           <caret line="0" column="9" lean-forward="false" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="9" />
+-          <folding />
+         </state>
+       </provider>
+     </entry>
+@@ -663,17 +631,6 @@
+       <provider selected="true" editor-type-id="text-editor">
+         <state relative-caret-position="0">
+           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+-          <folding>
+-            <element signature="n#!!doc" expanded="false" />
+-          </folding>
+-        </state>
+-      </provider>
+-    </entry>
+-    <entry file="file://$PROJECT_DIR$/app/scripts/config.js">
+-      <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="1440">
+-          <caret line="48" column="17" lean-forward="false" selection-start-line="48" selection-start-column="17" selection-end-line="48" selection-end-column="17" />
+-          <folding />
+         </state>
+       </provider>
+     </entry>
+@@ -697,21 +654,12 @@
+       <provider selected="true" editor-type-id="text-editor">
+         <state relative-caret-position="0">
+           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+-          <folding />
+-        </state>
+-      </provider>
+-    </entry>
+-    <entry file="file://$PROJECT_DIR$/app/scripts/app.js">
+-      <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="600">
+-          <caret line="20" column="57" lean-forward="false" selection-start-line="20" selection-start-column="57" selection-end-line="20" selection-end-column="57" />
+-          <folding />
+         </state>
+       </provider>
+     </entry>
+     <entry file="file://$PROJECT_DIR$/app/views/main.html">
+       <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="485">
++        <state relative-caret-position="540">
+           <caret line="18" column="6" lean-forward="false" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
+           <folding />
+         </state>
+@@ -719,7 +667,7 @@
+     </entry>
+     <entry file="file://$PROJECT_DIR$/app/styles/main.css">
+       <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="-1260">
++        <state relative-caret-position="0">
+           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+           <folding />
+         </state>
+@@ -756,34 +704,77 @@
+         <state />
+       </provider>
+     </entry>
++    <entry file="file://$PROJECT_DIR$/app/scripts/config.js">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="1440">
++          <caret line="48" column="17" lean-forward="false" selection-start-line="48" selection-start-column="17" selection-end-line="48" selection-end-column="17" />
++          <folding />
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/app/scripts/app.js">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="600">
++          <caret line="20" column="57" lean-forward="false" selection-start-line="20" selection-start-column="57" selection-end-line="20" selection-end-column="57" />
++          <folding />
++        </state>
++      </provider>
++    </entry>
+     <entry file="file://$PROJECT_DIR$/app/views/login.html">
+       <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="360">
+-          <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
++        <state relative-caret-position="990">
++          <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+           <folding />
+         </state>
+       </provider>
+     </entry>
+-    <entry file="file://$PROJECT_DIR$/app/index.html">
++    <entry file="file://$PROJECT_DIR$/app/scripts/factory/sweetalert.js">
+       <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="329">
+-          <caret line="14" column="84" lean-forward="false" selection-start-line="14" selection-start-column="84" selection-end-line="14" selection-end-column="84" />
++        <state relative-caret-position="282">
++          <caret line="14" column="24" lean-forward="false" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+           <folding />
+         </state>
+       </provider>
+     </entry>
+-    <entry file="file://$PROJECT_DIR$/app/scripts/controllers/login.js">
++    <entry file="file://$PROJECT_DIR$/app/scripts/controllers/main.js">
+       <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="741">
+-          <caret line="32" column="30" lean-forward="false" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="30" />
++        <state relative-caret-position="270">
++          <caret line="9" column="56" lean-forward="false" selection-start-line="9" selection-start-column="56" selection-end-line="9" selection-end-column="56" />
++          <folding />
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/app/scripts/services/commonservice.js">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="346">
++          <caret line="465" column="10" lean-forward="true" selection-start-line="465" selection-start-column="10" selection-end-line="465" selection-end-column="10" />
+           <folding />
+         </state>
+       </provider>
+     </entry>
+     <entry file="file://$PROJECT_DIR$/app/scripts/services/userserver.js">
+       <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="750">
+-          <caret line="53" column="22" lean-forward="true" selection-start-line="53" selection-start-column="22" selection-end-line="53" selection-end-column="22" />
++        <state relative-caret-position="171">
++          <caret line="10" column="52" lean-forward="false" selection-start-line="10" selection-start-column="52" selection-end-line="10" selection-end-column="52" />
++          <folding>
++            <element signature="e#593#1180#0" expanded="false" />
++            <element signature="e#2348#2535#0" expanded="false" />
++          </folding>
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/app/scripts/controllers/login.js">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="1260">
++          <caret line="48" column="3" lean-forward="false" selection-start-line="48" selection-start-column="3" selection-end-line="48" selection-end-column="3" />
++          <folding />
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/app/index.html">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="402">
++          <caret line="65" column="31" lean-forward="false" selection-start-line="65" selection-start-column="31" selection-end-line="65" selection-end-column="31" />
+           <folding />
+         </state>
+       </provider>
+Index: app/scripts/controllers/login.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>'use strict';\n\n/**\n * @ngdoc function\n * @name webappApp.controller:LoginCtrl\n * @description\n * # LoginCtrl\n * Controller of the webappApp\n */\nangular.module('webappApp')\n  .controller('LoginCtrl', ['$scope', '$location', 'UserServer', 'config', function ($scope, $location, UserServer, config) {\n    var self = this;\n    // 初始化用户\n    self.login = function (user) {\n      UserServer.login(user, function (status) {\n        if (status === 401) {\n          self.setMessage('对不起', '您的用户名或密码输入有误或用' +\n            '户状态不正常，请重新输入。');\n          $scope.form.$submitted = false;\n        } else if (status === 200) {\n          // 登录成功，先清空缓存，然后跳转.自动跳转\n          // todo 菜单初始化\n          //WebAppMenuService.init();\n          $location.path(config.mainPath);\n        } else {\n          self.setMessage('对不起', '系统发生未知错误，请稍后重试，或联系您的管理员。');\n          $scope.form.$submitted = false;\n        }\n      });\n    };\n\n    // 统一暴露\n    $scope.login = self.login;\n  }]);\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/scripts/controllers/login.js	(date 1512224247000)
++++ app/scripts/controllers/login.js	(revision )
+@@ -8,27 +8,42 @@
+  * Controller of the webappApp
+  */
+ angular.module('webappApp')
+-  .controller('LoginCtrl', ['$scope', '$location', 'UserServer', 'config', function ($scope, $location, UserServer, config) {
++  .controller('LoginCtrl', function ($scope, $location, config) {
+     var self = this;
++    var test = [1,4,2];
++    for (var i in test) {
++      console.log(test[i]);
++    }
++    for (var temp = 0; temp < test.length; i++) {
++      console.log(test[i]);
++    }
+     // 初始化用户
+-    self.login = function (user) {
+-      UserServer.login(user, function (status) {
+-        if (status === 401) {
+-          self.setMessage('对不起', '您的用户名或密码输入有误或用' +
+-            '户状态不正常，请重新输入。');
+-          $scope.form.$submitted = false;
+-        } else if (status === 200) {
+-          // 登录成功，先清空缓存，然后跳转.自动跳转
+-          // todo 菜单初始化
+-          //WebAppMenuService.init();
+-          $location.path(config.mainPath);
+-        } else {
+-          self.setMessage('对不起', '系统发生未知错误，请稍后重试，或联系您的管理员。');
+-          $scope.form.$submitted = false;
+-        }
+-      });
+-    };
++    // self.login = function (user) {
++    //   console.log(user);
++    //   UserServer.login(user, function (status) {
++    //     if (status === 401) {
++    //       self.setMessage('对不起', '您的用户名或密码输入有误或用' +
++    //         '户状态不正常，请重新输入。');
++    //       $scope.form.$submitted = false;
++    //     } else if (status === 200) {
++    //       // 登录成功，先清空缓存，然后跳转.自动跳转
++    //       // todo 菜单初始化
++    //       //WebAppMenuService.init();
++    //       $location.path(config.mainPath);
++    //     } else {
++    //       self.setMessage('对不起', '系统发生未知错误，请稍后重试，或联系您的管理员。');
++    //       $scope.form.$submitted = false;
++    //     }
++    //   });
++    // };
++    // 调用sweetAlert进行用户名密码错误的提示
++    // self.setMessage = function (title, message) {
++    //   SweetAlert.swal({
++    //     title: title,
++    //     text: message
++    //   });
++    // };
+ 
+     // 统一暴露
+-    $scope.login = self.login;
+-  }]);
++    //$scope.login = self.login;
++  });
+Index: app/index.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><!doctype html>\n<html ng-app=\"webappApp\">\n  <head>\n    <meta charset=\"utf-8\">\n    <title></title>\n    <meta name=\"description\" content=\"\">\n    <meta name=\"viewport\" content=\"width=device-width\">\n    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->\n    <!-- build:css(.) styles/vendor.css -->\n    <!-- bower:css -->\n    <link rel=\"stylesheet\" href=\"bower_components/bootstrap/dist/css/bootstrap.css\" />\n    <link rel=\"stylesheet\" href=\"bower_components/angular-loading-bar/build/loading-bar.css\" />\n    <link rel=\"stylesheet\" href=\"bower_components/bootstrap-tour/build/css/bootstrap-tour.css\" />\n    <link rel=\"stylesheet\" href=\"bower_components/bootstrap-tour/build/css/bootstrap-tour-standalone.css\" />\n    <link rel=\"stylesheet\" href=\"bower_components/sweetalert/lib/sweet-alert.css\" />\n    <!-- endbower -->\n    <!-- endbuild -->\n    <!-- build:css(.tmp) styles/main.css -->\n    <link rel=\"stylesheet\" href=\"styles/main.css\">\n    <link rel=\"stylesheet\" href=\"styles/css/loading.css\">\n    <link rel=\"stylesheet\" href=\"styles/css/style.css\">\n    <!-- endbuild -->\n  </head>\n  <body ng-controller=\"appCtrl\" class=\"sidebar-scroll fixed-navbar {{$state.current.data.specialClass}}\" landing-scrollspy tour backdrop=\"true\">\n    <!-- Page view wrapper -->\n    <div ui-view autoscroll=\"true\">\n      <div class=\"loading bg50cf77\">\n        <div class=\"table-cell\">\n          <img src=\"styles/svg/loading-bars.svg\" width=\"256\" height=\"64\">\n          <h1>正在加载, 请稍候...</h1>\n        </div>\n      </div>\n    </div>\n    <!--&lt;!&ndash; Google Analytics: change UA-XXXXX-X to be your site's ID &ndash;&gt;-->\n     <!--<script>-->\n       <!--!function(A,n,g,u,l,a,r){A.GoogleAnalyticsObject=l,A[l]=A[l]||function(){-->\n       <!--(A[l].q=A[l].q||[]).push(arguments)},A[l].l=+new Date,a=n.createElement(g),-->\n       <!--r=n.getElementsByTagName(g)[0],a.src=u,r.parentNode.insertBefore(a,r)-->\n       <!--}(window,document,'script','https://www.google-analytics.com/analytics.js','ga');-->\n\n       <!--ga('create', 'UA-XXXXX-X');-->\n       <!--ga('send', 'pageview');-->\n    <!--</script>-->\n\n    <!-- build:js(.) scripts/vendor.js -->\n    <!-- bower:js -->\n    <script src=\"bower_components/jquery/dist/jquery.js\"></script>\n    <script src=\"bower_components/angular/angular.js\"></script>\n    <script src=\"bower_components/bootstrap/dist/js/bootstrap.js\"></script>\n    <script src=\"bower_components/angular-animate/angular-animate.js\"></script>\n    <script src=\"bower_components/angular-cookies/angular-cookies.js\"></script>\n    <script src=\"bower_components/angular-resource/angular-resource.js\"></script>\n    <script src=\"bower_components/angular-route/angular-route.js\"></script>\n    <script src=\"bower_components/angular-sanitize/angular-sanitize.js\"></script>\n    <script src=\"bower_components/angular-touch/angular-touch.js\"></script>\n    <script src=\"bower_components/angular-ui-router/release/angular-ui-router.js\"></script>\n    <script src=\"bower_components/angular-loading-bar/build/loading-bar.js\"></script>\n    <script src=\"bower_components/angular-bootstrap/ui-bootstrap-tpls.js\"></script>\n    <script src=\"bower_components/bootstrap-tour/build/js/bootstrap-tour.js\"></script>\n    <script src=\"bower_components/bootstrap-tour/build/js/bootstrap-tour-standalone.js\"></script>\n    <script src=\"bower_components/angular-bootstrap-tour/dist/angular-bootstrap-tour.js\"></script>\n    <script src=\"bower_components/sweetalert/lib/sweet-alert.js\"></script>\n    <!-- endbower -->\n    <!-- endbuild -->\n    <!-- build:js({.tmp,app}) scripts/scripts.js -->\n    <script src=\"scripts/app.js\"></script>\n    <script src=\"scripts/config.js\"></script>\n    <script src=\"scripts/webappApp.js\"></script>\n    <script src=\"scripts/controllers/main.js\"></script>\n    <script src=\"scripts/services/userserver.js\"></script>\n    <script src=\"scripts/controllers/login.js\"></script>\n    <!-- endbuild -->\n</body>\n</html>\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/index.html	(date 1512224247000)
++++ app/index.html	(revision )
+@@ -9,7 +9,6 @@
+     <!-- build:css(.) styles/vendor.css -->
+     <!-- bower:css -->
+     <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
+-    <link rel="stylesheet" href="bower_components/angular-loading-bar/build/loading-bar.css" />
+     <link rel="stylesheet" href="bower_components/bootstrap-tour/build/css/bootstrap-tour.css" />
+     <link rel="stylesheet" href="bower_components/bootstrap-tour/build/css/bootstrap-tour-standalone.css" />
+     <link rel="stylesheet" href="bower_components/sweetalert/lib/sweet-alert.css" />
+@@ -53,15 +52,16 @@
+     <script src="bower_components/angular-route/angular-route.js"></script>
+     <script src="bower_components/angular-sanitize/angular-sanitize.js"></script>
+     <script src="bower_components/angular-touch/angular-touch.js"></script>
+-    <script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+-    <script src="bower_components/angular-loading-bar/build/loading-bar.js"></script>
+-    <script src="bower_components/angular-bootstrap/ui-bootstrap-tpls.js"></script>
+     <script src="bower_components/bootstrap-tour/build/js/bootstrap-tour.js"></script>
+     <script src="bower_components/bootstrap-tour/build/js/bootstrap-tour-standalone.js"></script>
+     <script src="bower_components/angular-bootstrap-tour/dist/angular-bootstrap-tour.js"></script>
+     <script src="bower_components/sweetalert/lib/sweet-alert.js"></script>
++    <script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
++    <script src="bower_components/angular-bootstrap/ui-bootstrap-tpls.js"></script>
++    <script src="bower_components/angular-loading-bar/build/loading-bar.js"></script>
+     <!-- endbower -->
+     <!-- endbuild -->
++    <!--防止grunt serve被删除-->
+     <!-- build:js({.tmp,app}) scripts/scripts.js -->
+     <script src="scripts/app.js"></script>
+     <script src="scripts/config.js"></script>
+@@ -69,6 +69,8 @@
+     <script src="scripts/controllers/main.js"></script>
+     <script src="scripts/services/userserver.js"></script>
+     <script src="scripts/controllers/login.js"></script>
++    <script src="scripts/factory/sweetalert.js"></script>
++    <script src="scripts/services/commonservice.js"></script>
+     <!-- endbuild -->
+ </body>
+ </html>
+Index: test/karma.conf.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>// Karma configuration\n// Generated on 2017-11-25\n\nmodule.exports = function(config) {\n  'use strict';\n\n  config.set({\n    // enable / disable watching file and executing tests whenever any file changes\n    autoWatch: true,\n\n    // base path, that will be used to resolve files and exclude\n    basePath: '../',\n\n    // testing framework to use (jasmine/mocha/qunit/...)\n    // as well as any additional frameworks (requirejs/chai/sinon/...)\n    frameworks: [\n      'jasmine'\n    ],\n\n    // list of files / patterns to load in the browser\n    files: [\n      // bower:js\n      'bower_components/jquery/dist/jquery.js',\n      'bower_components/angular/angular.js',\n      'bower_components/bootstrap/dist/js/bootstrap.js',\n      'bower_components/angular-animate/angular-animate.js',\n      'bower_components/angular-cookies/angular-cookies.js',\n      'bower_components/angular-resource/angular-resource.js',\n      'bower_components/angular-route/angular-route.js',\n      'bower_components/angular-sanitize/angular-sanitize.js',\n      'bower_components/angular-touch/angular-touch.js',\n      'bower_components/bootstrap-tour/build/js/bootstrap-tour.js',\n      'bower_components/bootstrap-tour/build/js/bootstrap-tour-standalone.js',\n      'bower_components/angular-bootstrap-tour/dist/angular-bootstrap-tour.js',\n      'bower_components/angular-mocks/angular-mocks.js',\n      'bower_components/angular-loading-bar/build/loading-bar.js',\n      'bower_components/angular-ui-router/release/angular-ui-router.js',\n      'bower_components/angular-bootstrap/ui-bootstrap-tpls.js',\n      // endbower\n      'app/scripts/**/*.js',\n      'test/mock/**/*.js',\n      'test/spec/**/*.js'\n    ],\n\n    // list of files / patterns to exclude\n    exclude: [\n    ],\n\n    // web server port\n    port: 8080,\n\n    // Start these browsers, currently available:\n    // - Chrome\n    // - ChromeCanary\n    // - Firefox\n    // - Opera\n    // - Safari (only Mac)\n    // - PhantomJS\n    // - IE (only Windows)\n    browsers: [\n      'PhantomJS'\n    ],\n\n    // Which plugins to enable\n    plugins: [\n      'karma-phantomjs-launcher',\n      'karma-jasmine'\n    ],\n\n    // Continuous Integration mode\n    // if true, it capture browsers, run tests and exit\n    singleRun: false,\n\n    colors: true,\n\n    // level of logging\n    // possible values: LOG_DISABLE || LOG_ERROR || LOG_WARN || LOG_INFO || LOG_DEBUG\n    logLevel: config.LOG_INFO,\n\n    // Uncomment the following lines if you are using grunt's server to run the tests\n    // proxies: {\n    //   '/': 'http://localhost:9000/'\n    // },\n    // URL root prevent conflicts with the site root\n    // urlRoot: '_karma_'\n  });\n};\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- test/karma.conf.js	(date 1512224247000)
++++ test/karma.conf.js	(revision )
+@@ -32,6 +32,7 @@
+       'bower_components/bootstrap-tour/build/js/bootstrap-tour.js',
+       'bower_components/bootstrap-tour/build/js/bootstrap-tour-standalone.js',
+       'bower_components/angular-bootstrap-tour/dist/angular-bootstrap-tour.js',
++      'bower_components/sweetalert/lib/sweet-alert.js',
+       'bower_components/angular-mocks/angular-mocks.js',
+       'bower_components/angular-loading-bar/build/loading-bar.js',
+       'bower_components/angular-ui-router/release/angular-ui-router.js',

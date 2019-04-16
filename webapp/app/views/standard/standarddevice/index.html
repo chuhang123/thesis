@@ -1,0 +1,88 @@
+<div class="row">
+    <div class="row">
+        <div class="row">
+            <div class="col-xs-2 col-xs-offset-10">
+                <a ui-sref="standard.standardDeviceAdd({deviceSetId: deviceSetId})">
+                    <button class="btn btn-info btn-sm" type="button"><i class="fa fa-plus"></i>&nbsp;新增</button>
+                </a>
+            </div>
+        </div>
+        <div class="table-responsive">
+            <div class="dataTables_wrapper form-inline dt-bootstrap no-footer">
+                <table cellpadding="1" cellspacing="1" class="table table-bordered table-striped">
+                    <div class="panel-heading">
+                        主标准器信息
+                    </div>
+                    <thead>
+                    <tr>
+                        <th>代码</th>
+                        <th>名称</th>
+                        <th>准确度等级</th>
+                        <th>测量范围</th>
+                        <th>型号规格</th>
+                        <th>制造单位</th>
+                        <th>许可证号</th>
+                        <th>出厂编号</th>
+                        <th>操作</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr ng-repeat="object in data | filter: {main: true}" ng-hide="object.hide">
+                        <td>{{object.code}}</td>
+                        <td>{{object.name}}</td>
+                        <td>{{object.accuracy.value}}</td>
+                        <td>{{object.measureScale.value}}</td>
+                        <td>{{object.specification.value}}</td>
+                        <td>{{object.manufacturerName}}</td>
+                        <td>{{object.licenseNum}}</td>
+                        <td>{{object.factoryNum}}</td>
+                        <td>
+                            <a ui-sref="standard.standardDeviceEdit({id: object.id})" class="btn btn-info btn-xs"><i class="fa fa-paste"></i>&nbsp;编辑&nbsp;</a>
+                            <a ng-click="delete(object)" class="btn btn-danger btn-xs"><i class="fa fa-trash-o"></i>&nbsp;删除</a>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="table-responsive">
+            <div class="dataTables_wrapper form-inline dt-bootstrap no-footer">
+                <table cellpadding="1" cellspacing="1" class="table table-bordered table-striped">
+                    <div class="panel-heading">
+                        配套装置信息
+                    </div>
+                    <thead>
+                    <tr>
+                        <th>代码</th>
+                        <th>名称</th>
+                        <th>准确度等级</th>
+                        <th>测量范围</th>
+                        <th>型号规格</th>
+                        <th>制造单位</th>
+                        <th>许可证号</th>
+                        <th>出厂编号</th>
+                        <th>操作</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr ng-repeat="object in data | filter:{main: false}" ng-hide="object.hide">
+                        <td>{{object.code}}</td>
+                        <td>{{object.name}}</td>
+                        <td>{{object.accuracy.value}}</td>
+                        <td>{{object.measureScale.value}}</td>
+                        <td>{{object.specification.value}}</td>
+                        <td>{{object.manufacturerName}}</td>
+                        <td>{{object.licenseNum}}</td>
+                        <td>{{object.factoryNum}}</td>
+                        <td>
+                            <a ui-sref="standard.standardDeviceEdit({id: object.id})" class="btn btn-info btn-xs"><i class="fa fa-paste"></i>&nbsp;编辑&nbsp;</a>
+                            <a ng-click="delete(object)" class="btn btn-danger btn-xs"><i class="fa fa-trash-o"></i>&nbsp;删除</a>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+</div>

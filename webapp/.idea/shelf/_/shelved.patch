@@ -1,0 +1,49 @@
+Index: bower.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>{\n  \"name\": \"webapp-appjs\",\n  \"version\": \"0.0.0\",\n  \"dependencies\": {\n    \"angular\": \"^1.4.0\",\n    \"bootstrap\": \"^3.2.0\",\n    \"angular-animate\": \"^1.4.0\",\n    \"angular-cookies\": \"^1.4.0\",\n    \"angular-resource\": \"^1.4.0\",\n    \"angular-route\": \"^1.4.0\",\n    \"angular-sanitize\": \"^1.4.0\",\n    \"angular-touch\": \"^1.4.0\",\n    \"bootstrap-tour\": \"^0.12.0\",\n    \"angular-bootstrap-tour\": \"^0.3.4\",\n    \"sweetalert\": \"^2.0.7\"\n  },\n  \"devDependencies\": {\n    \"angular-mocks\": \"^1.4.0\",\n    \"angular-loading-bar\": \"^0.9.0\",\n    \"angular-ui-router\": \"^1.0.11\",\n    \"angular-bootstrap\": \"^2.5.0\"\n  },\n  \"appPath\": \"app\",\n  \"moduleName\": \"webappApp\",\n  \"overrides\": {\n    \"bootstrap\": {\n      \"main\": [\n        \"less/bootstrap.less\",\n        \"dist/css/bootstrap.css\",\n        \"dist/js/bootstrap.js\"\n      ]\n    }\n  },\n  \"resolutions\": {\n    \"angular\": \"1.6.7\",\n    \"bootstrap\": \"3.0.3\",\n    \"bootstrap-tour\": \"~0.9.3\"\n  }\n}\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- bower.json	(revision 20842e7eb4b2ed2cee79dc93453cda1177de72cc)
++++ bower.json	(revision )
+@@ -12,7 +12,8 @@
+     "angular-touch": "^1.4.0",
+     "bootstrap-tour": "^0.12.0",
+     "angular-bootstrap-tour": "^0.3.4",
+-    "sweetalert": "^2.0.7"
++    "sweetalert": "^2.0.7",
++    "fontawesome": "~4.7.0"
+   },
+   "devDependencies": {
+     "angular-mocks": "^1.4.0",
+@@ -29,6 +30,12 @@
+         "dist/css/bootstrap.css",
+         "dist/js/bootstrap.js"
+       ]
++    },
++    "font-awesome":
++    {
++      "main": [
++        "css/font-awesome.css"
++      ]
+     }
+   },
+   "resolutions": {
+Index: test/karma.conf.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>// Karma configuration\n// Generated on 2017-11-25\n\nmodule.exports = function(config) {\n  'use strict';\n\n  config.set({\n    // enable / disable watching file and executing tests whenever any file changes\n    autoWatch: true,\n\n    // base path, that will be used to resolve files and exclude\n    basePath: '../',\n\n    // testing framework to use (jasmine/mocha/qunit/...)\n    // as well as any additional frameworks (requirejs/chai/sinon/...)\n    frameworks: [\n      'jasmine'\n    ],\n\n    // list of files / patterns to load in the browser\n    files: [\n      // bower:js\n      'bower_components/jquery/dist/jquery.js',\n      'bower_components/angular/angular.js',\n      'bower_components/bootstrap/dist/js/bootstrap.js',\n      'bower_components/angular-animate/angular-animate.js',\n      'bower_components/angular-cookies/angular-cookies.js',\n      'bower_components/angular-resource/angular-resource.js',\n      'bower_components/angular-route/angular-route.js',\n      'bower_components/angular-sanitize/angular-sanitize.js',\n      'bower_components/angular-touch/angular-touch.js',\n      'bower_components/bootstrap-tour/build/js/bootstrap-tour.js',\n      'bower_components/bootstrap-tour/build/js/bootstrap-tour-standalone.js',\n      'bower_components/angular-bootstrap-tour/dist/angular-bootstrap-tour.js',\n      'bower_components/sweetalert/lib/sweet-alert.js',\n      'bower_components/angular-mocks/angular-mocks.js',\n      'bower_components/angular-loading-bar/build/loading-bar.js',\n      'bower_components/angular-ui-router/release/angular-ui-router.js',\n      'bower_components/angular-bootstrap/ui-bootstrap-tpls.js',\n      // endbower\n      'app/scripts/**/*.js',\n      'test/mock/**/*.js',\n      'test/spec/**/*.js'\n    ],\n\n    // list of files / patterns to exclude\n    exclude: [\n    ],\n\n    // web server port\n    port: 8080,\n\n    // Start these browsers, currently available:\n    // - Chrome\n    // - ChromeCanary\n    // - Firefox\n    // - Opera\n    // - Safari (only Mac)\n    // - PhantomJS\n    // - IE (only Windows)\n    browsers: [\n      'PhantomJS'\n    ],\n\n    // Which plugins to enable\n    plugins: [\n      'karma-phantomjs-launcher',\n      'karma-jasmine'\n    ],\n\n    // Continuous Integration mode\n    // if true, it capture browsers, run tests and exit\n    singleRun: false,\n\n    colors: true,\n\n    // level of logging\n    // possible values: LOG_DISABLE || LOG_ERROR || LOG_WARN || LOG_INFO || LOG_DEBUG\n    logLevel: config.LOG_INFO,\n\n    // Uncomment the following lines if you are using grunt's server to run the tests\n    // proxies: {\n    //   '/': 'http://localhost:9000/'\n    // },\n    // URL root prevent conflicts with the site root\n    // urlRoot: '_karma_'\n  });\n};\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- test/karma.conf.js	(revision 20842e7eb4b2ed2cee79dc93453cda1177de72cc)
++++ test/karma.conf.js	(revision )
+@@ -32,7 +32,6 @@
+       'bower_components/bootstrap-tour/build/js/bootstrap-tour.js',
+       'bower_components/bootstrap-tour/build/js/bootstrap-tour-standalone.js',
+       'bower_components/angular-bootstrap-tour/dist/angular-bootstrap-tour.js',
+-      'bower_components/sweetalert/lib/sweet-alert.js',
+       'bower_components/angular-mocks/angular-mocks.js',
+       'bower_components/angular-loading-bar/build/loading-bar.js',
+       'bower_components/angular-ui-router/release/angular-ui-router.js',

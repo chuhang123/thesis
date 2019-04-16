@@ -1,0 +1,20 @@
+<div id="navigation">
+  <div class="profile-picture">
+    <a href="index.html">
+      <img src="images/profile.jpg" class="img-circle m-b" alt="logo">
+    </a>
+
+    <div class="stats-label text-color">
+      <span class="font-extra-bold font-uppercase">{{config.title}}</span>
+
+      <div class="small-chart m-t-sm">
+        <div sparkline spark-data="barProfileData" spark-options="barProfileOptions"></div>
+      </div>
+      <div>
+        <small class="text-muted">所属团队:{{config.owner}}</small>
+      </div>
+    </div>
+  </div>
+  <ul yunzhi-side-navigation class="nav" id="side-menu">
+  </ul>
+</div>

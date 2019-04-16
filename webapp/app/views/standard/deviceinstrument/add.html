@@ -1,0 +1,49 @@
+<div class="row">
+    <div class="col-lg-6">
+        <form method="get" class="form-horizontal" name="StandardAuthorizationAdd" ng-submit="save()">
+            <div class="form-group">
+                <label class="col-sm-4 control-label">学科类别</label>
+                <div class="col-sm-8">
+                    <yunzhi-discipline ng-model="data.discipline"></yunzhi-discipline>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-4 control-label">器具类别</label>
+                <div class="col-sm-8">
+                    <yunzhi-instrument-type data-discipline="data.discipline" ng-model="data.instrumentType"></yunzhi-instrument-type>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-4 control-label">准确度等级</label>
+                &nbsp;&nbsp;
+                <div ng-repeat="accuracy in data.instrumentType.accuracies | orderBy: 'weight'" class="radio-inline radio radio-info">
+                    <input type="radio" ng-model="data.accuracy" ng-checked="isAccuracyChecked(accuracy)" ng-value="accuracy" name="accuracy" id="accuracy_{{accuracy.id}}" required/> &nbsp;
+                    <label for="accuracy_{{accuracy.id}}">{{accuracy.value}}</label>&nbsp;&nbsp;
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-4 control-label">测量范围</label>
+                &nbsp;&nbsp;下限值
+                <select ng-model="data.minMeasureScale.id" name="minMeasureScale" ng-options="option.id as option.value for option in data.instrumentType.measureScales | orderBy: 'weight'" required>
+                </select>
+                &nbsp;至&nbsp;
+                <select ng-model="data.maxMeasureScale.id" name="maxMeasureScale" ng-options="option.id as option.value for option in data.instrumentType.measureScales | orderBy: 'weight'" required>
+                </select>上限值
+            </div>
+            <div class="form-group">
+                <div class="col-sm-8 col-sm-offset-4">
+                    <button class="btn btn-primary" ng-hide="StandardAuthorizationAdd.$submitted" type="submit"><i class="fa fa-floppy-o" aria-hidden="true"></i>&nbsp;&nbsp;保存
+                    </button>
+                    <button ng-disabled="true" ng-show="StandardAuthorizationAdd.$submitted" class="btn btn-primary" type="button">
+                        &nbsp;&nbsp;数据正在处理...
+                    </button>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-sm-8 col-sm-offset-4">
+                    <div ng-bind="info" class="text-success"></div>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>

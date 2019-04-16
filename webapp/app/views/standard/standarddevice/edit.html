@@ -1,0 +1,120 @@
+<div class="row">
+    <div class="col-lg-6">
+        <form class="form-horizontal" name="standardDevicedetail" ng-submit="update()">
+            <div class="form-group">
+                <label class="col-sm-4 control-label">代码</label>
+                <div class="col-sm-8">
+                    <input type="text" class="form-control" ng-model="data.code" name="code" required>
+                    <div class="m-t-xs" ng-show="standardDevicedetail.code.$invalid && standardDevicedetail.code.$touched">
+                        <span class="text-danger" ng-show="standardDevicedetail.code.$error"><i class="fa fa-exclamation-triangle"></i>请输入正确的代码</span>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-4 control-label">名称</label>
+                <div class="col-sm-8">
+                    <input type="text" class="form-control" ng-model="data.name" name="devicename" required>
+                    <div class="m-t-xs" ng-show="standardDevicedetail.devicename.$invalid && standardDevicedetail.devicename.$touched">
+                        <span class="text-danger" ng-show="standardDevicedetail.devicename.$error"><i class="fa fa-exclamation-triangle"></i>请输入正确的名称</span>
+                    </div>
+                </div>
+
+            </div>
+            <div class="form-group">
+                <label class="col-sm-4 control-label">生产企业名称</label>
+                <div class="col-sm-8">
+                    <input type="text" class="form-control" ng-model="data.manufacturerName" name="department" required>
+                    <div class="m-t-xs" ng-show=" standardDevicedetail.department.$invalid && standardDevicedetail.department.$touched">
+                        <span class="text-danger" ng-show="standardDevicedetail.department.$error"><i class="fa fa-exclamation-triangle"></i> 请输入生产企业名称</span>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-4 control-label">出厂编号</label>
+                <div class="col-sm-8">
+                    <input type="text" class="form-control" ng-model="data.factoryNum" name="permit" required>
+                    <div class="m-t-xs" ng-show=" standardDevicedetail.permit.$invalid &&  standardDevicedetail.permit.$touched">
+                        <span class="text-danger" ng-show="standardDevicedetail.permit.$error"><i class="fa fa-exclamation-triangle"></i> 请输入许可证号</span>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-4 control-label">许可证号</label>
+                <div class="col-sm-8">
+                    <input type="text" class="form-control" ng-model="data.licenseNum" name="plant" required>
+                    <div class="m-t-xs" ng-show="standardDevicedetail.plant.$invalid && standardDevicedetail.plant.$touched">
+                        <span class="text-danger" ng-show="standardDevicedetail.plant.$error"><i class="fa fa-exclamation-triangle"></i> 请输入出厂编号</span>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-4 control-label">主标准器</label>
+                <div class="col-sm-8" class="radio-inline radio radio-info">
+                    <label>
+                        <input type="radio" name="main" ng-model="data.main" ng-value="true" required/> <span>是&nbsp;</span>
+                    </label>
+                    <label>
+                        <input type="radio" name="main" ng-model="data.main" ng-value="false" /> <span>否</span>
+                    </label>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-4 control-label">学科类别</label>
+                <div class="col-sm-8">
+                    <yunzhi-discipline ng-model="discipline"></yunzhi-discipline>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-4 control-label">分类一级名称</label>
+                <div class="col-sm-8">
+                    <yunzhi-instrument-type-first-level
+                        data-discipline="discipline"
+                        ng-model="instrumentFirstLevelType"></yunzhi-instrument-type-first-level>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-4 control-label">标准器类别</label>
+                <div class="col-sm-8">
+                    <yunzhi-standard-device-instrument-type
+                        data-instrument-first-level-type="instrumentFirstLevelType"
+                        ng-model="data.standardDeviceInstrumentType"></yunzhi-standard-device-instrument-type>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-4 control-label">型号规格</label>
+                <div class="col-sm-8">
+                    <label ng-repeat="specification in data.standardDeviceInstrumentType.specifications">
+                        <input icheck type="radio" name="specification" ng-model="data.specification.id" ng-value="specification.id"/> &nbsp;&nbsp;{{specification.value}}&nbsp;&nbsp;&nbsp;&nbsp;
+                    </label>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-4 control-label">测量范围</label>
+                <div class="col-sm-8">
+                    <label ng-repeat="measureScale in data.standardDeviceInstrumentType.measureScales">
+                        <input icheck type="radio" name="measureScale" ng-model="data.measureScale.id" ng-value="measureScale.id"/> &nbsp;&nbsp;{{measureScale.value}}&nbsp;&nbsp;&nbsp;&nbsp;
+                    </label>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-4 control-label">准确度等级</label>
+                <div class="col-sm-8">
+                    <label ng-repeat="accuracy in data.standardDeviceInstrumentType.accuracies">
+                        <input icheck type="radio" name="accuracy" ng-model="data.accuracy.id" ng-value="accuracy.id"/> &nbsp;&nbsp;{{accuracy.value}}&nbsp;&nbsp;&nbsp;&nbsp;
+                    </label>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-sm-8 col-sm-offset-4">
+                    <button class="btn btn-primary" ng-hide="standardDevicedetail.$submitted" type="submit"><i
+                        class="fa fa-floppy-o" aria-hidden="true"></i>&nbsp;&nbsp;保存
+                    </button>
+                    <button ng-disabled="true" ng-show="standardDevicedetail.$submitted" class="btn btn-primary" type="button">
+                        &nbsp;&nbsp;数据正在处理...
+                    </button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+

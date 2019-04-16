@@ -1,0 +1,81 @@
+<div class="row">
+    <div class="row">
+        <div class="col-lg-6">
+            <form method="get" class="form-horizontal" name="addForm" ng-submit="saveAndClose()">
+                <div class="form-group">
+                    <label class="col-sm-4 control-label">名称</label>
+                    <div class="col-sm-8">
+                        <input type="text" class="form-control" ng-model="data.name" name="name" required>
+                        <div class="m-t-xs" ng-show="addForm.name.$invalid && addForm.name.$touched">
+                            <span class="text-danger" ng-show="addForm.name.$error "><i class="fa fa-exclamation-triangle"></i> 请输入名称</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-4 control-label">价格</label>
+                    <div class="col-sm-8">
+                        <input type="number" class="form-control" ng-model="data.price" name="price" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-4 control-label">作者</label>
+                    <div class="col-sm-8">
+                        <input type="text" class="form-control" ng-model="data.author" name="author" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-4 control-label">简介</label>
+                    <div class="col-sm-8">
+                        <input type="text" class="form-control" ng-model="data.briefIntroduction" name="briefIntroduction" required>
+                    </div>
+                </div>
+                <yunzhi-upload-image ng-model="data.attachment"></yunzhi-upload-image>
+                <div class="form-group">
+                    <label class="col-sm-4 control-label">类别</label>
+                    <div class="col-sm-8">
+                        <yunzhi-category ng-model="data.category"></yunzhi-category>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-4 control-label">点击量</label>
+                    <div class="col-sm-8">
+                        <input type="number" class="form-control" ng-model="data.clicks" name="clicks" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-4 control-label">销量</label>
+                    <div class="col-sm-8">
+                        <input type="number" class="form-control" ng-model="data.sales" name="sales" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-4 control-label">库存</label>
+                    <div class="col-sm-8">
+                        <input type="number" class="form-control" ng-model="data.inventory" name="inventory" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-4 control-label">出版社</label>
+                    <div class="col-sm-8">
+                        <input type="text" class="form-control" ng-model="data.press" name="press" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-sm-8 col-sm-offset-3">
+                        <button class="btn btn-primary" ng-hide="addForm.$submitted" type="submit"><i
+                            class="fa fa-floppy-o" aria-hidden="true"></i>&nbsp;&nbsp;保存
+                        </button>
+                        <button ng-disabled="true" ng-show="addForm.$submitted" class="btn btn-primary" type="button">
+                            &nbsp;&nbsp;数据正在处理...
+                        </button>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-sm-8 col-sm-offset-4">
+                        <div ng-bind="info" class="text-success"></div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,37 @@
+<div class="color-line"></div>
+<div class="login-container" ng-controller="LoginCtrl">
+  <div class="row">
+    <div class="col-md-12">
+      <div class="text-center m-b-md">
+        <h2>{{config.title}}</h2>
+        <small>欢迎使用本系统</small>
+      </div>
+      <div class="hpanel">
+        <div class="panel-body">
+          <form ng-submit="login(user)" name="form">
+            <div class="form-group">
+              <label class="control-label" for="username">用户名</label>
+              <input type="text" placeholder="请输入您的用户名" title="请输入您的用户名" required="required" ng-model="user.username" id="username" class="form-control">
+              <span class="help-block small"></span>
+            </div>
+            <div class="form-group">
+              <label class="control-label" for="password">密码</label>
+              <input type="password" title="请输入您的密码" placeholder="请输入您的密码" required="required" id="password" ng-model="user.password" class="form-control">
+              <span class="help-block small"></span>
+            </div>
+            <button ng-hide="form.$submitted" class="btn btn-success btn-block" type="submit">登    录</button>
+            <button ng-show="form.$submitted" class="btn btn-success btn-block" type="button" ng-disabled="true">正在登录...</button>
+            <!--<a ng-disabled="form.$submitted" class="btn btn-default btn-block" type="button" ng-click="registration()">注    册</a>-->
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12 text-center">
+      {{config.beginYear}} - {{config.currentYear}} Copyright <strong>{{config.owner}}</strong>
+      <br /><small>技术支持：<span ng-bind-html="config.technicalSupport"></span></small>
+    </div>
+  </div>
+</div>
+
