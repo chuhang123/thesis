@@ -13,9 +13,9 @@
                 <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                     <div class="account-area text-right">
                         <ul>
-                            <li><a href="checkout.html">支付</a></li>
-                            <li><a href="register.html">注册</a></li>
-                            <li><a href="login.html">登录</a></li>
+                            <li><a ui-sref="checkout">结算</a></li>
+                            <li><a ui-sref="registration">注册</a></li>
+                            <li><a ui-sref="login">登录</a></li>
                         </ul>
                     </div>
                 </div>
@@ -76,8 +76,8 @@
                                         <h5>Total <span>£12.00</span></h5>
                                     </div>
                                     <div class="cart-bottom">
-                                        <a class="view-cart" href="cart.html">view cart</a>
-                                        <a href="checkout.html">Check out</a>
+                                        <a class="view-cart" ui-sref="cart">查看购物车</a>
+                                        <a ui-sref="checkout">去结算</a>
                                     </div>
                                 </div>
                             </li>
@@ -98,9 +98,9 @@
                         <nav>
                             <ul>
                                 <li class="active">
-                                    <a href="index.html">首页</a>
+                                    <a ui-sref="main.dashboard" ng-click="hideInformation()">首页</a>
                                 </li>
-                                <li><a href="product-details.html">图书<i class="fa fa-angle-down"></i></a>
+                                <li><a ui-sref="book">图书<i class="fa fa-angle-down"></i></a>
                                     <div class="mega-menu">
 												<span>
 													<a href="shop.html">Tops & Tees</a>
@@ -142,7 +142,7 @@
                         </nav>
                     </div>
                     <div class="safe-area">
-                        <a href="contact.html">联系我们</a>
+                        <a ui-sref="contact">联系我们</a>
                     </div>
                 </div>
             </div>
@@ -242,7 +242,7 @@
                                         <li><a href="contact.html">Contact</a></li>
                                         <li><a href="checkout.html">Checkout</a></li>
                                         <li><a href="cart.html">Cart</a></li>
-                                        <li><a href="login.html">Login</a></li>
+                                        <li><a ui-route="login.html">Login</a></li>
                                         <li><a href="register.html">Register</a></li>
                                         <li><a href="wishlist.html">Wishlist</a></li>
                                         <li><a href="404.html">404 Page</a></li>

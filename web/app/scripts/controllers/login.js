@@ -8,9 +8,11 @@
  * Controller of the webappApp
  */
 angular.module('webappApp')
-    .controller('LoginCtrl', ['$scope', '$location', 'UserService', 'config', 'SweetAlert', 'CommonService', 'WebAppMenuService', function ($scope, $location, UserService, config, SweetAlert, CommonService, WebAppMenuService) {
+    .controller('LoginCtrl', ['$scope', '$rootScope', '$location', 'UserService', 'config', 'SweetAlert', 'CommonService', 'WebAppMenuService', function ($scope, $rootScope, $location, UserService, config, SweetAlert, CommonService, WebAppMenuService) {
         var self = this;
-        UserService.init();
+        $rootScope.sliderAndContent = true;
+
+        //UserService.init();
 
         // 初始化用户
         self.login = function (user) {
