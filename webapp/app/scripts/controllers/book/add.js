@@ -16,8 +16,6 @@ angular.module('webappApp')
             author: '', // 作者
             briefIntroduction: '', // 简介
             attachment: '', // 封面
-            clicks: '', // 点击量
-            sales: '', // 销量
             inventory: '', // 库存
             category: '', // 类别
             press: '' // 出版社

@@ -2,95 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4d1e71d9-0c12-404c-a59a-268ec73bfea0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../web/app/scripts/controllers/book.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../web/app/scripts/controllers/cart.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../web/app/scripts/controllers/checkout.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../web/app/scripts/controllers/contact.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../web/app/scripts/controllers/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../web/app/scripts/controllers/registration.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../web/app/views/book.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../web/app/views/cart.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../web/app/views/checkout.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../web/app/views/contact.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../web/app/views/registration.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web/app/scripts/filters/imagepath.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web/app/scripts/services/bookservice.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../api" beforeDir="false" afterPath="$PROJECT_DIR$/../api" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../book/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../book/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../web/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../web/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../web/app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../web/app/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/app/js/ajax-mail.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/app/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/app/js/chosen.jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/app/js/jquery.countdown.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/app/js/jquery.counterup.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/app/js/jquery.flexslider.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/app/js/jquery.meanmenu.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/app/js/jquery.parallax-1.1.3.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/app/js/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/app/js/owl.carousel.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/app/js/plugins.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/app/js/vendor/jquery-1.12.0.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/app/js/vendor/modernizr-2.8.3.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/app/js/waypoints.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/app/js/wow.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/app/less/components/badge.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/app/less/components/buttons.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/app/less/components/checkbox_radio.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/app/less/components/dropdown.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/app/less/components/inputs.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/app/less/components/lists.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/app/less/components/loader.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/app/less/components/modal.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/app/less/components/panels.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/app/less/components/progress_bar.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/app/less/components/splash.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/app/less/components/tabs.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/app/less/components/timeline.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/app/less/components/tooltip.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/app/less/pages/analytics.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/app/less/pages/app_plans.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/app/less/pages/blog.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/app/less/pages/chat.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/app/less/pages/contact.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/app/less/pages/file_manager.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/app/less/pages/forum.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/app/less/pages/landing.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/app/less/pages/login.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/app/less/pages/mailbox.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/app/less/pages/notes.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/app/less/pages/projects.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/app/less/pages/search.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/app/less/pages/social_board.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/app/less/plugins/calendar.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/app/less/plugins/codemirror.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/app/less/plugins/flot.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/app/less/plugins/icheck.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/app/less/plugins/nestable.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/app/less/plugins/notify.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/app/less/plugins/sweetalert.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/app/less/plugins/text_editor.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/app/less/plugins/toastr.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/app/less/plugins/tour.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/app/less/plugins/ui_sortable.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/app/less/skins/light_shadow.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/app/less/style.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/app/less/utilities/backgrounds.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/app/less/utilities/borders.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/app/less/utilities/colors.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/app/less/utilities/fonts.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/app/less/utilities/grid.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/app/less/utilities/heights_widths.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/app/less/utilities/layout.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/app/less/utilities/margins.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/app/less/utilities/various.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/app/scripts/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/../web/app/scripts/config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/app/scripts/controllers/book.js" beforeDir="false" afterPath="$PROJECT_DIR$/../web/app/scripts/controllers/book.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/app/scripts/controllers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../web/app/scripts/controllers/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../web/app/scripts/controllers/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/../web/app/scripts/controllers/login.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/app/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/app/views/common/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/../web/app/views/common/footer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/app/views/common/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/../web/app/views/common/header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/app/views/common/middle.html" beforeDir="false" afterPath="$PROJECT_DIR$/../web/app/views/common/middle.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/app/views/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/../web/app/views/dashboard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/app/scripts/controllers/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/../web/app/scripts/controllers/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/app/scripts/controllers/registration.js" beforeDir="false" afterPath="$PROJECT_DIR$/../web/app/scripts/controllers/registration.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/app/scripts/services/userservice.js" beforeDir="false" afterPath="$PROJECT_DIR$/../web/app/scripts/services/userservice.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../web/app/views/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/../web/app/views/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/app/views/registration.html" beforeDir="false" afterPath="$PROJECT_DIR$/../web/app/views/registration.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../webapp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../webapp/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../webapp/app/scripts/controllers/book/add.js" beforeDir="false" afterPath="$PROJECT_DIR$/../webapp/app/scripts/controllers/book/add.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../webapp/app/views/book/add.html" beforeDir="false" afterPath="$PROJECT_DIR$/../webapp/app/views/book/add.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -103,15 +30,27 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="172">
+              <caret line="1543" column="53" selection-start-line="1543" selection-start-column="53" selection-end-line="1543" selection-end-column="53" />
+              <folding>
+                <element signature="n#div#0;n#div#1;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#1;n#div#1;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#2;n#div#1;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#3;n#div#1;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#4;n#div#1;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#5;n#div#1;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/shop.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="169">
+            <state relative-caret-position="4212">
               <caret line="406" column="8" selection-start-line="406" selection-start-column="8" selection-end-line="1730" selection-end-column="35" />
               <folding>
                 <element signature="n#div#2;n#header#0;n#body#0;n#html#0;n#!!top" />
@@ -126,7 +65,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/login.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
+            <state relative-caret-position="1188">
               <caret line="405" column="8" selection-start-line="405" selection-start-column="8" selection-end-line="452" selection-end-column="36" />
               <folding>
                 <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
@@ -140,7 +79,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/checkout.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
+            <state relative-caret-position="1377">
               <caret line="435" selection-start-line="435" selection-end-line="789" selection-end-column="14" />
               <folding>
                 <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
@@ -153,10 +92,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cart.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-564">
+            <state relative-caret-position="27">
               <caret line="422" column="8" selection-start-line="422" selection-start-column="8" selection-end-line="540" selection-end-column="14" />
               <folding>
                 <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
@@ -170,7 +109,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/register.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="35">
+            <state relative-caret-position="1242">
               <caret line="407" column="8" selection-start-line="407" selection-start-column="8" selection-end-line="546" selection-end-column="36" />
               <folding>
                 <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
@@ -186,7 +125,14 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/index.html" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="67" />
     <option name="y" value="88" />
     <option name="width" value="1171" />
@@ -198,7 +144,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -210,6 +155,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -244,17 +190,18 @@
       <workItem from="1555202247817" duration="98000" />
       <workItem from="1555423929217" duration="1241000" />
       <workItem from="1555549041389" duration="4462000" />
+      <workItem from="1556076308559" duration="1619000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7754000" />
+    <option name="totallyTimeSpent" value="9373000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="67" y="88" width="1171" height="634" extended-state="0" />
+    <frame x="67" y="25" width="1299" height="743" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.277245" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24941176" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -277,12 +224,9 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/shop.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
+        <state relative-caret-position="4212">
           <caret line="406" column="8" selection-start-line="406" selection-start-column="8" selection-end-line="1730" selection-end-column="35" />
           <folding>
             <element signature="n#div#2;n#header#0;n#body#0;n#html#0;n#!!top" />
@@ -293,21 +237,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/register.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="35">
-          <caret line="407" column="8" selection-start-line="407" selection-start-column="8" selection-end-line="546" selection-end-column="36" />
-          <folding>
-            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/login.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
+        <state relative-caret-position="1188">
           <caret line="405" column="8" selection-start-line="405" selection-start-column="8" selection-end-line="452" selection-end-column="36" />
           <folding>
             <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
@@ -319,7 +251,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/checkout.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
+        <state relative-caret-position="1377">
           <caret line="435" selection-start-line="435" selection-end-line="789" selection-end-column="14" />
           <folding>
             <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
@@ -331,14 +263,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1242">
+          <caret line="407" column="8" selection-start-line="407" selection-start-column="8" selection-end-line="546" selection-end-column="36" />
+          <folding>
+            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/cart.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-564">
+        <state relative-caret-position="27">
           <caret line="422" column="8" selection-start-line="422" selection-start-column="8" selection-end-line="540" selection-end-column="14" />
           <folding>
             <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="1543" column="53" selection-start-line="1543" selection-start-column="53" selection-end-line="1543" selection-end-column="53" />
+          <folding>
+            <element signature="n#div#0;n#div#1;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#1;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#div#1;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#3;n#div#1;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#4;n#div#1;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#5;n#div#1;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" />
           </folding>
         </state>
       </provider>

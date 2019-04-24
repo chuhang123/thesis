@@ -49,6 +49,7 @@ angular.module('webappApp')
             var headers = {authorization: 'Basic ' + btoa(user.username + ':' + user.password)};
             $http.get('/User/login', {headers: headers})
                 .then(function success(response) {
+                    console.log(response);
                         // 获取header中传回的x-auth-token并进行cookie
                         var xAuthToken = response.headers(config.xAuthTokenName);
                         if (xAuthToken) {
@@ -113,6 +114,16 @@ angular.module('webappApp')
                 });
         };
 
+        self.save = function(data, callback) {
+            var url = '/User/';
+            $http.post(url, data)
+                .then(function success(response){
+                    if (callback) {callback(response.data);}
+                }, function error(response){
+                    CommonService.httpError(response);
+                });
+        };
+
         return {
             init: self.init,
             setCurrentLoginUser: self.setCurrentLoginUser,
@@ -120,6 +131,7 @@ angular.module('webappApp')
             checkUserIsLogin: self.checkUserIsLogin,
             login: self.login,
             logout: self.logout,
+            save: self.save,
             updatePasswordAndNameOfCurrentUser: self.updatePasswordAndNameOfCurrentUser
         };
     });

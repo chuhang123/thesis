@@ -21,17 +21,11 @@
             <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12">
                 <div class="shop-left">
                     <div class="section-title-5 mb-30">
-                        <h2>Shopping Options</h2>
-                    </div>
-                    <div class="left-title mb-20">
-                        <h4>Category</h4>
+                        <h2>图书类别</h2>
                     </div>
                     <div class="left-menu mb-30">
                         <ul>
-                            <li><a href="#">Jackets<span>(15)</span></a></li>
-                            <li><a href="#">weaters<span>(9)</span></a></li>
-                            <li><a href="#">Bottoms<span>(12)</span></a></li>
-                            <li><a href="#">Jeans Pants<span>(6)</span></a></li>
+                            <li ng-repeat="data in categorys"><a href="#">{{data.name}}<span>(15)</span></a></li>
                         </ul>
                     </div>
                     <div class="left-title mb-20">

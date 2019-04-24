@@ -272,5 +272,4 @@ angular
         $location.path(config.loginPath);
       });
     };
-
   }]);
