@@ -2,34 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8fb6d173-4b08-4acb-93e3-340ef8705610" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/scripts/controllers/bookdetail.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/bookdetail.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../api" beforeDir="false" afterPath="$PROJECT_DIR$/../api" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gruntfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/Gruntfile.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/scripts/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/scripts/config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/scripts/controllers/book.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/scripts/controllers/book.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/scripts/controllers/cart.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/scripts/controllers/cart.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/scripts/controllers/checkout.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/scripts/controllers/checkout.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/scripts/controllers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/scripts/controllers/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/scripts/controllers/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/scripts/controllers/login.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/scripts/controllers/registration.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/scripts/controllers/registration.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/scripts/services/bookservice.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/scripts/services/bookservice.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/scripts/services/userservice.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/scripts/services/userservice.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/book.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/book.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/cart.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/checkout.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/checkout.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/common/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/common/header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/registration.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/registration.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../webapp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../webapp/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../webapp/app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../webapp/app/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../webapp/app/scripts/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/../webapp/app/scripts/config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../webapp/app/scripts/controllers/book/add.js" beforeDir="false" afterPath="$PROJECT_DIR$/../webapp/app/scripts/controllers/book/add.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../webapp/app/views/book/add.html" beforeDir="false" afterPath="$PROJECT_DIR$/../webapp/app/views/book/add.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../webapp/app/views/book/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../webapp/app/views/book/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -324,16 +297,15 @@
       <workItem from="1556497786231" duration="14207000" />
       <workItem from="1556583507136" duration="3895000" />
       <workItem from="1556600186043" duration="210000" />
-      <workItem from="1556620515800" duration="5267000" />
+      <workItem from="1556620515800" duration="5908000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="135454000" />
+    <option name="totallyTimeSpent" value="136095000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1299" height="743" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4953917" visible="true" weight="0.19137254" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
