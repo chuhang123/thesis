@@ -13,6 +13,7 @@ angular.module('webappApp')
         $scope.data = {
             name: '', // 名称
             price: '', // 价格
+            originalPrice: '', // 原价
             author: '', // 作者
             briefIntroduction: '', // 简介
             attachment: '', // 封面

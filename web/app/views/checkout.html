@@ -1,6 +1,17 @@
-<br>
-<br>
-<br>
+<div class="breadcrumbs-area mb-70">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="breadcrumbs-menu">
+                    <ul>
+                        <li><a ui-sref="main.dashboard" ng-click="hideInformation()">首页</a></li>
+                        <li><a href="" class="active">结算</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 <div class="checkout-area mb-70">
     <div class="container">
         <div class="row">
@@ -12,19 +23,19 @@
                             <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 ">
                                 <div class="checkout-form-list">
                                     <label>用户名<span class="required">*</span></label>
-                                    <input type="text" placeholder="">
+                                    <input type="text" placeholder="" ng-model="data.username">
                                 </div>
                             </div>
                             <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                                 <div class="checkout-form-list">
                                     <label>电话<span class="required">*</span></label>
-                                    <input type="text" placeholder="">
+                                    <input type="text" placeholder="" ng-model="data.phone">
                                 </div>
                             </div>
                             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                 <div class="checkout-form-list">
                                     <label>收货地址<span class="required">*</span></label>
-                                    <input type="text" placeholder="收货地址..">
+                                    <input type="text" placeholder="收货地址.." ng-model="data.address">
                                 </div>
                             </div>
 
@@ -32,7 +43,7 @@
                         <div class="order-notes">
                             <div class="checkout-form-list">
                                 <label>订单备注</label>
-                                <textarea placeholder="备注信息.." rows="10" cols="30" id="checkout-mess"></textarea>
+                                <textarea ng-model="data.remark" placeholder="备注信息.." rows="10" cols="30" id="checkout-mess"></textarea>
                             </div>
                         </div>
                     </div>
@@ -49,27 +60,19 @@
                                 </tr>
                                 </thead>
                                 <tbody>
-                                <tr class="cart_item">
+                                <tr class="cart_item" ng-repeat="data in books">
                                     <td class="product-name">
-                                        Vestibulum suscipit <strong class="product-quantity"> × 1</strong>
+                                        {{data.name}} <strong class="product-quantity"> × {{treeMap[data.id]}}</strong>
                                     </td>
                                     <td class="product-total">
-                                        <span class="amount">£165.00</span>
-                                    </td>
-                                </tr>
-                                <tr class="cart_item">
-                                    <td class="product-name">
-                                        Vestibulum suscipit	<strong class="product-quantity"> × 1</strong>
-                                    </td>
-                                    <td class="product-total">
-                                        <span class="amount">£50.00</span>
+                                        <span class="amount">￥{{data.price}}</span>
                                     </td>
                                 </tr>
                                 </tbody>
                                 <tfoot>
                                 <tr class="order-total">
                                     <th>订单金额</th>
-                                    <td><strong><span class="amount">£215.00</span></strong>
+                                    <td><strong><span class="amount">￥{{totalPrice}}</span></strong>
                                     </td>
                                 </tr>
                                 </tfoot>
@@ -77,7 +80,7 @@
                         </div>
                         <div class="payment-method">
                             <div class="order-button-payment">
-                                <input type="submit" value="付款">
+                                <input type="submit" ng-click="generateIndent()" value="付款">
                             </div>
                         </div>
                     </div>

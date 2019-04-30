@@ -26,14 +26,15 @@
                         <th width="1%">序号</th>
                         <th width="3%">名称</th>
                         <th width="3%">类别</th>
-                        <th width="3%">价格</th>
+                        <th width="3%">现价</th>
+                        <th width="3%">原价</th>
                         <th width="3%">作者</th>
-                        <th width="3%">简介</th>
                         <th width="3%">封面</th>
                         <th width="3%">点击量</th>
                         <th width="3%">销量</th>
                         <th width="3%">库存</th>
                         <th width="3%">出版社</th>
+                        <th width="3%">简介</th>
                         <th width="3%">操作</th>
                     </tr>
                     </thead>
@@ -43,8 +44,8 @@
                         <td style="word-wrap: break-word">{{data.name}}</td>
                         <td style="word-wrap: break-word">{{data.category.name}}</td>
                         <td style="word-wrap: break-word">{{data.price}}</td>
+                        <td style="word-wrap: break-word">{{data.originalPrice}}</td>
                         <td style="word-wrap: break-word">{{data.author}}</td>
-                        <td style="word-wrap: break-word">{{data.briefIntroduction}}</td>
                         <td style="word-wrap: break-word">
                             <a ng-href="{{data.attachment.saveName | imagePath}}">
                                 <img class="image" ng-src="{{data.attachment.saveName | imagePath}}" alt="{{_image.name}}" style="width: 150px; height: 200px"/>
@@ -54,6 +55,7 @@
                         <td style="word-wrap: break-word">{{data.sales}}</td>
                         <td style="word-wrap: break-word">{{data.inventory}}</td>
                         <td style="word-wrap: break-word">{{data.press}}</td>
+                        <td style="word-wrap: break-word">{{data.briefIntroduction}}</td>
                         <td style="word-wrap: break-word;">
                             <a ui-sref="standard.bookEdit({id: data.id, book: data})" class="btn btn-xs btn-info"> <i class="fa fa-paste"></i>&nbsp;
                                 编辑&nbsp;</a>

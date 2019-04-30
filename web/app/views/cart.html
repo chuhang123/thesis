@@ -1,7 +1,18 @@
 <!-- entry-header-area-start -->
-<br>
-<br>
-<br>
+<div class="breadcrumbs-area mb-70">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="breadcrumbs-menu">
+                    <ul>
+                        <li><a ui-sref="main.dashboard" ng-click="hideInformation()">首页</a></li>
+                        <li><a href="" class="active">购物车</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 <div class="entry-header-area">
     <div class="container">
         <div class="row">
@@ -33,21 +44,16 @@
                             </tr>
                             </thead>
                             <tbody>
-                            <tr>
-                                <td class="product-thumbnail"><a href="#"><img src="img/cart/1.jpg" alt="man" /></a></td>
-                                <td class="product-name"><a href="#">Vestibulum suscipit</a></td>
-                                <td class="product-price"><span class="amount">£165.00</span></td>
-                                <td class="product-quantity"><input type="number" value="1"></td>
-                                <td class="product-subtotal">£165.00</td>
-                                <td class="product-remove"><a href="#"><i class="fa fa-times"></i></a></td>
-                            </tr>
-                            <tr>
-                                <td class="product-thumbnail"><a href="#"><img src="img/cart/2.jpg" alt="man" /></a></td>
-                                <td class="product-name"><a href="#">Vestibulum dictum magna</a></td>
-                                <td class="product-price"><span class="amount">£50.00</span></td>
-                                <td class="product-quantity"><input type="number" value="1"></td>
-                                <td class="product-subtotal">£50.00</td>
-                                <td class="product-remove"><a href="#"><i class="fa fa-times"></i></a></td>
+                            <tr ng-repeat="data in books" ng-hide="data.hide">
+                                <td class="product-thumbnail">
+                                    <img class="image" ng-src="{{data.attachment.saveName | imagePath}}" alt="{{_image.name}}" style="width: 150px; height: 200px"/>
+                                </a>
+                                </td>
+                                <td class="product-name">{{data.name}}</td>
+                                <td class="product-price"><span class="amount">￥{{data.price}}</span></td>
+                                <td class="product-quantity"><input type="number" ng-model="treeMap[data.id]" ng-value="treeMap[data.id]"></td>
+                                <td class="product-subtotal">￥{{treeMap[data.id]*data.price}}</td>
+                                <td class="product-remove"><a ng-click="delete(data)" href=""><i class="fa fa-times"></i></a></td>
                             </tr>
                             </tbody>
                         </table>
@@ -59,6 +65,7 @@
             <div class="col-lg-8 col-md-8 col-sm-6 col-xs-12">
                 <div class="buttons-cart mb-30">
                     <ul>
+                        <li><a href="" ng-click="updateShoppingCart()">更新购物车</a></li>
                         <li><a href="#">继续购物</a></li>
                     </ul>
                 </div>
@@ -71,7 +78,7 @@
                         <tr class="order-total">
                             <td>
                                 <strong>
-                                    <span class="amount">£215.00</span>
+                                    <span class="amount">￥{{totalPrice}}</span>
                                 </strong>
                             </td>
                         </tr>
@@ -80,7 +87,7 @@
                     <br>
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                     <div class="wc-proceed-to-checkout">
-                        <a ui-sref="checkout">继续结算</a>
+                        <a ui-sref="checkout" ng-click="checkout()">继续结算</a>
                     </div>
                 </div>
             </div>

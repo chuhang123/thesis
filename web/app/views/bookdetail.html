@@ -1,0 +1,89 @@
+﻿<div class="breadcrumbs-area mb-70">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12">
+				<div class="breadcrumbs-menu">
+					<ul>
+						<li><a ui-sref="main.dashboard" ng-click="hideInformation()">首页</a></li>
+						<li><a href="" class="active">图书详情</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- breadcrumbs-area-end -->
+<!-- product-main-area-start -->
+<div class="product-main-area mb-70">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-9 col-md-9 col-sm-8 col-xs-12">
+				<!-- product-main-area-start -->
+				<div class="product-main-area">
+					<div class="row">
+						<div class="col-lg-5 col-md-5 col-sm-6 col-xs-12">
+							<div class="flexslider">
+								<ul class="slides">
+									<a ui-sref="bookDetail({id: data.id})">
+										<img class="image" ng-src="{{data.attachment.saveName | imagePath}}" alt="{{_image.name}}"/>
+									</a>
+								</ul>
+							</div>
+						</div>
+						<div class="col-lg-7 col-md-7 col-sm-6 col-xs-12">
+							<div class="product-info-main">
+								<div class="page-title">
+									<h1>{{data.name}}</h1>
+								</div>
+								<div class="product-info-price">
+									<div class="price-final">
+										<span>￥{{data.price}}</span>
+										<span class="old-price">$40.00</span>
+									</div>
+								</div>
+								<div class="product-add-form">
+									<form action="#">
+										<div class="quality-button">
+											<input class="qty" type="number" ng-value="quantity" ng-model="quantity">
+										</div>
+										<a ui-sref="bookDetail" title="加入购物车" ng-click="addToCart(data.id)"><i class="fa fa-shopping-cart"></i>加入购物车</a>
+									</form>
+								</div>
+								<div class="product-social-links">
+									<div class="product-addto-links-text">
+										<p>{{data.briefIntroduction}}</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-3 col-sm-4 col-xs-12">
+				<div class="shop-left">
+					<div class="left-title mb-20">
+						<h4>人气图书</h4>
+					</div>
+					<div class="product-total-2" ng-repeat="data in relateBooks">
+						<div class="single-most-product bd mb-18">
+							<div class="most-product-img">
+								<a ui-sref="bookDetail({id: data.id})">
+									<img class="image" ng-src="{{data.attachment.saveName | imagePath}}" alt="{{_image.name}}"/>
+								</a>
+							</div>
+							<div class="most-product-content">
+								<h4><a href="#">{{data.name}}</a></h4>
+								<div class="product-price">
+									<ul>
+										<li>￥{{data.price}}</li>
+										<li class="old-price">$33.00</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

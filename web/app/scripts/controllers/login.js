@@ -8,7 +8,7 @@
  * Controller of the webappApp
  */
 angular.module('webappApp')
-    .controller('LoginCtrl', ['$scope', '$rootScope', '$state', 'UserService', 'config', 'SweetAlert', 'CommonService', 'WebAppMenuService', function ($scope, $rootScope, $state, UserService, config, SweetAlert, CommonService, WebAppMenuService) {
+    .controller('LoginCtrl', ['$scope', '$rootScope', '$state', 'UserService', 'config', 'SweetAlert', 'CommonService', 'WebAppMenuService', '$window', function ($scope, $rootScope, $state, UserService, config, SweetAlert, CommonService, WebAppMenuService, $window) {
         var self = this;
         $rootScope.sliderAndContent = true;
 
@@ -23,8 +23,11 @@ angular.module('webappApp')
                     $scope.form.$submitted = false;
                 } else if (status === 200) {
                     // 登录成功，先清空缓存，然后跳转.自动跳转
-                    WebAppMenuService.init();
-                    $state.go('main.dashboard');
+                    //WebAppMenuService.init();
+                    //$rootScope.sliderAndContent = false;
+                    //$state.go('main.dashboard', {}, {reload: true});
+
+                    $window.location.reload();
                 } else {
                     CommonService.setMessage('对不起', '系统发生未知错误，请稍后重试，或联系您的管理员。');
                     $scope.form.$submitted = false;

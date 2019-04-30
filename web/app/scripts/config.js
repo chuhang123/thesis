@@ -32,9 +32,29 @@ function configState($stateProvider, $urlRouterProvider, $compileProvider, confi
 
         //图书管理
         .state('book', {
-            url: '/book',
+            url: '/book/:categoryId',
             templateUrl: 'views/book.html', // 模板文件
+            params: {
+                categoryId: {
+                    value: ''
+                },
+                name: {
+                    value: ''
+                }
+            },
             controller: 'BookCtrl'
+        })
+
+            // 图书详情
+        .state('bookDetail', {
+            url: '/bookDetail/:id',
+            templateUrl: 'views/bookdetail.html', // 模板文件
+            params: {
+                id: {
+                    value: ''
+                }
+            },
+            controller: 'BookDetailCtrl'
         })
 
         // 登录

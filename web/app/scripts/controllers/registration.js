@@ -17,15 +17,20 @@ angular.module('webappApp')
             name: '',
             address: '',
             phone: '',
-            password: ''
+            password: '',
+            confirmPassword: ''
         };
 
         self.saveAndClose = function () {
-            UserService.save($scope.data, function () {
-                CommonService.success('注册成功', undefined, function () {
-                    $state.go('login');
+            if (self.data.password != self.data.confirmPassword) {
+                CommonService.error('两次密码输入不一致', undefined, undefined);
+            } else {
+                UserService.save($scope.data, function () {
+                    CommonService.success('注册成功', undefined, function () {
+                        $state.go('login');
+                    });
                 });
-            });
+            }
         };
 
         // 统一暴露

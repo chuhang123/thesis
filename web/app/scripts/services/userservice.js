@@ -8,7 +8,7 @@
  * Service in the webappApp.
  */
 angular.module('webappApp')
-    .service('UserService', function ($cookies, $http, $route, config, CommonService, WebAppMenuService) {
+    .service('UserService', function ($cookies, $http, $route, config, CommonService, WebAppMenuService, $state) {
         var self     = this;
         var cacheKey = 'userId';
 
@@ -85,6 +85,17 @@ angular.module('webappApp')
             });
         };
 
+        // 判断用户是否登录，如果未登录，跳转登录界面
+        self.checkUserLogin = function (callback) {
+            self.getCurrentLoginUser(function (user) {
+                if (angular.equals(user, {})) {
+                    $state.go('login');
+                } else if (callback) {
+                    callback();
+                }
+            });
+        };
+
         // 注销
         self.logout = function (callback) {
             // 移除cookie
@@ -132,6 +143,7 @@ angular.module('webappApp')
             login: self.login,
             logout: self.logout,
             save: self.save,
-            updatePasswordAndNameOfCurrentUser: self.updatePasswordAndNameOfCurrentUser
+            updatePasswordAndNameOfCurrentUser: self.updatePasswordAndNameOfCurrentUser,
+            checkUserLogin: self.checkUserLogin
         };
     });

@@ -360,6 +360,44 @@ function configState($stateProvider, $urlRouterProvider, $compileProvider, confi
             controller: 'BookIndexCtrl'
         })
 
+        // 客户管理
+        .state('system.Customer', {
+            // 路由值
+            url: '/Customer',
+            templateUrl: 'views/customer/index.html',
+            data: {
+                pageTitle: '客户管理'
+            },
+            params: {
+                page: {
+                    value: '0'
+                },
+                size: {
+                    value: config.size.toString()
+                }
+            },
+            controller: 'CustomerIndexCtrl'
+        })
+
+        // 订单管理
+        .state('system.Indent', {
+            // 路由值
+            url: '/Indent',
+            templateUrl: 'views/indent/index.html',
+            data: {
+                pageTitle: '订单管理'
+            },
+            params: {
+                page: {
+                    value: '0'
+                },
+                size: {
+                    value: config.size.toString()
+                }
+            },
+            controller: 'IndentIndexCtrl'
+        })
+
         .state('system.BookAdd', {
             url: '/Book/add',
             templateUrl: 'views/book/add.html',

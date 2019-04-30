@@ -5,8 +5,8 @@
             <div class="col-lg-12">
                 <div class="breadcrumbs-menu">
                     <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#" class="active">register</a></li>
+                        <li><a ui-sref="main.dashboard" ng-click="hideInformation()">首页</a></li>
+                        <li><a href="" class="active">注册</a></li>
                     </ul>
                 </div>
             </div>
@@ -51,7 +51,7 @@
                                     </div>
                                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                         <label>确认密码<span>*</span></label>
-                                        <input type="password" ng-model="data.password" name="password" required/>
+                                        <input type="password" ng-model="data.confirmPassword" name="password" required/>
                                     </div>
                                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                         <button class="btn btn-default" style="margin-top: 15px;" ng-hide="addForm.$submitted" type="submit"><i
