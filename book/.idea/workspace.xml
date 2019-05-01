@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="eb4c5ba2-6bd5-4eb3-b1f4-6f4d60754cef" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../web/app/scripts/controllers/book.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web/app/scripts/controllers/contact.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web/app/scripts/controllers/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web/app/views/book.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web/app/views/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api" beforeDir="false" afterPath="$PROJECT_DIR$/../api" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../web/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../web/app/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/app/js/ajax-mail.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/app/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/app/js/chosen.jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/app/js/jquery.countdown.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/app/js/jquery.counterup.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/app/js/jquery.flexslider.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/app/js/jquery.meanmenu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/app/js/jquery.parallax-1.1.3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/app/js/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/app/js/owl.carousel.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/app/js/plugins.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/app/js/vendor/jquery-1.12.0.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/app/js/vendor/modernizr-2.8.3.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/app/js/waypoints.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/app/js/wow.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/app/less/components/badge.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/app/less/components/buttons.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/app/less/components/checkbox_radio.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/app/less/components/dropdown.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/app/less/components/inputs.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/app/less/components/lists.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/app/less/components/loader.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/app/less/components/modal.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/app/less/components/panels.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/app/less/components/progress_bar.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/app/less/components/splash.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/app/less/components/tabs.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/app/less/components/timeline.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/app/less/components/tooltip.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/app/less/pages/analytics.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/app/less/pages/app_plans.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/app/less/pages/blog.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/app/less/pages/chat.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/app/less/pages/contact.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/app/less/pages/file_manager.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/app/less/pages/forum.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/app/less/pages/landing.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/app/less/pages/login.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/app/less/pages/mailbox.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/app/less/pages/notes.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/app/less/pages/projects.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/app/less/pages/search.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/app/less/pages/social_board.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/app/less/plugins/calendar.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/app/less/plugins/codemirror.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/app/less/plugins/flot.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/app/less/plugins/icheck.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/app/less/plugins/nestable.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/app/less/plugins/notify.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/app/less/plugins/sweetalert.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/app/less/plugins/text_editor.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/app/less/plugins/toastr.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/app/less/plugins/tour.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/app/less/plugins/ui_sortable.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/app/less/skins/light_shadow.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/app/less/style.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/app/less/utilities/backgrounds.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/app/less/utilities/borders.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/app/less/utilities/colors.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/app/less/utilities/fonts.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/app/less/utilities/grid.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/app/less/utilities/heights_widths.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/app/less/utilities/layout.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/app/less/utilities/margins.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/app/less/utilities/various.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/app/scripts/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/../web/app/scripts/config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/app/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/app/views/common/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/../web/app/views/common/footer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/app/views/common/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/../web/app/views/common/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/app/views/common/middle.html" beforeDir="false" afterPath="$PROJECT_DIR$/../web/app/views/common/middle.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/app/views/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/../web/app/views/dashboard.html" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-66">
+              <caret line="1297" column="8" selection-start-line="1297" selection-start-column="8" selection-end-line="1330" selection-end-column="14" />
+              <folding>
+                <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#2;n#div#0;n#div#0;n#div#1;n#header#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#3;n#header#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#3;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#4;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#5;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#6;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#7;n#body#0;n#html#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/contact.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="89">
+              <caret line="492" column="14" lean-forward="true" selection-start-line="434" selection-start-column="8" selection-end-line="492" selection-end-column="14" />
+              <folding>
+                <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="10098">
+              <caret line="374" column="19" selection-start-line="374" selection-start-column="13" selection-end-line="374" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/img/banner/15.jpg">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/img/banner/17.jpg">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/img/banner/21.jpg">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/img/banner/38.jpg">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/img/banner/30.jpg">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/img/banner/27.jpg">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/img/banner/25.jpg">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>TOP INTERESTING</find>
+      <find>style.css</find>
+      <find>Audiobooks</find>
+      <find>slider</find>
+      <find>mai</find>
+      <find>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet.</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/cart.html" />
+        <option value="$PROJECT_DIR$/index.html" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="67" />
+    <option name="y" value="54" />
+    <option name="width" value="1262" />
+    <option name="height" value="693" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="book" type="b2602c69:ProjectViewProjectNode" />
+              <item name="book" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../bookstore" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/img" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="eb4c5ba2-6bd5-4eb3-b1f4-6f4d60754cef" name="Default Changelist" comment="" />
+      <created>1555068388376</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1555068388376</updated>
+      <workItem from="1555068390014" duration="2586000" />
+      <workItem from="1555202349316" duration="10934000" />
+      <workItem from="1555235568278" duration="6959000" />
+      <workItem from="1555287609954" duration="7920000" />
+      <workItem from="1555375043543" duration="3070000" />
+      <workItem from="1555383222155" duration="2262000" />
+      <workItem from="1555400071218" duration="2330000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="36061000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="67" y="54" width="1262" height="693" extended-state="0" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18739903" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32952693" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/js/vendor/jquery-1.12.0.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cart.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" column="26" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/favicon.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/checkout.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/register.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/logo/2.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/logo/4.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/logo/3.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/logo/logo.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/logo.png" />
+    <entry file="file://$PROJECT_DIR$/img/logo/5.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/banner/8.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30807">
+          <caret line="1141" column="16" selection-start-line="1141" selection-start-column="16" selection-end-line="1141" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/banner/9.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-66">
+          <caret line="1297" column="8" selection-start-line="1297" selection-start-column="8" selection-end-line="1330" selection-end-column="14" />
+          <folding>
+            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#div#0;n#div#0;n#div#1;n#header#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#3;n#header#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#3;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#4;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#5;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#6;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#7;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10098">
+          <caret line="374" column="19" selection-start-line="374" selection-start-column="13" selection-end-line="374" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/banner/15.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/banner/17.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/banner/21.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/banner/38.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/banner/30.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/banner/27.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/banner/25.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contact.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="89">
+          <caret line="492" column="14" lean-forward="true" selection-start-line="434" selection-start-column="8" selection-end-line="492" selection-end-column="14" />
+          <folding>
+            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

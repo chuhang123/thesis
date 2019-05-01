@@ -3,25 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="c808ea9c-9610-4ab4-ae94-20223e7f2500" name="Default" comment="完成标准器管理的后台相关方法,完成前台标准器管理的index界面">
       <change beforePath="$PROJECT_DIR$/../api" beforeDir="false" afterPath="$PROJECT_DIR$/../api" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../web/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/app/scripts/controllers/checkout.js" beforeDir="false" afterPath="$PROJECT_DIR$/../web/app/scripts/controllers/checkout.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/app/views/book.html" beforeDir="false" afterPath="$PROJECT_DIR$/../web/app/views/book.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/scripts/controllers/standard/deviceinstrument/add.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/scripts/controllers/standard/deviceinstrument/edit.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/scripts/controllers/standard/deviceinstrument/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/scripts/controllers/standard/deviceset/add.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/scripts/controllers/standard/deviceset/edit.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/scripts/controllers/standard/deviceset/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/scripts/controllers/standard/integratedquery/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/scripts/controllers/standard/standarddevice/add.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/scripts/controllers/standard/standarddevice/edit.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/scripts/controllers/standard/standarddevice/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/scripts/controllers/system/standardinstrumenttype/add.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/scripts/controllers/system/standardinstrumenttype/edit.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/scripts/controllers/system/standardinstrumenttype/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/scripts/services/indentserivce.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/scripts/services/indentserivce.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/indent/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/indent/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -259,7 +240,7 @@
     <exe-path>/usr/bin/bower</exe-path>
     <config-path>$PROJECT_DIR$/bower.json</config-path>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="434" />
     <option name="y" value="42" />
     <option name="width" value="860" />
@@ -500,7 +481,7 @@
       <workItem from="1556252188944" duration="60000" />
       <workItem from="1556600405490" duration="5111000" />
       <workItem from="1556625660184" duration="447000" />
-      <workItem from="1556671782110" duration="1648000" />
+      <workItem from="1556671782110" duration="2003000" />
     </task>
     <task id="LOCAL-00001" summary="允许跨域请求">
       <created>1512110106155</created>
@@ -548,7 +529,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="230873000" />
+    <option name="totallyTimeSpent" value="231228000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -562,7 +543,7 @@
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1299" height="743" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49429038" visible="true" weight="0.25568628" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49429038" visible="true" weight="0.25568628" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="npm" order="2" sideWeight="0.50570965" side_tool="true" weight="0.25568628" />
       <window_info id="Grunt " order="3" sideWeight="0.50570965" side_tool="true" weight="0.25568628" />
@@ -577,7 +558,7 @@
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5035294" side_tool="true" weight="0.42251223" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Messages" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4964706" weight="0.34584013" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.4964706" visible="true" weight="0.34584013" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
