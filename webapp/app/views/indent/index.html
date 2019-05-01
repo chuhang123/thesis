@@ -16,12 +16,13 @@
                     <thead>
                     <tr>
                         <th width="1%">序号</th>
-                        <th width="3%">订单编号</th>
-                        <th width="3%">总价</th>
-                        <th width="3%">地址</th>
-                        <th width="3%">电话</th>
-                        <th width="3%">用户名</th>
-                        <th width="3%">备注</th>
+                        <th width="2%">订单编号</th>
+                        <th width="1%">总价</th>
+                        <th width="2%">电话</th>
+                        <th width="2%">用户名</th>
+                        <th width="4%">地址</th>
+                        <th width="5%">订单内容</th>
+                        <th width="5%">备注</th>
                     </tr>
                     </thead>
                     <tbody>
@@ -29,9 +30,12 @@
                         <td style="word-wrap: break-word">{{$index+1}}</td>
                         <td style="word-wrap: break-word">{{data.id}}</td>
                         <td style="word-wrap: break-word">{{data.totalPrice}}</td>
-                        <td style="word-wrap: break-word">{{data.address}}</td>
                         <td style="word-wrap: break-word">{{data.phone}}</td>
                         <td style="word-wrap: break-word">{{data.user.username}}</td>
+                        <td style="word-wrap: break-word">{{data.address}}</td>
+                        <td style="word-wrap: break-word">
+                            <span ng-repeat="key in data.commodityKeys">《{{key}}》×{{data.commodity[key]}}&nbsp;</span>
+                        </td>
                         <td style="word-wrap: break-word">{{data.remark}}</td>
                     </tr>
                     </tbody>

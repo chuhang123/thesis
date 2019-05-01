@@ -26,6 +26,11 @@ angular.module('webappApp')
           controller.load = controller.reload = function () {
               self.pageAll(controller.generateQueryParams(), function (data) {
                       scope.datas = data;
+                      angular.forEach(scope.datas, function (key, index) {
+                          scope.datas[index].commodityKeys = Object.keys(scope.datas[index].commodity);
+                      });
+
+
                   }
               );
           };

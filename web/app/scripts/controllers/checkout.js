@@ -50,6 +50,7 @@ angular.module('webappApp')
             };
             BookService.generateIndent(data, function () {
                 CommonService.success('支付成功', '请耐心等耐，我们会尽快为您发货', function () {
+                    $rootScope.sliderAndContent = false;
                     $state.go('main.dashboard');
                 });
             });
