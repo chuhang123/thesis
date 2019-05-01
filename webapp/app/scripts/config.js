@@ -355,6 +355,9 @@ function configState($stateProvider, $urlRouterProvider, $compileProvider, confi
                 },
                 size: {
                     value: config.size.toString()
+                },
+                name: {
+                    value: ''
                 }
             },
             controller: 'BookIndexCtrl'

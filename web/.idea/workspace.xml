@@ -2,10 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8fb6d173-4b08-4acb-93e3-340ef8705610" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../webapp/app/scripts/directives/yunzhiPageSize.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webapp/app/scripts/directives/yunzhipage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webapp/app/views/directive/yunzhiPage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webapp/app/views/directive/yunzhiPageSize.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../api" beforeDir="false" afterPath="$PROJECT_DIR$/../api" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/scripts/controllers/checkout.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/scripts/controllers/checkout.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/book.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/book.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/scripts/controllers/book.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/scripts/controllers/book.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../webapp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../webapp/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../webapp/app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../webapp/app/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../webapp/app/scripts/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/../webapp/app/scripts/config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../webapp/app/scripts/directives/yunzhiDiscipline.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../webapp/app/scripts/directives/yunzhiinstrumenttype.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../webapp/app/scripts/directives/yunzhiinstrumenttypefirstlevel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../webapp/app/scripts/directives/yunzhistandarddeviceinstrumenttype.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../webapp/app/scripts/services/bookservice.js" beforeDir="false" afterPath="$PROJECT_DIR$/../webapp/app/scripts/services/bookservice.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../webapp/app/views/book/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../webapp/app/views/book/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -51,7 +62,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Gruntfile.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
+            <state relative-caret-position="2025">
               <caret line="75" column="25" selection-start-line="75" selection-start-column="25" selection-end-line="75" selection-end-column="25" />
             </state>
           </provider>
@@ -60,26 +71,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/book.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
+            <state relative-caret-position="1701">
               <caret line="63" column="100" selection-start-line="63" selection-start-column="100" selection-end-line="63" selection-end-column="100" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/scripts/controllers/checkout.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
+            <state relative-caret-position="243">
               <caret line="51" selection-start-line="51" selection-end-line="51" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/scripts/controllers/book.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="529">
-              <caret line="46" column="38" selection-start-line="46" selection-start-column="38" selection-end-line="46" selection-end-column="38" />
+            <state relative-caret-position="432">
+              <caret line="16" column="43" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -159,11 +170,11 @@
         <option value="$PROJECT_DIR$/app/scripts/config.js" />
         <option value="$PROJECT_DIR$/app/views/common/header.html" />
         <option value="$PROJECT_DIR$/app/scripts/controllers/index.js" />
-        <option value="$PROJECT_DIR$/app/scripts/controllers/book.js" />
         <option value="$PROJECT_DIR$/app/index.html" />
         <option value="$PROJECT_DIR$/Gruntfile.js" />
         <option value="$PROJECT_DIR$/app/views/book.html" />
         <option value="$PROJECT_DIR$/app/scripts/controllers/checkout.js" />
+        <option value="$PROJECT_DIR$/app/scripts/controllers/book.js" />
       </list>
     </option>
   </component>
@@ -181,7 +192,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -224,6 +234,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -301,14 +312,16 @@
       <workItem from="1556600186043" duration="210000" />
       <workItem from="1556620515800" duration="7376000" />
       <workItem from="1556669938316" duration="1736000" />
+      <workItem from="1556685480722" duration="576000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="139299000" />
+    <option name="totallyTimeSpent" value="139875000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1299" height="743" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4953917" visible="true" weight="0.19137254" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -568,29 +581,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Gruntfile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
+        <state relative-caret-position="2025">
           <caret line="75" column="25" selection-start-line="75" selection-start-column="25" selection-end-line="75" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/controllers/book.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="46" column="38" selection-start-line="46" selection-start-column="38" selection-end-line="46" selection-end-column="38" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/book.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
+        <state relative-caret-position="1701">
           <caret line="63" column="100" selection-start-line="63" selection-start-column="100" selection-end-line="63" selection-end-column="100" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/scripts/controllers/checkout.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
+        <state relative-caret-position="243">
           <caret line="51" selection-start-line="51" selection-end-line="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/controllers/book.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="16" column="43" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
         </state>
       </provider>
     </entry>

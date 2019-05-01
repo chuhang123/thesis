@@ -1,0 +1,22 @@
+<div class="row">
+    <div class="col-md-4">
+       <span ng-show="totalElements">第{{number * size + 1}}至{{number * size + numberOfElements}}条记录，共{{totalElements}}条记录</span>
+    </div>
+    <div class="col-md-8">
+        <div class="dataTables_paginate paging_simple_numbers" ng-show="isShowPage">
+            <ul class="pagination">
+                <li ng-class="{previous, disabled: first}" ng-click="prePage()"><a>上一页</a>
+                </li>
+                <li ng-class="{previous, disabled: first}" ng-click="changePage(0)"><a>首页</a>
+                </li>
+                <li ng-repeat="page in pages" ng-class="{active: isActive(page)}">
+                    <a ng-click="changePage(page - 1)">{{page}}</a>
+                </li>
+                <li ng-class="{previous, disabled: last}" ng-click="changePage(totalPages - 1)"><a>尾页</a>
+                </li>
+                <li ng-class="{previous, disabled: last}"><a ng-click="nextPage()">下一页</a></li>
+            </ul>
+
+        </div>
+    </div>
+</div>

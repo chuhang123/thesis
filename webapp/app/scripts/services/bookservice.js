@@ -19,13 +19,14 @@ angular.module('webappApp')
                     //discipline: stateParams.discipline,
                     page: stateParams.page,
                     size: stateParams.size,
-                    name: ''
+                    name: stateParams.name
                 };
             };
 
             controller.load = controller.reload = function () {
                 self.pageAll(controller.generateQueryParams(), function (data) {
                         scope.data = data;
+                        console.log(data)
                     }
                 );
             };
@@ -48,7 +49,7 @@ angular.module('webappApp')
         };
 
         self.pageAll = function (params, callback) {
-            $http.get('/Book', params)
+            $http.get('/Book/getBySpecification', {params: params})
                 .then(function success(response) {
                     if (callback) {
                         callback(response.data);

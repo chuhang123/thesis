@@ -14,7 +14,7 @@ angular.module('webappApp')
         self.getBySpecification = function() {
             var params = {name: $stateParams.name};
             BookService.getBySpecification(params, function (data) {
-                $scope.books = data;
+                $scope.books = data.content;
             });
         };
 
