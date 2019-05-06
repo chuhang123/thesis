@@ -34,9 +34,9 @@
             <div class="row">
                 <div class="col-lg-3 col-md-3 col-sm-5 col-xs-12">
                     <div class="header-search">
-                        <form action="#">
+                        <form action="">
                             <input type="text" ng-model="bookName" placeholder="请输入图书名称..." />
-                            <a href="" ng-click="goBookAndSpecification(bookName)"><i class="fa fa-search"></i></a>
+                            <a href="" type="submit" ng-click="goBookAndSpecification(bookName)"><i class="fa fa-search"></i></a>
                         </form>
                     </div>
                 </div>
@@ -92,7 +92,7 @@
                                 </li>
                                 <li><a ui-sref="book">图书<i class="fa fa-angle-down"></i></a>
                                     <div class="mega-menu">
-                                        <span ng-repeat="data in categorys" style="width: 10%;">
+                                        <span ng-repeat="data in categorys" style="width: 15%;">
                                             <a ui-sref="book({categoryId: data.id})">{{data.name}}</a>
                                         </span>
                                     </div>

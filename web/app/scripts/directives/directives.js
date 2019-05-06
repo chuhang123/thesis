@@ -30,7 +30,7 @@ angular
 	};
 }])
 //方法sideNavigation里面$timeout参数没有用到，暂作删除
-.directive('sideNavigation', function sideNavigation($timeout) {
+.directive('sideNavigation', function sideNavigation($timeout, $) {
 	/**
 	 * sideNavigation - Directive for run metsiMenu on sidebar navigation
 	 */
@@ -69,7 +69,7 @@ angular
 	};
 })
 //方法minimalizaMenu里面$rootScope参数没有用到，暂作删除
-.directive('minimalizaMenu', [function minimalizaMenu() {
+.directive('minimalizaMenu', [function minimalizaMenu($) {
 	/**
 	 * minimalizaSidebar - Directive for minimalize sidebar
 	 */
@@ -99,7 +99,7 @@ angular
 			sparkOptions: '=',
 		},
 		//方法link里面attrs参数没有用到，暂作删除
-		link: function (scope, element) {
+		link: function (scope) {
 			scope.$watch(scope.sparkData, function () {
 				render();
 			});
@@ -112,7 +112,7 @@ angular
 		}
 	};
 }])
-.directive('icheck', ['$timeout', function icheck($timeout) {
+.directive('icheck', ['$timeout', function icheck($timeout, $) {
 	/**
 	 * icheck - Directive for custom checkbox icheck
 	 */
@@ -183,7 +183,7 @@ angular
 		}
 	};
 }])
-.directive('panelToolsFullscreen', ['$timeout', function panelToolsFullscreen($timeout) {
+.directive('panelToolsFullscreen', ['$timeout', '$', function panelToolsFullscreen($timeout, $) {
 	/**
 	 * panelToolsFullscreen - Directive for panel tools elements in right corner of panel with fullscreen option
 	 */
@@ -252,7 +252,7 @@ angular
 	};
 }])
 //方法animatePanel里面$state参数没有用到，暂作删除
-.directive('animatePanel', ['$timeout', function animatePanel($timeout) {
+.directive('animatePanel', ['$timeout', '$', function animatePanel($timeout, $) {
 	return {
 		restrict: 'A',
 		link: function (scope, element, attrs) {

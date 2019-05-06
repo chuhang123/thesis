@@ -7,7 +7,7 @@
  * # yunzhiSideNavigation
  */
 angular.module('webappApp')
-  .directive('yunzhiSideNavigation', function (WebAppMenuService) {
+  .directive('yunzhiSideNavigation', function (WebAppMenuService, $) {
     return {
       templateUrl: 'views/directive/yunzhiSideNavigation.html',
       restrict: 'EA',

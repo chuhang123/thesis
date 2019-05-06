@@ -22,7 +22,7 @@ angular.module('webappApp')
         };
 
         self.saveAndClose = function () {
-            if (self.data.password != self.data.confirmPassword) {
+            if (self.data.password !== self.data.confirmPassword) {
                 CommonService.error('两次密码输入不一致', undefined, undefined);
             } else {
                 UserService.save($scope.data, function () {

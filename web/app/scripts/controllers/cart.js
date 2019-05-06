@@ -8,7 +8,7 @@
  * Controller of the webappApp
  */
 angular.module('webappApp')
-    .controller('CartCtrl', ['$scope', '$rootScope', 'BookService', '$state', function ($scope, $rootScope, BookService, $state) {
+    .controller('CartCtrl', ['$scope', '$rootScope', 'BookService', '$state', '$timeout', function ($scope, $rootScope, BookService, $state, $timeout) {
         $rootScope.sliderAndContent = true;
         var self = this;
 
@@ -38,7 +38,10 @@ angular.module('webappApp')
 
         self.checkout = function() {
             self.updateShoppingCart();
-            $state.go('checkout');
+            $timeout(function () {
+                $state.go('checkout');
+            }, 200);
+
         };
 
         self.getTotalPrice = function() {

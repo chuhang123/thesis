@@ -8,7 +8,7 @@
  * Service in the webappApp.
  */
 angular.module('webappApp')
-  .service('WebAppMenuService', ['$http', 'CommonService', '$timeout', '$state', function ($http, CommonService, $timeout, $state) {
+  .service('WebAppMenuService', ['$http', 'CommonService', function ($http, CommonService) {
     var self = this;
     // 数据初始化
     self.init = function () {
@@ -41,7 +41,7 @@ angular.module('webappApp')
     };
 
     //获取后台模拟数据
-    self.getAll = function (callback) {
+    self.getAll = function () {
       // if (self.all.length === 0) {
       //   $http.get('/WebAppMenu/').then(function success(response) {
       //     self.all = response.data;

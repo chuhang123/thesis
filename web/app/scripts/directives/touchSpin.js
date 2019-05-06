@@ -7,7 +7,7 @@
 
 angular
     .module('webappApp')
-    .directive('touchSpin', [function touchSpin() {
+    .directive('touchSpin', [function touchSpin($) {
         return {
             restrict: 'A',
             scope: {
