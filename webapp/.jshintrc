@@ -13,6 +13,7 @@
   "globals": {
     "angular": false,
     "require": false,
-    "console": false
+    "console": false,
+    "$": false
   }
 }

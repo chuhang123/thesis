@@ -16,7 +16,7 @@ angular.module('webappApp')
         self.login = function (user) {
             UserService.login(user, function (status) {
                 if (status === 401) {
-                    CommonService.setMessage('对不起', '您的用户名或密码输入有误或用' +
+                    CommonService.setMyonghumingessage('对不起', '您的用户名或密码输入有误或用' +
                         '户状态不正常，请重新输入。');
                     $scope.form.$submitted = false;
                 } else if (status === 200) {

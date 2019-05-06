@@ -8,7 +8,7 @@
  * Service in the webappApp.
  */
 angular.module('webappApp')
-  .service('WebAppMenuService', ['$http', 'CommonService', '$timeout', '$state', function ($http, CommonService, $timeout, $state) {
+  .service('WebAppMenuService', ['$http', 'CommonService', function ($http, CommonService) {
     var self = this;
     // 数据初始化
     self.init = function () {

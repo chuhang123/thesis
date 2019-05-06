@@ -26,7 +26,6 @@ angular.module('webappApp')
             controller.load = controller.reload = function () {
                 self.pageAll(controller.generateQueryParams(), function (data) {
                         scope.data = data;
-                        console.log(data)
                     }
                 );
             };

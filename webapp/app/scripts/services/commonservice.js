@@ -114,9 +114,7 @@ angular.module('webappApp')
 
         // 返回上一个链接
         self.back = function () {
-            console.log(2)
             if (self.showBack() === true) {
-                console.log(1)
                 self.states.pop();
                 var state   = self.states[self.states.length - 1];
                 self.isBack = true;
@@ -130,7 +128,6 @@ angular.module('webappApp')
          * @author：panjie
          */
         self.showBack = function () {
-            console.log(self.states.length)
             if (self.states.length > 1) {
                 return true;
             } else {
@@ -359,7 +356,7 @@ angular.module('webappApp')
             }
             if (date) {
                 date        = date.split(connector);
-                var newDate = date[0] + "/" + date[1] + "/" + date[2];
+                var newDate = date[0] + '/' + date[1] + '/' + date[2];
                 return new Date(newDate).getTime();
             }
         };

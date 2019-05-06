@@ -40,7 +40,7 @@ angular.module('webappApp')
 
         // 上传图片类型的附件
         self.uploadImage = function(image) {
-            var url = "/Attachment/uploadImage";
+            var url = '/Attachment/uploadImage';
 
             // post文件类型的参数，使Content-Type:multipart/form-data;
             var formData = new FormData();
@@ -56,7 +56,7 @@ angular.module('webappApp')
          * 上传文件
          */
         self.uploadFile = function(file) {
-            var url = "/Attachment/uploadFile";
+            var url = '/Attachment/uploadFile';
 
             // post文件类型的参数，使Content-Type:multipart/form-data;
             var formData = new FormData();

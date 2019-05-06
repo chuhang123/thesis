@@ -46,7 +46,7 @@
                         <th width="3%">销量</th>
                         <th width="3%">库存</th>
                         <th width="3%">出版社</th>
-                        <th width="3%">简介</th>
+                        <th width="13%">简介</th>
                         <th width="3%">操作</th>
                     </tr>
                     </thead>
@@ -60,7 +60,7 @@
                         <td style="word-wrap: break-word">{{data.author}}</td>
                         <td style="word-wrap: break-word">
                             <a ng-href="{{data.attachment.saveName | imagePath}}">
-                                <img class="image" ng-src="{{data.attachment.saveName | imagePath}}" alt="{{_image.name}}" style="width: 150px; height: 200px"/>
+                                <img class="image" ng-src="{{data.attachment.saveName | imagePath}}" alt="{{_image.name}}" style="width: 150px; height: 180px"/>
                             </a>
                         </td>
                         <td style="word-wrap: break-word">{{data.clicks}}</td>

@@ -46,13 +46,13 @@ $(document).ready(function () {
   setBodySmall();
 });
 
-$(window).bind("load", function () {
+$(window).bind('load', function () {
 
   // Remove splash screen after load
   $('.splash').css('display', 'none');
 });
 
-$(window).bind("resize click", function () {
+$(window).bind('resize click', function () {
 
   // Add special class to minimalize page elements when screen is less than 768px
   setBodySmall();

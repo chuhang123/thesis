@@ -46,7 +46,7 @@ angular
 				menuElement.click(function () {
 
 					if ($(window).width() < 769) {
-						$("body").toggleClass("show-sidebar");
+						$('body').toggleClass('show-sidebar');
 					}
 				});
 
@@ -80,9 +80,9 @@ angular
 		controller: function ($scope) {
 			$scope.minimalize = function () {
 				if ($(window).width() < 769) {
-					$("body").toggleClass("show-sidebar");
+					$('body').toggleClass('show-sidebar');
 				} else {
-					$("body").toggleClass("hide-sidebar");
+					$('body').toggleClass('hide-sidebar');
 				}
 			};
 		}
@@ -99,7 +99,7 @@ angular
 			sparkOptions: '=',
 		},
 		//方法link里面attrs参数没有用到，暂作删除
-		link: function (scope, element) {
+		link: function (scope) {
 			scope.$watch(scope.sparkData, function () {
 				render();
 			});
@@ -278,7 +278,7 @@ angular
 			if (!attrs.child) {
 				attrs.child = '.row > div';
 			} else {
-				attrs.child = "." + attrs.child;
+				attrs.child = '.' + attrs.child;
 			}
 
 			// Get all visible element and set opactiy to 0

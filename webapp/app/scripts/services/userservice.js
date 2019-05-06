@@ -108,7 +108,7 @@ angular.module('webappApp')
                     if (callback) {
                         callback(response.status);
                     }
-                }, function error(response) {
+                }, function error() {
                     console.log('error');
                 });
         };
