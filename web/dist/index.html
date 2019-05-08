@@ -1,0 +1,355 @@
+<!doctype html>
+<html ng-app="webappApp" class="no-js" lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>三人行图书网店</title>
+    <meta name="description" content="三人行图书销售网店">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png">
+
+    <!-- all css here -->
+
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <!-- build:css(.) styles/vendor.css -->
+    <!-- bower:css -->
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="bower_components/bootstrap-tour/build/css/bootstrap-tour.css" />
+    <link rel="stylesheet" href="bower_components/bootstrap-tour/build/css/bootstrap-tour-standalone.css" />
+    <link rel="stylesheet" href="bower_components/angular-loading-bar/build/loading-bar.css" />
+    <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.css" />
+    <link rel="stylesheet" href="bower_components/sweetalert/lib/sweet-alert.css" />
+    <link rel="stylesheet" href="bower_components/angular-ui-select/dist/select.css" />
+    <!-- endbower -->
+    <!-- endbuild -->
+    <!-- build:css(.tmp) styles/main.css -->
+    <link rel="stylesheet" href="styles/css/loading.css">
+
+    <!-- bootstrap v3.3.6 css -->
+    <link rel="stylesheet" href="styles/css/bootstrap.min.css">
+    <!-- animate css -->
+    <link rel="stylesheet" href="styles/css/animate.css">
+    <!-- meanmenu css -->
+    <link rel="stylesheet" href="styles/css/meanmenu.min.css">
+    <!-- owl.carousel css -->
+    <link rel="stylesheet" href="styles/css/owl.carousel.css">
+    <!-- font-awesome css -->
+    <link rel="stylesheet" href="styles/css/font-awesome.min.css">
+    <!-- flexslider.css-->
+    <link rel="stylesheet" href="styles/css/flexslider.css">
+    <!-- chosen.min.css-->
+    <link rel="stylesheet" href="styles/css/chosen.min.css">
+    <!-- style css -->
+    <link rel="stylesheet" href="styles/style.css">
+    <!-- responsive css -->
+    <link rel="stylesheet" href="styles/css/responsive.css">
+    <script src="bower_components/js/vendor/modernizr-2.8.3.min.js"></script>
+    <!-- modernizr css -->
+    <!-- endbuild -->
+</head>
+<body ng-controller="IndexCtrl">
+<div id="header" ng-include="'views/common/header.html'"></div>
+<div ng-show="!sliderAndContent">
+    <div id="banner" ng-include="'views/common/banner.html'"></div>
+
+    <div class="slider-area">
+        <div class="slider-active owl-carousel">
+            <div class="single-slider pt-125 pb-130 bg-img" style="background-image:url(img/slider/1.jpg);">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <div class="slider-content slider-animated-1 text-center" style="display: block">
+                                <h1>全场八折</h1>
+                                <h2>三人行</h2>
+                                <h3>现在19.9元起</h3>
+                                <a href="#">购物吧</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="single-slider slider-h1-2 pt-215 pb-100 bg-img" style="background-image:url(img/slider/2.jpg);">
+                <div class="container">
+                    <div class="slider-content slider-content-2 slider-animated-1">
+                        <h1>我们可以帮助你</h1>
+                        <h2 style="color: #333;">整理书籍</h2>
+                        <h3>及笔记</h3>
+                        <a ui-sref="contact">联系我们!</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="product-area pt-95 xs-mb">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-title text-center mb-50">
+                        <h2>点击量最大</h2>
+                        <p>这里我们收集了用户点击量最大的图书<br /> 看看有没有你想要的吧..</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div ng-repeat="data in clicksMax" class="col-lg-3">
+                    <div class="product-wrapper mb-40">
+                        <div class="product-img">
+                            <a ui-sref="bookDetail({id: data.id})">
+                                <img class="image" ng-src="{{data.attachment.saveName | imagePath}}" alt="{{_image.name}}"/>
+                            </a>
+                            <div class="product-flag">
+                                <ul>
+                                    <li><span class="sale">new</span> </li>
+                                    <li><span class="discount-percentage">{{((data.originalPrice - data.price) / data.originalPrice | number : 2) * 100}}%</span></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="product-details text-center">
+                            <h4><a href="#">{{data.name}}</a></h4>
+                            <div class="product-price">
+                                <ul>
+                                    <li>￥{{data.price}}</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="product-link">
+                            <div class="product-button">
+                                <a href="" ng-click="addToCart(data.id)" title="加入购物车"><i class="fa fa-shopping-cart"></i>加入购物车</a>
+                            </div>
+                            <div class="add-to-link">
+                                <ul>
+                                    <li><a ui-sref="bookDetail({id: data.id})" title="详情"><i class="fa fa-external-link"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- banner-area-start -->
+    <div class="banner-area-5 mtb-95">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="banner-img-2">
+                        <a href="#"><img src="img/banner/5.jpg" alt="banner" /></a>
+                        <div class="banner-text">
+                            <h3>小说类图书 & 科技类图书</h3>
+                            <h2>最高降价30%</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- banner-area-end -->
+    <!-- new-book-area-start -->
+    <div class="new-book-area pb-100">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-title bt text-center pt-100 mb-30 section-title-res">
+                        <h2>最新上架</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div ng-repeat="data in latest" class="col-lg-3">
+                    <div class="product-wrapper mb-40">
+                        <div class="product-img">
+                            <a ui-sref="bookDetail({id: data.id})">
+                                <img class="image" ng-src="{{data.attachment.saveName | imagePath}}" alt="{{_image.name}}"/>
+                            </a>
+                            <div class="product-flag">
+                                <ul>
+                                    <li><span class="sale">new</span> </li>
+                                    <li><span class="discount-percentage">{{((data.originalPrice - data.price) / data.originalPrice | number : 2) * 100}}%</span></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="product-details text-center">
+                            <h4><a href="#">{{data.name}}</a></h4>
+                            <div class="product-price">
+                                <ul>
+                                    <li>￥{{data.price}}</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="product-link">
+                            <div class="product-button">
+                                <a href="" ng-click="addToCart(data.id)" title="加入购物车"><i class="fa fa-shopping-cart"></i>加入购物车</a>
+                            </div>
+                            <div class="add-to-link">
+                                <ul>
+                                    <li><a ui-sref="bookDetail({id: data.id})" title="Details"><i class="fa fa-external-link"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- new-book-area-start -->
+    <div class="testimonial-area ptb-100 bg">
+        <div class="container">
+            <div class="row">
+                <div class="testimonial-active owl-carousel">
+                    <div class="col-lg-12">
+                        <div class="single-testimonial text-center">
+                            <div class="testimonial-img">
+                                <a href="#"><i class="fa fa-quote-right"></i></a>
+                            </div>
+                            <div class="testimonial-text">
+                                <p>
+                                    当一艘船沉入海底，当一个人成了谜，你不知道，他们为何离去，那声再见竟是他最后一句。当一辆车消失天际，当一个人成了谜，你不知道，他们为何离去，就像你不知道这竟是结局。
+                                </p>
+                                <a href="#">韩寒 《后会无期》</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-12">
+                        <div class="single-testimonial text-center">
+                            <div class="testimonial-img">
+                                <a href="#"><i class="fa fa-quote-right"></i></a>
+                            </div>
+                            <div class="testimonial-text">
+                                <p>
+                                    我们永远都在崇拜着那些闪闪发亮的人。我们永远觉得他们像是神祗一样的存在。他们用强大而无可抗拒的魅力和力量征服着世界。但是我们永远不知道，他们用什么样的代价，去换来了闪亮的人生。
+                                </p>
+                                <a href="#">郭敬明 《小时代》</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- social-group-area-start -->
+    <div class="social-group-area ptb-60">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                    <div class="section-title-3">
+                        <h3>最新消息</h3>
+                    </div>
+                    <div class="twitter-content">
+                        <div class="twitter-icon">
+                            <a href="https://weibo.com/u/5773585535?is_all=1"><i class="fa fa-weibo"></i></a>
+                        </div>
+                        <div class="twitter-text">
+                            <p>
+                                宁做草原上自由奔啸的狼，决不做马戏团衣食无忧的老虎！我们的服务已不满足于客户的认可，超越顾客期望，把顾客服务到绝望为止，才是我们的成功！
+                            </p>
+                            <a href="#">三人行</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                    <div class="section-title-3">
+                        <h3>联系我们</h3>
+                    </div>
+                    <div class="link-follow">
+                        <ul>
+                            <li><a href="https://weibo.com/u/5773585535?is_all=1"><i class="fa fa-weibo"></i></a></li>
+                            <li><a href="http://www.facebook.com/"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="https://www.youtube.com"><i class="fa fa-youtube"></i></a></li>
+                            <li><a href="https://twitter.com/"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="https://github.com/chuhang123"><i class="fa fa-github"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- social-group-area-end -->
+</div>
+<div ui-view>
+</div>
+<div ng-include="'views/common/footer.html'"></div>
+<!-- build:js(.) scripts/vendor.js -->
+<!-- all js here -->
+<!-- jquery latest version -->
+<script src="bower_components/js/vendor/jquery-1.12.0.min.js"></script>
+<!-- bootstrap js -->
+<script src="bower_components/js/bootstrap.min.js"></script>
+<!-- owl.carousel js -->
+<script src="bower_components/js/owl.carousel.min.js"></script>
+<!-- meanmenu js -->
+<script src="bower_components/js/jquery.meanmenu.js"></script>
+<!-- wow js -->
+<script src="bower_components/js/wow.min.js"></script>
+<!-- jquery.parallax-1.1.3.js -->
+<script src="bower_components/js/jquery.parallax-1.1.3.js"></script>
+<!-- jquery.countdown.min.js -->
+<script src="bower_components/js/jquery.countdown.min.js"></script>
+<!-- jquery.flexslider.js -->
+<script src="bower_components/js/jquery.flexslider.js"></script>
+<!-- chosen.jquery.min.js -->
+<script src="bower_components/js/chosen.jquery.min.js"></script>
+<!-- jquery.counterup.min.js -->
+<script src="bower_components/js/jquery.counterup.min.js"></script>
+<!-- waypoints.min.js -->
+<script src="bower_components/js/waypoints.min.js"></script>
+<!-- plugins js -->
+<script src="bower_components/js/plugins.js"></script>
+<!-- main js -->
+<script src="bower_components/js/main.js"></script>
+
+<script src="bower_components/angular/angular.js"></script>
+<!--<script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>-->
+<script src="bower_components/angular-animate/angular-animate.js"></script>
+<script src="bower_components/angular-cookies/angular-cookies.js"></script>
+<script src="bower_components/angular-resource/angular-resource.js"></script>
+<script src="bower_components/angular-route/angular-route.js"></script>
+<script src="bower_components/angular-sanitize/angular-sanitize.js"></script>
+<script src="bower_components/angular-touch/angular-touch.js"></script>
+<!--<script src="bower_components/bootstrap-tour/build/js/bootstrap-tour.js"></script>-->
+<!--<script src="bower_components/bootstrap-tour/build/js/bootstrap-tour-standalone.js"></script>-->
+<script src="bower_components/angular-bootstrap-tour/dist/angular-bootstrap-tour.js"></script>
+<script src="bower_components/angular-loading-bar/build/loading-bar.js"></script>
+<script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+<script src="bower_components/angular-bootstrap/ui-bootstrap-tpls.js"></script>
+<!--<script src="bower_components/slimScroll/jquery.slimscroll.js"></script>-->
+<!--<script src="bower_components/slimScroll/jquery.slimscroll.min.js"></script>-->
+<!--<script src="bower_components/iCheck/icheck.min.js"></script>-->
+<script src="bower_components/sweetalert/lib/sweet-alert.js"></script>
+<script src="bower_components/angular-ui-select/dist/select.js"></script>
+<!--<script src="bower_components/js/vendor/modernizr-2.8.3.min.js"></script>-->
+<!-- bootstrap js -->
+
+<!-- endbower -->
+<!-- endbuild -->
+<!-- build:js({.tmp,app}) scripts/scripts.js -->
+<script src="scripts/app.js"></script>
+<script src="scripts/config.js"></script>
+<script src="scripts/webappApp.js"></script>
+<script src="scripts/controllers/main.js"></script>
+<script src="scripts/controllers/index.js"></script>
+<script src="scripts/controllers/contact.js"></script>
+<script src="scripts/controllers/book.js"></script>
+<script src="scripts/controllers/login.js"></script>
+<script src="scripts/controllers/cart.js"></script>
+<script src="scripts/controllers/registration.js"></script>
+<script src="scripts/controllers/checkout.js"></script>
+<script src="scripts/controllers/bookdetail.js"></script>
+<script src="scripts/services/userservice.js"></script>
+<script src="scripts/factory/sweetalert.js"></script>
+<script src="scripts/services/commonservice.js"></script>
+<script src="scripts/services/bookservice.js"></script>
+<script src="scripts/directives/yunzhisidenavigation.js"></script>
+<script src="scripts/directives/directives.js"></script>
+<script src="scripts/directives/touchSpin.js"></script>
+<script src="scripts/services/webappmenuservice.js"></script>
+<script src="scripts/filters/imagepath.js"></script>
+
+
+
+<!-- endbuild -->
+</body>
+</html>

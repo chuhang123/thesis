@@ -28,7 +28,7 @@ function fixWrapperHeight() {
   // }
 }
 
-function setBodySmall($) {
+function setBodySmall() {
   if ($(window).width() < 769) {
     $('body').addClass('page-small');
   } else {
