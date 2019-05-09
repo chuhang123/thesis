@@ -2,64 +2,290 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8fb6d173-4b08-4acb-93e3-340ef8705610" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.bowerrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webapp/.idea/jsonSchemas.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/scripts/controllers/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/spec/controllers/test.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.tmp/styles/css/animate.css" beforeDir="false" afterPath="$PROJECT_DIR$/.tmp/styles/css/animate.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.tmp/styles/css/chosen.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/.tmp/styles/css/chosen.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.tmp/styles/css/meanmenu.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/.tmp/styles/css/meanmenu.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.tmp/styles/css/owl.carousel.css" beforeDir="false" afterPath="$PROJECT_DIR$/.tmp/styles/css/owl.carousel.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.tmp/styles/css/responsive.css" beforeDir="false" afterPath="$PROJECT_DIR$/.tmp/styles/css/responsive.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/scripts/webappApp.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/scripts/webappApp.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/common/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/common/header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/grunt-contrib-imagemin/CHANGELOG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/grunt-contrib-imagemin/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/grunt-contrib-imagemin/node_modules/ansi-regex/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/grunt-contrib-imagemin/node_modules/ansi-regex/license" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/grunt-contrib-imagemin/node_modules/ansi-regex/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/grunt-contrib-imagemin/node_modules/ansi-regex/readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/grunt-contrib-imagemin/node_modules/ansi-styles/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/grunt-contrib-imagemin/node_modules/ansi-styles/license" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/grunt-contrib-imagemin/node_modules/ansi-styles/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/grunt-contrib-imagemin/node_modules/ansi-styles/readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/grunt-contrib-imagemin/node_modules/async/CHANGELOG.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/grunt-contrib-imagemin/node_modules/async/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/grunt-contrib-imagemin/node_modules/async/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/grunt-contrib-imagemin/node_modules/async/dist/async.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/grunt-contrib-imagemin/node_modules/async/dist/async.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/grunt-contrib-imagemin/node_modules/async/lib/async.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/grunt-contrib-imagemin/node_modules/async/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/grunt-contrib-imagemin/node_modules/chalk/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/grunt-contrib-imagemin/node_modules/chalk/license" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/grunt-contrib-imagemin/node_modules/chalk/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/grunt-contrib-imagemin/node_modules/chalk/readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/grunt-contrib-imagemin/node_modules/has-ansi/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/grunt-contrib-imagemin/node_modules/has-ansi/license" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/grunt-contrib-imagemin/node_modules/has-ansi/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/grunt-contrib-imagemin/node_modules/has-ansi/readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/grunt-contrib-imagemin/node_modules/pretty-bytes/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/grunt-contrib-imagemin/node_modules/pretty-bytes/license" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/grunt-contrib-imagemin/node_modules/pretty-bytes/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/grunt-contrib-imagemin/node_modules/pretty-bytes/readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/grunt-contrib-imagemin/node_modules/strip-ansi/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/grunt-contrib-imagemin/node_modules/strip-ansi/license" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/grunt-contrib-imagemin/node_modules/strip-ansi/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/grunt-contrib-imagemin/node_modules/strip-ansi/readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/grunt-contrib-imagemin/node_modules/supports-color/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/grunt-contrib-imagemin/node_modules/supports-color/license" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/grunt-contrib-imagemin/node_modules/supports-color/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/grunt-contrib-imagemin/node_modules/supports-color/readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/grunt-contrib-imagemin/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/grunt-contrib-imagemin/tasks/imagemin.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/grunt-newer/.cache/jscs/all/timestamp" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/grunt-newer/.cache/jscs/all/timestamp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/grunt-newer/.cache/jshint/all/timestamp" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/grunt-newer/.cache/jshint/all/timestamp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/spec/controllers/login.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/spec/controllers/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/spec/directives/yunzhiYear.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/spec/directives/yunzhipage.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/404.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/phantomjs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/phantomjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.package_versions.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.package_versions.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/.eslintignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/.eslintrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/.jshintrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/bin/phantomjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/install.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/lib/location.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/lib/phantom/ChangeLog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/lib/phantom/LICENSE.BSD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/lib/phantom/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/lib/phantom/bin/phantomjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/lib/phantom/examples/arguments.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/lib/phantom/examples/child_process-examples.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/lib/phantom/examples/colorwheel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/lib/phantom/examples/countdown.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/lib/phantom/examples/detectsniff.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/lib/phantom/examples/echoToFile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/lib/phantom/examples/features.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/lib/phantom/examples/fibo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/lib/phantom/examples/hello.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/lib/phantom/examples/injectme.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/lib/phantom/examples/loadspeed.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/lib/phantom/examples/loadurlwithoutcss.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/lib/phantom/examples/modernizr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/lib/phantom/examples/module.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/lib/phantom/examples/netlog.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/lib/phantom/examples/netsniff.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/lib/phantom/examples/openurlwithproxy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/lib/phantom/examples/outputEncoding.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/lib/phantom/examples/page_events.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/lib/phantom/examples/pagecallback.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/lib/phantom/examples/phantomwebintro.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/lib/phantom/examples/post.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/lib/phantom/examples/postjson.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/lib/phantom/examples/postserver.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/lib/phantom/examples/printenv.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/lib/phantom/examples/printheaderfooter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/lib/phantom/examples/printmargins.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/lib/phantom/examples/rasterize.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/lib/phantom/examples/render_multi_url.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/lib/phantom/examples/responsive-screenshot.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/lib/phantom/examples/run-jasmine.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/lib/phantom/examples/run-jasmine2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/lib/phantom/examples/run-qunit.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/lib/phantom/examples/scandir.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/lib/phantom/examples/server.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/lib/phantom/examples/serverkeepalive.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/lib/phantom/examples/simpleserver.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/lib/phantom/examples/sleepsort.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/lib/phantom/examples/stdin-stdout-stderr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/lib/phantom/examples/universe.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/lib/phantom/examples/unrandomize.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/lib/phantom/examples/useragent.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/lib/phantom/examples/version.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/lib/phantom/examples/waitfor.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/lib/phantom/examples/walk_through_frames.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/lib/phantom/third-party.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/lib/phantomjs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/lib/util.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/.bin/uuid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/.bin/which" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/assert-plus/AUTHORS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/assert-plus/CHANGES.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/assert-plus/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/assert-plus/assert.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/assert-plus/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/aws-sign2/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/aws-sign2/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/aws-sign2/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/aws-sign2/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/caseless/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/caseless/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/caseless/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/caseless/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/caseless/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/combined-stream/License" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/combined-stream/Readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/combined-stream/lib/combined_stream.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/combined-stream/lib/defer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/combined-stream/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/delayed-stream/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/delayed-stream/License" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/delayed-stream/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/delayed-stream/Readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/delayed-stream/lib/delayed_stream.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/delayed-stream/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/es6-promise/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/es6-promise/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/es6-promise/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/es6-promise/auto.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/es6-promise/dist/es6-promise.auto.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/es6-promise/dist/es6-promise.auto.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/es6-promise/dist/es6-promise.auto.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/es6-promise/dist/es6-promise.auto.min.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/es6-promise/dist/es6-promise.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/es6-promise/dist/es6-promise.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/es6-promise/dist/es6-promise.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/es6-promise/dist/es6-promise.min.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/es6-promise/es6-promise.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/es6-promise/lib/es6-promise.auto.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/es6-promise/lib/es6-promise.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/es6-promise/lib/es6-promise/-internal.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/es6-promise/lib/es6-promise/asap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/es6-promise/lib/es6-promise/enumerator.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/es6-promise/lib/es6-promise/polyfill.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/es6-promise/lib/es6-promise/promise.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/es6-promise/lib/es6-promise/promise/all.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/es6-promise/lib/es6-promise/promise/race.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/es6-promise/lib/es6-promise/promise/reject.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/es6-promise/lib/es6-promise/promise/resolve.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/es6-promise/lib/es6-promise/then.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/es6-promise/lib/es6-promise/utils.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/es6-promise/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/extend/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/extend/.eslintrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/extend/.jscs.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/extend/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/extend/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/extend/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/extend/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/extend/component.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/extend/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/extend/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/forever-agent/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/forever-agent/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/forever-agent/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/forever-agent/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/form-data/License" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/form-data/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/form-data/README.md.bak" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/form-data/lib/browser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/form-data/lib/form_data.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/form-data/lib/populate.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/form-data/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/form-data/yarn.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/http-signature/.dir-locals.el" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/http-signature/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/http-signature/CHANGES.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/http-signature/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/http-signature/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/http-signature/http_signing.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/http-signature/lib/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/http-signature/lib/parser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/http-signature/lib/signer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/http-signature/lib/utils.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/http-signature/lib/verify.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/http-signature/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/mime-db/HISTORY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/mime-db/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/mime-db/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/mime-db/db.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/mime-db/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/mime-db/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/mime-types/HISTORY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/mime-types/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/mime-types/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/mime-types/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/mime-types/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/oauth-sign/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/oauth-sign/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/oauth-sign/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/oauth-sign/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/qs/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/qs/.eslintignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/qs/.eslintrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/qs/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/qs/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/qs/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/qs/dist/qs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/qs/lib/formats.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/qs/lib/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/qs/lib/parse.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/qs/lib/stringify.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/qs/lib/utils.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/qs/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/qs/test/.eslintrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/qs/test/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/qs/test/parse.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/qs/test/stringify.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/qs/test/utils.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/request-progress/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/request-progress/.jshintrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/request-progress/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/request-progress/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/request-progress/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/request-progress/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/request-progress/foo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/request-progress/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/request-progress/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/request-progress/test/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/request/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/request/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/request/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/request/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/request/lib/auth.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/request/lib/cookies.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/request/lib/getProxyFromURI.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/request/lib/har.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/request/lib/hawk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/request/lib/helpers.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/request/lib/multipart.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/request/lib/oauth.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/request/lib/querystring.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/request/lib/redirect.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/request/lib/tunnel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/request/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/request/request.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/safe-buffer/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/safe-buffer/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/safe-buffer/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/safe-buffer/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/safe-buffer/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/throttleit/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/throttleit/History.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/throttleit/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/throttleit/Readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/throttleit/component.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/throttleit/example.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/throttleit/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/throttleit/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/throttleit/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/tough-cookie/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/tough-cookie/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/tough-cookie/lib/cookie.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/tough-cookie/lib/memstore.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/tough-cookie/lib/pathMatch.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/tough-cookie/lib/permuteDomain.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/tough-cookie/lib/pubsuffix-psl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/tough-cookie/lib/store.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/tough-cookie/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/tunnel-agent/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/tunnel-agent/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/tunnel-agent/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/tunnel-agent/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/uuid/.eslintrc.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/uuid/AUTHORS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/uuid/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/uuid/LICENSE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/uuid/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/uuid/README_js.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/uuid/bin/uuid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/uuid/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/uuid/lib/bytesToUuid.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/uuid/lib/md5-browser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/uuid/lib/md5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/uuid/lib/rng-browser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/uuid/lib/rng.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/uuid/lib/sha1-browser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/uuid/lib/sha1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/uuid/lib/v35.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/uuid/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/uuid/v1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/uuid/v3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/uuid/v4.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/uuid/v5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/which/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/which/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/which/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/which/bin/which" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/which/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/node_modules/which/which.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/test/exit.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/test/loadspeed.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/test/tests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../webapp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../webapp/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../webapp/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../webapp/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../webapp/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../webapp/package.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -72,36 +298,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/common/header.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1350">
-              <caret line="50" column="35" selection-start-line="50" selection-start-column="35" selection-end-line="50" selection-end-column="35" />
-              <folding>
-                <element signature="n#style#0;n#span#0;n#div#0;n#li#1;n#ul#0;n#nav#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#header#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/scripts/webappApp.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="648">
-              <caret line="24" column="20" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/scripts/services/commonservice.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3537">
-              <caret line="131" column="28" selection-start-line="131" selection-start-column="28" selection-end-line="131" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/scripts/directives/directives.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -147,16 +343,16 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
+            <state relative-caret-position="97">
+              <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.bowerrc">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="27">
@@ -165,11 +361,19 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bower.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="513">
+              <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>product/3.jpg</find>
       <find>product/1.jpg</find>
       <find>Title</find>
       <find>../</find>
@@ -199,6 +403,7 @@
       <find>CommonService.success</find>
       <find>book</find>
       <find>$</find>
+      <find>os.tmp</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -254,6 +459,7 @@
         <option value="$PROJECT_DIR$/app/scripts/webappApp.js" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/.bowerrc" />
+        <option value="$PROJECT_DIR$/dist/scripts/vendor.62159887.js" />
       </list>
     </option>
   </component>
@@ -271,6 +477,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -278,11 +485,21 @@
               <item name="web" type="b2602c69:ProjectViewProjectNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="dist" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="dist" type="462c0819:PsiDirectoryNode" />
+              <item name="styles" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -374,17 +591,18 @@
       <workItem from="1557231655300" duration="2176000" />
       <workItem from="1557237231674" duration="2574000" />
       <workItem from="1557276581356" duration="454000" />
-      <workItem from="1557297399701" duration="876000" />
+      <workItem from="1557297399701" duration="1925000" />
+      <workItem from="1557370973327" duration="3234000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="164621000" />
+    <option name="totallyTimeSpent" value="168904000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1299" height="743" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4953917" visible="true" weight="0.30666667" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4953917" visible="true" weight="0.30666667" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Grunt " order="3" sideWeight="0.5046083" side_tool="true" weight="0.22901961" />
@@ -399,7 +617,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32952693" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5011765" side_tool="true" weight="0.47634584" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49882352" visible="true" weight="0.5089723" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49882352" weight="0.43393147" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -409,26 +627,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/scripts/config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="41" column="28" selection-start-line="41" selection-start-column="28" selection-end-line="41" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/services/bookservice.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="74" column="8" selection-start-line="74" selection-start-column="8" selection-end-line="74" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/img/banner/5.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/img/banner/4.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/img/banner/3.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -649,17 +847,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.bowerrc">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="27">
           <caret line="1" column="33" selection-start-line="1" selection-start-column="33" selection-end-line="1" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bower.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/scripts/scripts.ceb9abb0.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/scripts/vendor.62159887.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h2#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
         </state>
       </provider>
     </entry>
