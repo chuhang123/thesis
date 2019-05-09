@@ -134,7 +134,7 @@ angular
         maxDisplayPageCount: 7, // 最大显示的分页数
         size: 10, // 默认每页大小
         xAuthTokenName: 'x-auth-token', // 认证字段
-        apiUrl: 'http://localhost:8080', // api接口地址
+        apiUrl: 'http://localhost:8866', // api接口地址
         loginPath: '/login', // 入口地址
         mainPath: '/dashboard', // 首页地址
         cookiesExpiresTime: 1800000, // cookies过期时间

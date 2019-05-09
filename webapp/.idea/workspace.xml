@@ -2,64 +2,158 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c808ea9c-9610-4ab4-ae94-20223e7f2500" name="Default" comment="完成标准器管理的后台相关方法,完成前台标准器管理的index界面">
-      <change afterPath="$PROJECT_DIR$/../web/.bowerrc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/scripts/controllers/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/spec/controllers/test.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../web/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../web/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/.tmp/styles/css/animate.css" beforeDir="false" afterPath="$PROJECT_DIR$/../web/.tmp/styles/css/animate.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/.tmp/styles/css/chosen.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/../web/.tmp/styles/css/chosen.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/.tmp/styles/css/meanmenu.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/../web/.tmp/styles/css/meanmenu.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/.tmp/styles/css/owl.carousel.css" beforeDir="false" afterPath="$PROJECT_DIR$/../web/.tmp/styles/css/owl.carousel.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/.tmp/styles/css/responsive.css" beforeDir="false" afterPath="$PROJECT_DIR$/../web/.tmp/styles/css/responsive.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/app/scripts/webappApp.js" beforeDir="false" afterPath="$PROJECT_DIR$/../web/app/scripts/webappApp.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/app/views/common/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/../web/app/views/common/header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/node_modules/grunt-contrib-imagemin/CHANGELOG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/node_modules/grunt-contrib-imagemin/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/node_modules/grunt-contrib-imagemin/node_modules/ansi-regex/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/node_modules/grunt-contrib-imagemin/node_modules/ansi-regex/license" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/node_modules/grunt-contrib-imagemin/node_modules/ansi-regex/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/node_modules/grunt-contrib-imagemin/node_modules/ansi-regex/readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/node_modules/grunt-contrib-imagemin/node_modules/ansi-styles/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/node_modules/grunt-contrib-imagemin/node_modules/ansi-styles/license" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/node_modules/grunt-contrib-imagemin/node_modules/ansi-styles/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/node_modules/grunt-contrib-imagemin/node_modules/ansi-styles/readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/node_modules/grunt-contrib-imagemin/node_modules/async/CHANGELOG.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/node_modules/grunt-contrib-imagemin/node_modules/async/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/node_modules/grunt-contrib-imagemin/node_modules/async/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/node_modules/grunt-contrib-imagemin/node_modules/async/dist/async.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/node_modules/grunt-contrib-imagemin/node_modules/async/dist/async.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/node_modules/grunt-contrib-imagemin/node_modules/async/lib/async.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/node_modules/grunt-contrib-imagemin/node_modules/async/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/node_modules/grunt-contrib-imagemin/node_modules/chalk/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/node_modules/grunt-contrib-imagemin/node_modules/chalk/license" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/node_modules/grunt-contrib-imagemin/node_modules/chalk/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/node_modules/grunt-contrib-imagemin/node_modules/chalk/readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/node_modules/grunt-contrib-imagemin/node_modules/has-ansi/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/node_modules/grunt-contrib-imagemin/node_modules/has-ansi/license" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/node_modules/grunt-contrib-imagemin/node_modules/has-ansi/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/node_modules/grunt-contrib-imagemin/node_modules/has-ansi/readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/node_modules/grunt-contrib-imagemin/node_modules/pretty-bytes/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/node_modules/grunt-contrib-imagemin/node_modules/pretty-bytes/license" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/node_modules/grunt-contrib-imagemin/node_modules/pretty-bytes/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/node_modules/grunt-contrib-imagemin/node_modules/pretty-bytes/readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/node_modules/grunt-contrib-imagemin/node_modules/strip-ansi/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/node_modules/grunt-contrib-imagemin/node_modules/strip-ansi/license" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/node_modules/grunt-contrib-imagemin/node_modules/strip-ansi/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/node_modules/grunt-contrib-imagemin/node_modules/strip-ansi/readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/node_modules/grunt-contrib-imagemin/node_modules/supports-color/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/node_modules/grunt-contrib-imagemin/node_modules/supports-color/license" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/node_modules/grunt-contrib-imagemin/node_modules/supports-color/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/node_modules/grunt-contrib-imagemin/node_modules/supports-color/readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/node_modules/grunt-contrib-imagemin/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/node_modules/grunt-contrib-imagemin/tasks/imagemin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/.tmp/concat/scripts/scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/../web/.tmp/concat/scripts/scripts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/Gruntfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/../web/Gruntfile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/app/scripts/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/../web/app/scripts/config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/dist/404.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/dist/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/dist/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/dist/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/dist/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/dist/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/dist/images/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/dist/images/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/dist/images/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/dist/images/author/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/dist/images/author/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/dist/images/author/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/dist/images/author/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/dist/images/banner/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/dist/images/banner/10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/dist/images/banner/11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/dist/images/banner/13.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/dist/images/banner/14.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/dist/images/banner/15.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/dist/images/banner/16.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/dist/images/banner/17.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/dist/images/banner/18.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/dist/images/banner/19.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/dist/images/banner/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/dist/images/banner/20.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/dist/images/banner/21.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/dist/images/banner/22.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/dist/images/banner/23.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/dist/images/banner/24.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/dist/images/banner/25.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/dist/images/banner/26.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/dist/images/banner/27.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/dist/images/banner/28.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/dist/images/banner/29.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/dist/images/banner/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/dist/images/banner/30.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/dist/images/banner/31.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/dist/images/banner/32.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/dist/images/banner/33.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/dist/images/banner/38.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/dist/images/banner/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/dist/images/banner/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/dist/images/banner/6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/dist/images/banner/7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/dist/images/banner/8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/dist/images/banner/9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/dist/images/blog/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/dist/images/blog/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/dist/images/blog/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/dist/images/blog/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/dist/images/blog/6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/dist/images/cart/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/dist/images/cart/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/dist/images/chuhang.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/dist/images/favicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/dist/images/flag/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/dist/images/flag/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/dist/images/flag/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/dist/images/flex/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/dist/images/flex/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/dist/images/flex/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/dist/images/icon-img/select-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/dist/images/icon-img/select.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/dist/images/icon-img/service-1-white.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/dist/images/icon-img/service-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/dist/images/icon-img/service-2-white.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/dist/images/icon-img/service-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/dist/images/icon-img/service-3-white.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/dist/images/icon-img/service-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/dist/images/logo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/dist/images/logo/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/dist/images/logo/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/dist/images/logo/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/dist/images/logo/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/dist/images/logo/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/dist/images/map.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/dist/images/post/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/dist/images/post/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/dist/images/post/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/dist/images/post/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/dist/images/product/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/dist/images/product/10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/dist/images/product/11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/dist/images/product/13.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/dist/images/product/14.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/dist/images/product/15.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/dist/images/product/16.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/dist/images/product/17.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/dist/images/product/18.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/dist/images/product/19.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/dist/images/product/20.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/dist/images/product/21.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/dist/images/product/22.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/dist/images/product/23.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/dist/images/product/24.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/dist/images/product/26.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/dist/images/product/27.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/dist/images/product/28.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/dist/images/product/29.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/dist/images/product/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/dist/images/product/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/dist/images/product/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/dist/images/product/7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/dist/images/product/8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/dist/images/product/9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/dist/images/product/quickview-l2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/dist/images/product/quickview-l3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/dist/images/product/quickview-l4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/dist/images/product/quickview-l5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/dist/images/product/quickview-s2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/dist/images/product/quickview-s3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/dist/images/product/quickview-s4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/dist/images/product/quickview-s5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/dist/images/profile.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/dist/images/slider/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/dist/images/slider/10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/dist/images/slider/11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/dist/images/slider/12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/dist/images/slider/13.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/dist/images/slider/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/dist/images/slider/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/dist/images/slider/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/dist/images/slider/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/dist/images/slider/6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/dist/images/slider/7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/dist/images/slider/8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/dist/images/slider/9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/dist/images/team/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/dist/images/team/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/dist/images/team/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/dist/images/team/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/dist/images/thum-2/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/dist/images/thum-2/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/dist/images/thum-2/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/dist/images/thum-2/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/dist/images/thum-2/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/dist/images/yeoman.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/dist/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/dist/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/dist/styles/fonts/fontawesome-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/dist/styles/fonts/fontawesome-webfont.woff2" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../web/node_modules/grunt-newer/.cache/jscs/all/timestamp" beforeDir="false" afterPath="$PROJECT_DIR$/../web/node_modules/grunt-newer/.cache/jscs/all/timestamp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../web/node_modules/grunt-newer/.cache/jshint/all/timestamp" beforeDir="false" afterPath="$PROJECT_DIR$/../web/node_modules/grunt-newer/.cache/jshint/all/timestamp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../web/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/test/spec/controllers/login.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/test/spec/controllers/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/test/spec/directives/yunzhiYear.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/test/spec/directives/yunzhipage.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gruntfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/Gruntfile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/scripts/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/scripts/config.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -77,24 +171,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/scripts/controllers/book/add.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="15" column="25" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/scripts/services/userservice.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2970">
-              <caret line="110" column="34" selection-start-line="110" selection-start-column="34" selection-end-line="110" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="378">
@@ -103,7 +179,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.bowerrc">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
@@ -111,8 +187,29 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/scripts/webappApp.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1296">
+            <state relative-caret-position="198">
               <caret line="48" column="20" selection-start-line="48" selection-start-column="20" selection-end-line="48" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/scripts/config.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="277">
+              <caret line="445" column="38" selection-start-line="445" selection-start-column="38" selection-end-line="445" selection-end-column="38" />
+              <folding>
+                <element signature="e#351#489#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Gruntfile.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="101" column="35" selection-start-line="101" selection-start-column="35" selection-end-line="101" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -216,7 +313,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/scripts/controllers/standard/deviceinstrument/add.js" />
         <option value="$PROJECT_DIR$/app/scripts/services/deviceinstrumentservice.js" />
         <option value="$PROJECT_DIR$/app/scripts/filters/yunzhimeasurescale.js" />
         <option value="$PROJECT_DIR$/app/scripts/controllers/standard/deviceinstrument/index.js" />
@@ -248,7 +344,6 @@
         <option value="$PROJECT_DIR$/app/views/book/add.html" />
         <option value="$PROJECT_DIR$/app/scripts/controllers/indent/index.js" />
         <option value="$PROJECT_DIR$/app/scripts/services/indentserivce.js" />
-        <option value="$PROJECT_DIR$/app/scripts/config.js" />
         <option value="$PROJECT_DIR$/app/views/book/index.html" />
         <option value="$PROJECT_DIR$/app/views/indent/index.html" />
         <option value="$PROJECT_DIR$/app/views/category/index.html" />
@@ -267,6 +362,8 @@
         <option value="$PROJECT_DIR$/app/scripts/filters/imagetitle.js" />
         <option value="$PROJECT_DIR$/app/scripts/directives/directives.js" />
         <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/app/scripts/config.js" />
+        <option value="$PROJECT_DIR$/Gruntfile.js" />
       </list>
     </option>
   </component>
@@ -289,7 +386,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -297,15 +393,11 @@
               <item name="webapp" type="b2602c69:ProjectViewProjectNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="webapp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="dist" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -434,7 +526,8 @@
       <workItem from="1557123359972" duration="201000" />
       <workItem from="1557233850567" duration="4218000" />
       <workItem from="1557238553619" duration="1036000" />
-      <workItem from="1557297619513" duration="1137000" />
+      <workItem from="1557297619513" duration="2876000" />
+      <workItem from="1557379851568" duration="1242000" />
     </task>
     <task id="LOCAL-00001" summary="允许跨域请求">
       <created>1512110106155</created>
@@ -482,7 +575,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="266217000" />
+    <option name="totallyTimeSpent" value="269198000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -496,7 +589,7 @@
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1299" height="743" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49429038" visible="true" weight="0.25568628" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49429038" visible="true" weight="0.25568628" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="npm" order="2" sideWeight="0.50570965" side_tool="true" weight="0.25568628" />
       <window_info id="Grunt " order="3" sideWeight="0.50570965" side_tool="true" weight="0.25568628" />
@@ -511,7 +604,7 @@
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5035294" side_tool="true" weight="0.42251223" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Messages" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.4964706" visible="true" weight="0.37683523" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4964706" visible="true" weight="0.2756933" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -581,19 +674,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/robots.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/404.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/directive/yunzhiCategory.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="1" selection-start-line="1" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/about.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -737,16 +817,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="11853">
-          <caret line="443" column="16" selection-start-line="443" selection-start-column="16" selection-end-line="443" selection-end-column="16" />
-          <folding>
-            <element signature="e#351#489#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/indent/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
@@ -843,12 +913,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/webappApp.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1296">
-          <caret line="48" column="20" selection-start-line="48" selection-start-column="20" selection-end-line="48" selection-end-column="20" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/dist/scripts/vendor.4819e9f5.js">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app/scripts/app.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -881,8 +947,35 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/dist/scripts/scripts.4b7c2e79.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/.bowerrc">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/webappApp.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="48" column="20" selection-start-line="48" selection-start-column="20" selection-end-line="48" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="445" column="38" selection-start-line="445" selection-start-column="38" selection-end-line="445" selection-end-column="38" />
+          <folding>
+            <element signature="e#351#489#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gruntfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="101" column="35" selection-start-line="101" selection-start-column="35" selection-end-line="101" selection-end-column="35" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
